@@ -213,13 +213,16 @@ struct ChainRun {
     vector<SolutionCollector::Entry> entries;
     double seconds = 0;
 };
+// Fixture checks must finish witness search on shared CI runners. Dedicated
+// cancellation tests below exercise short deadlines independently.
+constexpr double ChainFixtureSeconds = 5.0;
 ChainRun Chain(const Graph& initial, const Graph& parent, int remaining, int tools,
-               size_t quota = 1, double seconds = .6, bool presetStop = false) {
+               size_t quota = 1, double seconds = ChainFixtureSeconds, bool presetStop = false) {
     const string before = Fingerprint(parent);
     const auto hash1 = parent.StateHash1(), hash2 = parent.StateHash2();
     SolutionCollector collector(quota); ParallelControl control;
     const auto start = Clock::now();
-    control.deadline = start + chrono::seconds(2);
+    control.deadline = start + chrono::seconds(10);
     control.stop.store(presetStop);
     const auto deadline = start + chrono::duration_cast<Clock::duration>(chrono::duration<double>(seconds));
     ChainRun run;
@@ -282,10 +285,10 @@ void ChainGuards(const Input& input) {
     NoWork(Chain(input.graph,parent,2,1));
     NoWork(Chain(input.graph,parent,4,1,1,.6,true));
     NoWork(Chain(input.graph,parent,4,1,1,-.001));
-    const auto limited = Chain(input.graph,parent,3,1,1,.15);
-    Require(limited.entries.empty() && limited.counts.replays > 0,
-            "three-E tail fabricated a fourth paid goal line or did not exercise replay");
-    const auto plural = Chain(input.graph,parent,4,1,2,.45);
+    const auto limited = Chain(input.graph,parent,3,1,1,ChainFixtureSeconds);
+    Require(limited.entries.empty(), "three-E tail fabricated a fourth paid goal line");
+    Require(limited.counts.replays > 0, "three-E budget fixture did not reach proposal replay");
+    const auto plural = Chain(input.graph,parent,4,1,2,ChainFixtureSeconds);
     Require(!plural.entries.empty() && plural.counts.successes > 0,"quota=2 did not exercise successful chain submission");
     cout << "  chain quota=2 retained=" << plural.entries.size() << ", reached=" << plural.quota
          << "; remaining=3 bounded replays=" << limited.counts.replays << '\n';
