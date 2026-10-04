@@ -48,7 +48,8 @@ def compiler_path(requested):
         if candidate:
             found = shutil.which(candidate)
             if found:
-                return str(Path(found).resolve())
+                # clang++ may link to clang; its invocation name selects C++ linking.
+                return os.path.abspath(found)
             if requested or candidate == os.environ.get("CXX"):
                 raise RuntimeError(
                     "Compiler not found: {!r}. Pass --cxx with one GCC/Clang executable; "

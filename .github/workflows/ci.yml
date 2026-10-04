@@ -31,6 +31,8 @@ jobs:
         run: cmake --build build/cmake --parallel 2
       - name: Run assertion-enabled C++ tests
         run: ctest --test-dir build/cmake --output-on-failure
+      - name: Check compiler driver selection
+        run: python tests/test_build_driver.py
       - name: Check the no-CMake build path
         run: >-
           python3 tools/build.py
@@ -80,6 +82,8 @@ jobs:
         run: cmake --build build/cmake --parallel 2
       - name: Run assertion-enabled C++ tests
         run: ctest --test-dir build/cmake --output-on-failure
+      - name: Check compiler driver selection
+        run: python tests/test_build_driver.py
       - name: Check the no-CMake build path
         run: >-
           python tools/build.py --cxx g++

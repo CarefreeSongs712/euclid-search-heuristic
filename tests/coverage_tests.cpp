@@ -274,7 +274,8 @@ void PartialQuotaAndDrain() {
         Require(partial.entries.size() == 1 && partial.entries[0].newElements.size() == 3 &&
                 !partial.result.quotaReached && partial.stopped == partial.result.timedOut,
                 "triangle partial collection lost its certificate or reported full quota" + Summary(partial));
-        Require(partial.result.metrics.coverageTasks > 0, "partial quota never consumed a prefix task");
+        // A short deadline does not guarantee that the scheduler ran a consumer.
+        // Prefix consumption is verified separately without racing the beam.
         Require(SourceVisits(partial.result.metrics) == partial.successful, "partial visits duplicated on metrics merge");
         Quick(partial,"partial-quota budget cancellation");
         // A fresh run/collector must not inherit tasks, quota flags or counters.
@@ -287,6 +288,47 @@ void PartialQuotaAndDrain() {
             "one legal line was mistaken for two distinct constructions");
     Quick(onlyOne,"single-pair partial quota");
 }
+void CoverageWorkerDrain() {
+    const Graph initial = TriangleGoals();
+    SolutionCollector collector(2);
+    ParallelControl control;
+    control.deadline = Clock::now()+chrono::seconds(2);
+    PrefixTaskQueue queue(control,1);
+    const vector<Element> prefix{Definition(initial.points[0],initial.points[1],Type::Line)};
+    Require(queue.Push(prefix,0), "coverage task setup failed");
+    queue.Close();
+    SearchStats stats;
+    ProgressSlot slot;
+    uint64_t visits = 0, tasks = 0;
+    bool quota = false, timedOut = false;
+    exception_ptr error;
+    jthread consumer([&] {
+        try {
+            Graph graph = initial;
+            const Mark root = graph.GetMark();
+            Solver solver(1,true,true,true,2048,0,2);
+            solver.SetSolutionCollector(&collector);
+            solver.SetSuccessfulVisits(&visits);
+            solver.SetProgress(&slot);
+            PrefixTask task;
+            while (queue.Pop(task)) {
+                graph.Rollback(root);
+                ++tasks;
+                quota = solver.SearchPrefixTask(graph,4,task,stats,&control);
+                timedOut = solver.TimedOut();
+            }
+        } catch (...) { error = current_exception(); }
+    });
+    consumer.join();
+    if (error) rethrow_exception(error);
+    Require(tasks == 1 && queue.GetStats().claimed == 1, "coverage consumer lost queued prefix");
+    Require(collector.Count() == 1 && !quota && !timedOut && !control.stop.load(),
+            "coverage prefix did not drain with one distinct partial result");
+    Require(visits == collector.SuccessfulVisits() && !slot.Read().active,
+            "coverage collector/progress accounting mismatch");
+    VerifyEntries(initial,4,1,collector);
+}
+
 void MultipleGoalsAndQuota() {
     for (int coverage : {-1,2}) {
         auto o = Options(8); o.coverageThreads = coverage;
@@ -470,6 +512,7 @@ int main() {
         {"invalid coverage counts, including ineligible/early returns",InvalidCoverage},
         {"4/8 threads default auto and explicit coverage=0/2",SuccessMatrix},
         {"partial quota / natural prefix drain / fresh collectors",PartialQuotaAndDrain},
+        {"queued coverage prefix / dedicated consumer drain",CoverageWorkerDrain},
         {"8-thread multiple goals and distinct quota=3",MultipleGoalsAndQuota},
         {"finite restarts and tailCandidates=0 disable coverage",DisabledCoverage},
         {"expired/live budget and external global.stop join",Cancellation},
