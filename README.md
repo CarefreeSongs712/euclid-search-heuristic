@@ -116,3 +116,11 @@ python tools/verify_certificate.py --input input.in --input-layout=compact --cer
 ```
 
 本版本是“更积极地找解”的工具，不替代数学证明。重要新构造仍应跨非相似参数回放，不能只凭一个double数值实例宣布普遍成立或最少步数。
+
+## License / 许可证
+
+Copyright (c) 2026 CarefreeSongs712 and contributors.
+
+This project is licensed under the GNU General Public License, version 3 only (**GPL-3.0-only**). See [LICENSE](LICENSE) for the complete terms.
+
+本项目采用 GNU GPL 第3版（GPL-3.0-only）许可证，完整条款见 [LICENSE](LICENSE)。软件按原样提供，不附带任何担保。
