@@ -1,0 +1,862 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "case": "t5_J_E6_1t",
+      "repetition": 1,
+      "pass": true,
+      "verification": {
+        "verifier": "independent-mpmath-v11",
+        "passed": true,
+        "status": "PASS_ORIGINAL_EPS",
+        "exact_proof": false,
+        "precision": 100,
+        "working_precision": 120,
+        "numeric_model": "Input decimal tokens; recomputed high-precision geometry, not C++ binary64",
+        "limitations": "Numerical instance verification only, not symbolic, interval-certified, or a generic proof",
+        "goal_metric": "Strict absolute L-infinity: point coordinates; circle (cx,cy,r^2); line coefficients in target b=1/a=1 scale without EPS snapping",
+        "witness_policy": "Nearest currently known high-precision point within componentwise scaled match tolerance; exported coordinates never become geometry",
+        "range_policy": "Closed rays/segments with working-roundoff slack; strictly closed grid; no EPS-created tangencies",
+        "acceptance": "original_eps",
+        "original_eps": "0.0000000000099999999999999994",
+        "tolerance": "0.00000001",
+        "match_tolerance": "0.00000001",
+        "original_eps_verdict": "PASS",
+        "tolerance_verdict": "PASS",
+        "input_layout": "compact",
+        "mode": 2,
+        "budget": 6,
+        "solution_count": 1,
+        "max_match_error": "0.0000000000000005281818181818181694214876033057851239669421487603305785123966942148760330578512396694214876033057851",
+        "max_relative_match_error": "0.0000000000000005281818181818181694214876033057851239669421487603305785123966942148760330578512396694214876033057851",
+        "solutions": [
+          {
+            "legal": true,
+            "passed": true,
+            "status": "PASS_ORIGINAL_EPS",
+            "E": 6,
+            "step_count": 6,
+            "budget": 6,
+            "goals": [
+              {
+                "type": "point",
+                "goal_index": 0,
+                "target": [
+                  "1.4604912585646739",
+                  "0.0"
+                ],
+                "nearest_index": 24,
+                "nearest_value": [
+                  "1.46049125856467437597591583274728892765084003000110341396952303234374403024017966829732581176896843",
+                  "0.0"
+                ],
+                "residual": "0.0000000000000004759759158327472889276508400300011034139695230323437440302401796682973258117689684299351788750666775",
+                "component_residuals": [
+                  "0.0000000000000004759759158327472889276508400300011034139695230323437440302401796682973258117689684299351788750666775",
+                  "0.0"
+                ],
+                "resolution_indicator": "1.46049125856467437597591583274728892765084003000110341396952303234374403024017966829732581176896843e-100",
+                "original_eps_verdict": "PASS",
+                "tolerance_verdict": "PASS"
+              }
+            ],
+            "original_eps_verdict": "PASS",
+            "tolerance_verdict": "PASS",
+            "initial_point_count": 2,
+            "initial_element_count": 2,
+            "final_point_count": 29,
+            "final_element_count": 8,
+            "max_match_error": "0.0000000000000005281818181818181694214876033057851239669421487603305785123966942148760330578512396694214876033057851",
+            "max_relative_match_error": "0.0000000000000005281818181818181694214876033057851239669421487603305785123966942148760330578512396694214876033057851",
+            "max_element_error": "0.000000000000002109531493090035984013914585205099741044320899050754347938871291400174006152743685500999288209375834",
+            "max_relative_element_error": "0.0000000000000006240632079035447635974432889105927638320850115483958803287313897034260544247022144512130118251868409",
+            "multiple_candidate_witness_matches": 0,
+            "roundoff_tangencies": 1,
+            "filtered_grid_intersections": 0,
+            "filtered_bounded_intersections": 0,
+            "steps": [
+              {
+                "step": 1,
+                "type": "line",
+                "first": {
+                  "point_index": 0,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 0
+                  },
+                  "printed": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 1,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 1
+                  },
+                  "printed": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.0",
+                  "1.0",
+                  "0.0"
+                ],
+                "exported_element": [
+                  "0.0",
+                  "1.0",
+                  "0.0"
+                ],
+                "element_absolute_error": "0.0",
+                "element_relative_error": "0.0",
+                "new_point_count": 4,
+                "known_point_count": 6
+              },
+              {
+                "step": 2,
+                "type": "circle",
+                "first": {
+                  "point_index": 1,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 1
+                  },
+                  "printed": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 0,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 0
+                  },
+                  "printed": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "1.21",
+                  "0.0",
+                  "1.4641"
+                ],
+                "exported_element": [
+                  "1.21",
+                  "0.0",
+                  "1.4641"
+                ],
+                "element_absolute_error": "0.0",
+                "element_relative_error": "0.0",
+                "new_point_count": 1,
+                "known_point_count": 7
+              },
+              {
+                "step": 3,
+                "type": "circle",
+                "first": {
+                  "point_index": 6,
+                  "birth_step": 2,
+                  "origin": {
+                    "intersection": [
+                      2,
+                      3
+                    ]
+                  },
+                  "printed": [
+                    "2.4199999999999999",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "2.42",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0000000000000001",
+                  "relative_error": "0.00000000000000004132231404958677685950413223140495867768595041322314049586776859504132231404958677685950413223140496",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 5,
+                  "birth_step": 1,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      2
+                    ]
+                  },
+                  "printed": [
+                    "-0.21999999999999997",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "-0.2199999999999999",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.00000000000000007",
+                  "relative_error": "0.00000000000000007",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "2.42",
+                  "0.0",
+                  "6.96959999999999947200000000000001"
+                ],
+                "exported_element": [
+                  "2.4199999999999999",
+                  "0.0",
+                  "6.969599999999998"
+                ],
+                "element_absolute_error": "0.00000000000000147200000000000001",
+                "element_relative_error": "0.0000000000000002112029384756657658280463032529158409634790175737353288931773343913343693766438276617392818948859464",
+                "new_point_count": 3,
+                "known_point_count": 10
+              },
+              {
+                "step": 4,
+                "type": "circle",
+                "first": {
+                  "point_index": 0,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 0
+                  },
+                  "printed": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 1,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 1
+                  },
+                  "printed": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.0",
+                  "0.0",
+                  "1.4641"
+                ],
+                "exported_element": [
+                  "0.0",
+                  "0.0",
+                  "1.4641"
+                ],
+                "element_absolute_error": "0.0",
+                "element_relative_error": "0.0",
+                "new_point_count": 7,
+                "known_point_count": 17
+              },
+              {
+                "step": 5,
+                "type": "circle",
+                "first": {
+                  "point_index": 12,
+                  "birth_step": 4,
+                  "origin": {
+                    "intersection": [
+                      2,
+                      5
+                    ]
+                  },
+                  "printed": [
+                    "-1.21",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "-1.21",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 4,
+                  "birth_step": 1,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      2
+                    ]
+                  },
+                  "printed": [
+                    "2.6399999999999997",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "2.6399999999999999",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0000000000000002",
+                  "relative_error": "0.00000000000000007575757575757576044536271808999092596070901856026234699655373334327071956642929330570907448595807976",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-1.21",
+                  "0.0",
+                  "14.82249999999999923000000000000001"
+                ],
+                "exported_element": [
+                  "-1.21",
+                  "0.0",
+                  "14.822499999999998"
+                ],
+                "element_absolute_error": "0.00000000000000123000000000000001",
+                "element_relative_error": "0.00000000000000008298195311182324667877239980461454632047338379630520351091296859568517447590810292633153903319637689",
+                "new_point_count": 5,
+                "known_point_count": 22
+              },
+              {
+                "step": 6,
+                "type": "line",
+                "first": {
+                  "point_index": 7,
+                  "birth_step": 3,
+                  "origin": {
+                    "intersection": [
+                      0,
+                      4
+                    ]
+                  },
+                  "printed": [
+                    "2.5985123966942152",
+                    "2.633957730151812"
+                  ],
+                  "matched": [
+                    "2.598512396694215290909090909090915289256198347107438016528925619834710743801652892561983471074380165",
+                    "2.633957730151812171574784634395497587012338269960059365315317791429600073083278095743652200527201817"
+                  ],
+                  "absolute_error": "0.0000000000000001715747846343954975870123382699600593653153177914296000730832780957436522005272018170741048069925269",
+                  "relative_error": "0.00000000000000006513953609441808436202378367802343639131512759985216922713125581836013071080887397557813490756961017",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 17,
+                  "birth_step": 5,
+                  "origin": {
+                    "intersection": [
+                      0,
+                      6
+                    ]
+                  },
+                  "printed": [
+                    "-0.13702479338843121",
+                    "-3.6974618599786608"
+                  ],
+                  "matched": [
+                    "-0.1370247933884306818181818181818305785123966942148760330578512396694214876033057851239669421487603306",
+                    "-3.697461859978661005485895099698198300671669010506884653124829426029562946592349868030950953222810034"
+                  ],
+                  "absolute_error": "0.0000000000000005281818181818181694214876033057851239669421487603305785123966942148760330578512396694214876033057851",
+                  "relative_error": "0.0000000000000005281818181818181694214876033057851239669421487603305785123966942148760330578512396694214876033057851",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-2.314506859231984525238901059762688031420329865806573192193970333942687793593896031274140566294911706",
+                  "1.0",
+                  "-3.380317035796292709531493090035984013914585205099741044320899050754347938871291400174006152743685501"
+                ],
+                "exported_element": [
+                  "-2.314506859231984",
+                  "1.0",
+                  "-3.3803170357962906"
+                ],
+                "element_absolute_error": "0.000000000000002109531493090035984013914585205099741044320899050754347938871291400174006152743685500999288209375834",
+                "element_relative_error": "0.0000000000000006240632079035447635974432889105927638320850115483958803287313897034260544247022144512130118251868409",
+                "new_point_count": 7,
+                "known_point_count": 29
+              }
+            ],
+            "solution_index": 0
+          }
+        ],
+        "input": ".\\bs_v11\\benchmarks\\cases\\t5_aux_J_E6.in",
+        "certificate": ".\\bs_v11\\benchmarks\\r2\\linux_t5_single_final\\t5_J_E6_1t.v11-r2.r1.certificate.json"
+      }
+    },
+    {
+      "case": "t5_J_E6_1t",
+      "repetition": 2,
+      "pass": true,
+      "verification": {
+        "verifier": "independent-mpmath-v11",
+        "passed": true,
+        "status": "PASS_ORIGINAL_EPS",
+        "exact_proof": false,
+        "precision": 100,
+        "working_precision": 120,
+        "numeric_model": "Input decimal tokens; recomputed high-precision geometry, not C++ binary64",
+        "limitations": "Numerical instance verification only, not symbolic, interval-certified, or a generic proof",
+        "goal_metric": "Strict absolute L-infinity: point coordinates; circle (cx,cy,r^2); line coefficients in target b=1/a=1 scale without EPS snapping",
+        "witness_policy": "Nearest currently known high-precision point within componentwise scaled match tolerance; exported coordinates never become geometry",
+        "range_policy": "Closed rays/segments with working-roundoff slack; strictly closed grid; no EPS-created tangencies",
+        "acceptance": "original_eps",
+        "original_eps": "0.0000000000099999999999999994",
+        "tolerance": "0.00000001",
+        "match_tolerance": "0.00000001",
+        "original_eps_verdict": "PASS",
+        "tolerance_verdict": "PASS",
+        "input_layout": "compact",
+        "mode": 2,
+        "budget": 6,
+        "solution_count": 1,
+        "max_match_error": "0.000000000000001260475753407409438954066656000976726869117136836576238705758264144194141093029819621930154409574765",
+        "max_relative_match_error": "0.000000000000001260475753407409438954066656000976726869117136836576238705758264144194141093029819621930154409574765",
+        "solutions": [
+          {
+            "legal": true,
+            "passed": true,
+            "status": "PASS_ORIGINAL_EPS",
+            "E": 6,
+            "step_count": 6,
+            "budget": 6,
+            "goals": [
+              {
+                "type": "point",
+                "goal_index": 0,
+                "target": [
+                  "1.4604912585646739",
+                  "0.0"
+                ],
+                "nearest_index": 31,
+                "nearest_value": [
+                  "1.46049125856467437597591583274728892765084003000110341396952303234374403024017966829732581176896843",
+                  "0.0"
+                ],
+                "residual": "0.0000000000000004759759158327472889276508400300011034139695230323437440302401796682973258117689684299351788750666775",
+                "component_residuals": [
+                  "0.0000000000000004759759158327472889276508400300011034139695230323437440302401796682973258117689684299351788750666775",
+                  "0.0"
+                ],
+                "resolution_indicator": "1.46049125856467437597591583274728892765084003000110341396952303234374403024017966829732581176896843e-100",
+                "original_eps_verdict": "PASS",
+                "tolerance_verdict": "PASS"
+              }
+            ],
+            "original_eps_verdict": "PASS",
+            "tolerance_verdict": "PASS",
+            "initial_point_count": 2,
+            "initial_element_count": 2,
+            "final_point_count": 37,
+            "final_element_count": 8,
+            "max_match_error": "0.000000000000001260475753407409438954066656000976726869117136836576238705758264144194141093029819621930154409574765",
+            "max_relative_match_error": "0.000000000000001260475753407409438954066656000976726869117136836576238705758264144194141093029819621930154409574765",
+            "max_element_error": "0.000000000000005767247857698969880705949267519355216057802087114938709266193099623635200017990297678069824526384878",
+            "max_relative_element_error": "0.000000000000001008139066136555485287586575076422096188444576150451887478231790093032644634621031943554334648136823",
+            "multiple_candidate_witness_matches": 0,
+            "roundoff_tangencies": 0,
+            "filtered_grid_intersections": 0,
+            "filtered_bounded_intersections": 0,
+            "steps": [
+              {
+                "step": 1,
+                "type": "line",
+                "first": {
+                  "point_index": 0,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 0
+                  },
+                  "printed": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 1,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 1
+                  },
+                  "printed": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.0",
+                  "1.0",
+                  "0.0"
+                ],
+                "exported_element": [
+                  "0.0",
+                  "1.0",
+                  "0.0"
+                ],
+                "element_absolute_error": "0.0",
+                "element_relative_error": "0.0",
+                "new_point_count": 4,
+                "known_point_count": 6
+              },
+              {
+                "step": 2,
+                "type": "circle",
+                "first": {
+                  "point_index": 4,
+                  "birth_step": 1,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      2
+                    ]
+                  },
+                  "printed": [
+                    "2.6399999999999997",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "2.6399999999999999",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0000000000000002",
+                  "relative_error": "0.00000000000000007575757575757576044536271808999092596070901856026234699655373334327071956642929330570907448595807976",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 1,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 1
+                  },
+                  "printed": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "1.21",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "2.6399999999999999",
+                  "0.0",
+                  "2.04489999999999971400000000000001"
+                ],
+                "exported_element": [
+                  "2.6399999999999997",
+                  "0.0",
+                  "2.0448999999999993"
+                ],
+                "element_absolute_error": "0.00000000000000041400000000000001",
+                "element_relative_error": "0.0000000000000002024548877695731174639825429595137024549511422024276308330955424506224601466590623510759797491649108",
+                "new_point_count": 5,
+                "known_point_count": 11
+              },
+              {
+                "step": 3,
+                "type": "line",
+                "first": {
+                  "point_index": 4,
+                  "birth_step": 1,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      2
+                    ]
+                  },
+                  "printed": [
+                    "2.6399999999999997",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "2.6399999999999999",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0000000000000002",
+                  "relative_error": "0.00000000000000007575757575757576044536271808999092596070901856026234699655373334327071956642929330570907448595807976",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 9,
+                  "birth_step": 2,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      3
+                    ]
+                  },
+                  "printed": [
+                    "1.9249999999999996",
+                    "-1.238416327411747"
+                  ],
+                  "matched": [
+                    "1.92499999999999995",
+                    "-1.238416327411747178269583755732834065991788681180803801919639299789100704299443053916368678091430878"
+                  ],
+                  "absolute_error": "0.00000000000000035",
+                  "relative_error": "0.0000000000000001818181818181818229043683589138135819316456860730800501726152226774039005874083812312701451274904216",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-1.732050807568877293527446341505872366942805253810380628055806979451933016908800037081146186757248576",
+                  "1.0",
+                  "-4.572614131981835881707377584687773695984371719472168163786805044715040359058534152700924242159132532"
+                ],
+                "exported_element": [
+                  "-1.7320508075688767",
+                  "1.0",
+                  "-4.5726141319818341"
+                ],
+                "element_absolute_error": "0.000000000000001781707377584687773695984371719472168163786805044715040359058534152700924242159132531669034337611816",
+                "element_relative_error": "0.0000000000000003896474371460839844678857758096879789600436765430478212713732846943963222093756205330605349460103922",
+                "new_point_count": 3,
+                "known_point_count": 14
+              },
+              {
+                "step": 4,
+                "type": "circle",
+                "first": {
+                  "point_index": 8,
+                  "birth_step": 2,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      3
+                    ]
+                  },
+                  "printed": [
+                    "1.9249999999999996",
+                    "1.238416327411747"
+                  ],
+                  "matched": [
+                    "1.92499999999999995",
+                    "1.238416327411747178269583755732834065991788681180803801919639299789100704299443053916368678091430878"
+                  ],
+                  "absolute_error": "0.00000000000000035",
+                  "relative_error": "0.0000000000000001818181818181818229043683589138135819316456860730800501726152226774039005874083812312701451274904216",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 12,
+                  "birth_step": 3,
+                  "origin": {
+                    "intersection": [
+                      0,
+                      4
+                    ]
+                  },
+                  "printed": [
+                    "3.4345446022724775",
+                    "1.376191620015538"
+                  ],
+                  "matched": [
+                    "3.434544602272477669524246592590561045933343999023273130882863163423761294241735855805858906970180378",
+                    "1.376191620015537537521639762324969622781618074283090615946239329765339428559214105187668243291071034"
+                  ],
+                  "absolute_error": "0.0000000000000004624783602376750303772183819257169093840537606702346605714407858948123317567089289664785957403457208",
+                  "relative_error": "0.0000000000000003360566606505374462199023789189706490295376124479043878709457971529237883024943860244072972703455934",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "1.92499999999999995",
+                  "1.238416327411747178269583755732834065991788681180803801919639299789100704299443053916368678091430878",
+                  "2.297706937502032995890473645303980895801216884174975087951093459039835418017535503244826193957074045"
+                ],
+                "exported_element": [
+                  "1.9249999999999996",
+                  "1.238416327411747",
+                  "2.2977069375020336"
+                ],
+                "element_absolute_error": "0.0000000000000006041095263546960191041987831158250249120489065409601645819824644967551738060429259551449803179892614",
+                "element_relative_error": "0.0000000000000002629184412053251017187929058898833949569476980651609821512310044646206890061077135612653211444164307",
+                "new_point_count": 8,
+                "known_point_count": 22
+              },
+              {
+                "step": 5,
+                "type": "circle",
+                "first": {
+                  "point_index": 17,
+                  "birth_step": 4,
+                  "origin": {
+                    "intersection": [
+                      2,
+                      5
+                    ]
+                  },
+                  "printed": [
+                    "2.7990892045449556",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "2.799089204544955539048493185181122091866687998046546261765726326847522588483471711611717813940360756",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.00000000000000006095150681481887790813331200195345373823427367315247741151652828838828218605963924386030881914953008",
+                  "relative_error": "0.00000000000000002177547850774112340603352327157359556721720039782708105446947114733726751756632127021859774624917313",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 5,
+                  "birth_step": 1,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      2
+                    ]
+                  },
+                  "printed": [
+                    "-0.21999999999999997",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "-0.2199999999999999",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.00000000000000007",
+                  "relative_error": "0.00000000000000007",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "2.799089204544955539048493185181122091866687998046546261765726326847522588483471711611717813940360756",
+                  "0.0",
+                  "9.114899624999891781681748046244332955361352841458030990919659987251828792893731091802319070719708205"
+                ],
+                "exported_element": [
+                  "2.7990892045449556",
+                  "0.0",
+                  "9.1148996249998913"
+                ],
+                "element_absolute_error": "0.0000000000000004816817480462443329553613528414580309909196599872518287928937310918023190707197082051789506657510278",
+                "element_relative_error": "0.00000000000000005284553509784262180619424714361094717224089997117391208093123798981355375007437243045499660821696377",
+                "new_point_count": 7,
+                "known_point_count": 29
+              },
+              {
+                "step": 6,
+                "type": "line",
+                "first": {
+                  "point_index": 11,
+                  "birth_step": 3,
+                  "origin": {
+                    "intersection": [
+                      0,
+                      4
+                    ]
+                  },
+                  "printed": [
+                    "0.52545539772752092",
+                    "-3.6624986860064563"
+                  ],
+                  "matched": [
+                    "0.5254553977275221804757534074094389540666560009767268691171368365762387057582641441941410930298196219",
+                    "-3.662498686006455478375328554668856470773803934019174697839641852122859608088481181538130364370637299"
+                  ],
+                  "absolute_error": "0.000000000000001260475753407409438954066656000976726869117136836576238705758264144194141093029819621930154409574765",
+                  "relative_error": "0.000000000000001260475753407409438954066656000976726869117136836576238705758264144194141093029819621930154409574765",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 22,
+                  "birth_step": 5,
+                  "origin": {
+                    "intersection": [
+                      0,
+                      6
+                    ]
+                  },
+                  "printed": [
+                    "2.2167926498822856",
+                    "2.9624027996590665"
+                  ],
+                  "matched": [
+                    "2.216792649882285562858722455283792571894092937903609588109702867285877140536765940079465167579184221",
+                    "2.962402799659066616122772008674925104622528351361138912851304775596579768316411269515865442235368843"
+                  ],
+                  "absolute_error": "0.0000000000000001161227720086749251046225283513611389128513047755965797683164112695158654422353688427271794203330977",
+                  "relative_error": "0.0000000000000000391988462953245657262310428633536474307990154420038305518701712502482240330384316915785878709778577",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-3.916960663655577080336030034598811788568054966292435604671572512327492072569017347304254034661715121",
+                  "1.0",
+                  "-5.720686809410655967247857698969880705949267519355216057802087114938709266193099623635200017990297678"
+                ],
+                "exported_element": [
+                  "-3.9169606636555745",
+                  "1.0",
+                  "-5.7206868094106502"
+                ],
+                "element_absolute_error": "0.000000000000005767247857698969880705949267519355216057802087114938709266193099623635200017990297678069824526384878",
+                "element_relative_error": "0.000000000000001008139066136555485287586575076422096188444576150451887478231790093032644634621031943554334648136823",
+                "new_point_count": 8,
+                "known_point_count": 37
+              }
+            ],
+            "solution_index": 0
+          }
+        ],
+        "input": ".\\bs_v11\\benchmarks\\cases\\t5_aux_J_E6.in",
+        "certificate": ".\\bs_v11\\benchmarks\\r2\\linux_t5_single_final\\t5_J_E6_1t.v11-r2.r2.certificate.json"
+      }
+    }
+  ]
+}

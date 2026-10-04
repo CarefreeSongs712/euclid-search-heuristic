@@ -1,0 +1,10 @@
+[
+  {
+    "name": "t7_point_tail3",
+    "input": "tests/cases/opt7_guard_extra_t7_strict12_prefix9_tail3.in"
+  },
+  {
+    "name": "t7_point_line_tail3",
+    "input": "tests/cases/opt7_guard_extra_t7_strict12_prefix9_tail3_D_BD.in"
+  }
+]

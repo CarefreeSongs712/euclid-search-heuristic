@@ -1,0 +1,143 @@
+{
+  "kind": "r3.2_comparison",
+  "platform": "Linux-7.1.8-x64v3-xanmod1-x86_64-with-glibc2.41",
+  "binaries": {
+    "r3.1": {
+      "path": "./bs_v11/build/revision_r31/bs_v11_r31",
+      "sha256": "4556f4cd5048b534d0cd590dbce7566954aba9149a2ee6e31774986b448640fd"
+    },
+    "r3.2": {
+      "path": "./bs_v11/build/r32/bs_v11",
+      "sha256": "a08b9e718ff63e006a5fc43ab2809d351c38191f84ca6ea8e31a4863b8ca9d29"
+    }
+  },
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 1.824129,
+      "nodes": 1269210,
+      "raw_candidates": 56304461,
+      "unique_candidates": 31255184,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent_E9_control",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        "./bs_v11/build/revision_r31/bs_v11_r31",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=60",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=./bs_v11/benchmarks/r32/linux_exact_control/eu10_2_external_tangent_E9_control.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.8644937458448112,
+      "external_timeout": false,
+      "time_limit": 60,
+      "threads": 8,
+      "input_sha256": "f223097741d41bbf934b3ba70a73289c2d2c7f0e730021972d05752f566daa91",
+      "peak_rss_bytes": 7786496,
+      "stdout": "benchmarks/r32/linux_exact_control/eu10_2_external_tangent_E9_control.r3.1.r1.stdout.log",
+      "stderr": "benchmarks/r32/linux_exact_control/eu10_2_external_tangent_E9_control.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00020857388153672218,
+          "rss_bytes": 323584,
+          "peak_rss_bytes": 323584
+        },
+        {
+          "elapsed": 0.5004952107556164,
+          "rss_bytes": 7753728,
+          "peak_rss_bytes": 7753728
+        },
+        {
+          "elapsed": 1.0006227940320969,
+          "rss_bytes": 7782400,
+          "peak_rss_bytes": 7782400
+        },
+        {
+          "elapsed": 1.5007313867099583,
+          "rss_bytes": 7786496,
+          "peak_rss_bytes": 7786496
+        }
+      ],
+      "nodes_per_second": 695789.6069850323,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent_E9_control.in",
+      "seed": 1,
+      "certificate": "benchmarks/r32/linux_exact_control/eu10_2_external_tangent_E9_control.r3.1.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.004712,
+      "nodes": 45094,
+      "raw_candidates": 192665,
+      "unique_candidates": 98154,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent_E9_control",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        "./bs_v11/build/r32/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=60",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=./bs_v11/benchmarks/r32/linux_exact_control/eu10_2_external_tangent_E9_control.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.007359866052865982,
+      "external_timeout": false,
+      "time_limit": 60,
+      "threads": 8,
+      "input_sha256": "f223097741d41bbf934b3ba70a73289c2d2c7f0e730021972d05752f566daa91",
+      "peak_rss_bytes": 16384,
+      "stdout": "benchmarks/r32/linux_exact_control/eu10_2_external_tangent_E9_control.r3.2.r1.stdout.log",
+      "stderr": "benchmarks/r32/linux_exact_control/eu10_2_external_tangent_E9_control.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.0001301020383834839,
+          "rss_bytes": 16384,
+          "peak_rss_bytes": 16384
+        }
+      ],
+      "nodes_per_second": 9570033.955857385,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent_E9_control.in",
+      "seed": 1,
+      "certificate": "benchmarks/r32/linux_exact_control/eu10_2_external_tangent_E9_control.r3.2.r1.certificate.json",
+      "returned_E": [
+        9
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    }
+  ]
+}

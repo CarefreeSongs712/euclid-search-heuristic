@@ -1,0 +1,245 @@
+{
+  "verifier": "independent-mpmath-v11",
+  "passed": true,
+  "status": "PASS_ORIGINAL_EPS",
+  "exact_proof": false,
+  "precision": 100,
+  "working_precision": 120,
+  "numeric_model": "Input decimal tokens; recomputed high-precision geometry, not C++ binary64",
+  "limitations": "Numerical instance verification only, not symbolic, interval-certified, or a generic proof",
+  "goal_metric": "Strict absolute L-infinity: point coordinates; circle (cx,cy,r^2); line coefficients in target b=1/a=1 scale without EPS snapping",
+  "witness_policy": "Nearest currently known high-precision point within componentwise scaled match tolerance; exported coordinates never become geometry",
+  "range_policy": "Closed rays/segments with working-roundoff slack; strictly closed grid; no EPS-created tangencies",
+  "acceptance": "original_eps",
+  "original_eps": "0.0000000000099999999999999994",
+  "tolerance": "0.00000001",
+  "match_tolerance": "0.00000001",
+  "original_eps_verdict": "PASS",
+  "tolerance_verdict": "PASS",
+  "input_layout": "compact",
+  "mode": 2,
+  "budget": 3,
+  "solution_count": 1,
+  "max_match_error": "0.00000000000000861886555374458531730033160539490243739106937854046579519891310466504483504152580835806886954565964",
+  "max_relative_match_error": "0.00000000000000861886555374458531730033160539490243739106937854046579519891310466504483504152580835806886954565964",
+  "solutions": [
+    {
+      "legal": true,
+      "passed": true,
+      "status": "PASS_ORIGINAL_EPS",
+      "E": 3,
+      "step_count": 3,
+      "budget": 3,
+      "goals": [
+        {
+          "type": "point",
+          "goal_index": 0,
+          "target": [
+            "3.9654872735302531",
+            "-0.79309745470605064"
+          ],
+          "nearest_index": 121,
+          "nearest_value": [
+            "3.965487273530257423364120901544626256349415047723438970218566285076282827561470794733831859364890182",
+            "-0.7930974547060515243276969156114994849110920249909503575378637342496462676979570097095946474876859837"
+          ],
+          "residual": "0.000000000000004323364120901544626256349415047723438970218566285076282827561470794733831859364890182023069751902792",
+          "component_residuals": [
+            "0.000000000000004323364120901544626256349415047723438970218566285076282827561470794733831859364890182023069751902792",
+            "0.0000000000000008843276969156114994849110920249909503575378637342496462676979570097095946474876859837429325440294602"
+          ],
+          "resolution_indicator": "3.965487273530257423364120901544626256349415047723438970218566285076282827561470794733831859364890182e-100",
+          "original_eps_verdict": "PASS",
+          "tolerance_verdict": "PASS"
+        }
+      ],
+      "original_eps_verdict": "PASS",
+      "tolerance_verdict": "PASS",
+      "initial_point_count": 98,
+      "initial_element_count": 11,
+      "final_point_count": 132,
+      "final_element_count": 14,
+      "max_match_error": "0.00000000000000861886555374458531730033160539490243739106937854046579519891310466504483504152580835806886954565964",
+      "max_relative_match_error": "0.00000000000000861886555374458531730033160539490243739106937854046579519891310466504483504152580835806886954565964",
+      "max_element_error": "0.00000000000002321744107149680318010580321093884682332627951102153600166726691996164147605335856170959646740044871",
+      "max_relative_element_error": "0.00000000000001614359000949329886760384559130096552732440489870552254042046655810092060609203082535771755530993402",
+      "multiple_candidate_witness_matches": 4,
+      "roundoff_tangencies": 0,
+      "filtered_grid_intersections": 0,
+      "filtered_bounded_intersections": 18,
+      "steps": [
+        {
+          "step": 1,
+          "type": "circle",
+          "first": {
+            "point_index": 31,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 31
+            },
+            "printed": [
+              "-1.0944238795503343",
+              "4.9542224414563263"
+            ],
+            "matched": [
+              "-1.0944238795503343",
+              "4.9542224414563263"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 2
+          },
+          "second": {
+            "point_index": 2,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 2
+            },
+            "printed": [
+              "0.0",
+              "4.9100000000000001"
+            ],
+            "matched": [
+              "0.0",
+              "4.9100000000000001"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 3
+          },
+          "recomputed_element": [
+            "-1.0944238795503343",
+            "4.9542224414563263",
+            "1.19971925245836283812910924256293"
+          ],
+          "exported_element": [
+            "-1.0944238795503343",
+            "4.9542224414563263",
+            "1.1997192524583629"
+          ],
+          "element_absolute_error": "0.00000000000000006187089075743707",
+          "element_relative_error": "0.00000000000000005157114102374908979458920805031116253968059990416877560799989389756654953922427628943933707047934085",
+          "new_point_count": 6,
+          "known_point_count": 104
+        },
+        {
+          "step": 2,
+          "type": "circle",
+          "first": {
+            "point_index": 3,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 3
+            },
+            "printed": [
+              "2.73",
+              "-0.54600000000000004"
+            ],
+            "matched": [
+              "2.73",
+              "-0.54600000000000004"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 3
+          },
+          "second": {
+            "point_index": 99,
+            "birth_step": 1,
+            "origin": {
+              "intersection": [
+                4,
+                11
+              ]
+            },
+            "printed": [
+              "-2.1888477591006685",
+              "4.9984448829126542"
+            ],
+            "matched": [
+              "-2.188847759100668545711935623667230753871663675670686397914064364345930368194659206518428456009656081",
+              "4.998444882912653843529485740866276346968809020096274468927543244512405230137982401671468045484702761"
+            ],
+            "absolute_error": "0.0000000000000003564705142591337236530311909799037255310724567554875947698620175983285319545152972385909752011143892",
+            "relative_error": "0.00000000000000007131628388616221969093885054820650148665168189932812253972879346923453416083619202178497664994875075",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "2.73",
+            "-0.54600000000000004",
+            "54.93593233686598081394192109534886718384594629355982849615769541353864254470590126421525587280565256"
+          ],
+          "exported_element": [
+            "2.73",
+            "-0.54600000000000004",
+            "54.935932336865982"
+          ],
+          "element_absolute_error": "0.000000000000001186058078904651132816154053706440171503842304586461357455294098735784744127194347442094956955492872",
+          "element_relative_error": "0.00000000000000002158984162918666659147072904968755615040656648547645717700718382137053659318451086098002667146505687",
+          "new_point_count": 15,
+          "known_point_count": 119
+        },
+        {
+          "step": 3,
+          "type": "line",
+          "first": {
+            "point_index": 2,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 2
+            },
+            "printed": [
+              "0.0",
+              "4.9100000000000001"
+            ],
+            "matched": [
+              "0.0",
+              "4.9100000000000001"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 4
+          },
+          "second": {
+            "point_index": 118,
+            "birth_step": 2,
+            "origin": {
+              "intersection": [
+                11,
+                12
+              ]
+            },
+            "printed": [
+              "-0.75481342399659956",
+              "5.9955600384617025"
+            ],
+            "matched": [
+              "-0.7548134239965909411344462554146826996683946050975626089306214595342048010868953349551649584741916419",
+              "5.995560038461707521104288331713574216429796493334973396200234511322638702460524678920423987681925806"
+            ],
+            "absolute_error": "0.00000000000000861886555374458531730033160539490243739106937854046579519891310466504483504152580835806886954565964",
+            "relative_error": "0.00000000000000861886555374458531730033160539490243739106937854046579519891310466504483504152580835806886954565964",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "1.43818327013035511744107149680318010580321093884682332627951102153600166726691996164147605335856171",
+            "1.0",
+            "4.9100000000000001"
+          ],
+          "exported_element": [
+            "1.4381832701303319",
+            "1.0",
+            "4.9100000000000001"
+          ],
+          "element_absolute_error": "0.00000000000002321744107149680318010580321093884682332627951102153600166726691996164147605335856170959646740044871",
+          "element_relative_error": "0.00000000000001614359000949329886760384559130096552732440489870552254042046655810092060609203082535771755530993402",
+          "new_point_count": 13,
+          "known_point_count": 132
+        }
+      ],
+      "solution_index": 0
+    }
+  ],
+  "input": ".\\bs_v11\\tests\\cases\\opt7_guard_extra_t7_strict12_prefix9_tail3.in",
+  "certificate": ".\\bs_v11\\benchmarks\\t7_final_certificate.json"
+}

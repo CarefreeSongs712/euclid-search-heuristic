@@ -1,0 +1,82 @@
+[
+  {
+    "name": "eu13_5_equal_distance",
+    "title": "13.5 定点与角边等距",
+    "input": "benchmarks/euclidea8/cases/eu13_5_equal_distance.in",
+    "E": 8,
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60,
+    "solutions": 1
+  },
+  {
+    "name": "eu15_10_angle3",
+    "title": "15.10 3度角",
+    "input": "benchmarks/euclidea8/cases/eu15_10_angle3.in",
+    "E": 7,
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60,
+    "solutions": 1
+  },
+  {
+    "name": "eu14_1_inscribed_rhombus",
+    "title": "14.1 三角形内接菱形",
+    "input": "benchmarks/euclidea8/cases/eu14_1_inscribed_rhombus.in",
+    "E": 8,
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60,
+    "solutions": 1
+  },
+  {
+    "name": "eu14_5_apollonius",
+    "title": "14.5 共线圆心三相切圆",
+    "input": "benchmarks/euclidea8/cases/eu14_5_apollonius.in",
+    "E": 7,
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60,
+    "solutions": 1
+  },
+  {
+    "name": "eu15_4_three_equal",
+    "title": "15.4 三条相等线段",
+    "input": "benchmarks/euclidea8/cases/eu15_4_three_equal.in",
+    "E": 7,
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60,
+    "solutions": 1
+  },
+  {
+    "name": "eu14_3_hypotenuse_touch",
+    "title": "14.3 由斜边切点作直角三角形",
+    "input": "benchmarks/euclidea8/cases/eu14_3_hypotenuse_touch.in",
+    "E": 9,
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60,
+    "solutions": 1
+  },
+  {
+    "name": "eu13_10_billiards",
+    "title": "13.10 圆桌台球",
+    "input": "benchmarks/euclidea8/cases/eu13_10_billiards.in",
+    "E": 6,
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60,
+    "solutions": 1
+  },
+  {
+    "name": "eu13_3_concentric_equilateral",
+    "title": "13.3 同心圆上的等边三角形",
+    "input": "benchmarks/euclidea8/cases/eu13_3_concentric_equilateral.in",
+    "E": 8,
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60,
+    "solutions": 1
+  }
+]

@@ -1,0 +1,1 @@
+[progress] E<=6 phase=searching elapsed=2.0s nodes=8697347 rate=4318126.0/s candidates(raw/unique)=65587487/8697182 threads=8 active=8 depth~=5 prefixes=169/? (admitted=241, producer unfinished) exhaustion ETA=unknown (producer unfinished; total work unknown) budget-left=88.0s (timeout budget, not exhaustion ETA)

@@ -1,0 +1,149 @@
+============================================================
+brute_search v11-r2 heuristic
+Geometry EPS: 1.000e-11
+Search time limit: 90 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given point P4: enter x y.
+  Example: '0 0' means P4=(0,0).
+P4 = 
+Given line L1: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L1 (a b c) = 
+Given line L2: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L2 (a b c) = 
+Given line L3: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L3 (a b c) = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+Given circle C2: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C2 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target line GL1: enter a b c for a*x + b*y = c.
+GL1 (a b c) = 
+============================================================
+Search configuration
+  E limit: 5
+  Requested distinct solutions: 1
+  Tools: compass + straightedge
+  Goals: 1 line(s), 0 circle(s), 0 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 1; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-11
+  Time limit: 90 seconds
+  Worker threads: 8 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（5E） ==========
+Solution found!
+Points (31):
+(0,0)
+(0,1.83)
+(0,4.91)
+(2.73,-0.546)
+(0,-1.25)
+(-2.80657013093,0.561314026187)
+(2.10272397709,-0.420544795418)
+(-2.3233053625,3.85204159022)
+(2.3233053625,-0.19204159022)
+(0,5.57166008503)
+(0,-6.66366008503)
+(-3.83906099981,0.767812199962)
+(9.29906099981,-1.85981219996)
+(7.7833053625,-4.94404159022)
+(-7.49197646729,1.49839529346)
+(2.73,6.1531540448)
+(-1.58006390357,3.20517649629)
+(-3.07112717986,1.5963809829)
+(0.921707165402,5.90448385319)
+(0,5.7777338639)
+(-17.1183720255,3.42367440509)
+(-3.91700021802,5.23908150843)
+(0,2.71024480574)
+(3.02018848113,1.22596230377)
+(-1.40075021318,3.39864854082)
+(-4.87700260314,5.10706529264)
+(-30.765770224,6.1531540448)
+(-3.71118936641,5.05995821779)
+(0.248501697702,4.89995877924)
+(-1.09442387955,4.95422244146)
+(6.98572671396,4.62772738478)
+Elements (10):
+1x+0y=0 [1]
+0.2x+1y=0 [1]
+0.87032967033x+1y=1.83 [1]
+(x-0)^2+(y-1.83)^2=3.08^2
+(x-2.73)^2+(y--0.546)^2=6.6991540448^2
+-0.455367781978x+1y=4.91 [1]
+-1.07895857874x+1y=4.91 [1]
+-0.137516549781x+1y=5.7777338639 [1]
+0.491453600078x+1y=2.71024480574 [1]
+0.0404070509449x+1y=4.91 [1]
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.044851
+Solution output time:0.000017060
+Worker threads:8
+Nodes:161369
+Raw candidates:1516371
+Unique candidates:1311116
+Heuristic restarts:10
+Heuristic layers:42
+Expanded beam states:1687
+Evaluated successors:161314
+Candidate paths discarded:1149746
+Beam paths discarded:144851
+Tail helper calls:44
+Beam successful state visits:0
+Helper successful state visits:1
+Family-diversity discards:1092
+Rendezvous proposals:0
+Rendezvous replays:0
+Rendezvous successful state visits:0
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

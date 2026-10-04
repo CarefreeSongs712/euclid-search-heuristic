@@ -1,0 +1,86 @@
+name: bs-v11-build-and-test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# C++ tests include heuristic_tests when its source is present at configure time.
+# tests/cli_tests.py still describes the v10 CLI; do not run it against v11.
+jobs:
+  linux:
+    name: Linux x64 / ${{ matrix.compiler }}
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        compiler: [g++-14, clang++]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure portable v11 Release and fair baseline
+        run: >-
+          cmake -S . -B build/cmake
+          -DCMAKE_CXX_COMPILER=${{ matrix.compiler }}
+          -DCMAKE_BUILD_TYPE=Release
+          -DBS_BUILD_BASELINE=ON
+          -DBUILD_TESTING=ON
+      - name: Compile
+        run: cmake --build build/cmake --parallel 2
+      - name: Run assertion-enabled C++ tests
+        run: ctest --test-dir build/cmake --output-on-failure
+      - name: Check the no-CMake build path
+        run: >-
+          python3 tools/build.py
+          --cxx ${{ matrix.compiler }}
+          --baseline --run-tests --build-dir build/direct
+
+  windows:
+    name: Windows x64 / MSVC
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure portable v11 Release and fair baseline
+        run: >-
+          cmake -S . -B build/cmake -A x64
+          -DBS_BUILD_BASELINE=ON
+          -DBUILD_TESTING=ON
+      - name: Compile
+        run: cmake --build build/cmake --config Release --parallel 2
+      - name: Run assertion-enabled C++ tests
+        run: ctest --test-dir build/cmake -C Release --output-on-failure
+
+  windows-mingw:
+    name: Windows x64 / MinGW GCC
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: msys2/setup-msys2@v2
+        with:
+          msystem: MINGW64
+          update: true
+          install: >-
+            mingw-w64-x86_64-gcc
+            mingw-w64-x86_64-cmake
+            mingw-w64-x86_64-ninja
+            mingw-w64-x86_64-python
+      - name: Configure portable v11 Release and fair baseline
+        run: >-
+          cmake -S . -B build/cmake -G Ninja
+          -DCMAKE_CXX_COMPILER=g++
+          -DCMAKE_BUILD_TYPE=Release
+          -DBS_BUILD_BASELINE=ON
+          -DBUILD_TESTING=ON
+      - name: Compile
+        run: cmake --build build/cmake --parallel 2
+      - name: Run assertion-enabled C++ tests
+        run: ctest --test-dir build/cmake --output-on-failure
+      - name: Check the no-CMake build path
+        run: >-
+          python tools/build.py --cxx g++
+          --baseline --run-tests --build-dir build/direct

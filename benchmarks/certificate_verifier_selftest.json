@@ -1,0 +1,216 @@
+{
+  "self_test": true,
+  "passed": true,
+  "test_count": 38,
+  "failed_count": 0,
+  "tests": [
+    {
+      "name": "bisector_3E",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "full_stdin_layout",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "no_threads_layout",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "no_solutions_layout",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "compass_tangent_example",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "straightedge_mode1",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "grid_diagonal_midpoint",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "initial_segment_intersection",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "initial_ray_forward_intersection",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "initial_circle_intersections",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "high_precision_target",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "unknown_goal_point_not_free",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "unknown_witness"
+    },
+    {
+      "name": "given_circle_center_not_free",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "unknown_witness"
+    },
+    {
+      "name": "segment_endpoints_not_free",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "unknown_witness"
+    },
+    {
+      "name": "ray_endpoints_not_free",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "unknown_witness"
+    },
+    {
+      "name": "ray_backward_intersection_filtered",
+      "passed": true,
+      "verification_status": "FAIL"
+    },
+    {
+      "name": "segment_extension_filtered",
+      "passed": true,
+      "verification_status": "FAIL"
+    },
+    {
+      "name": "bounded_carrier_is_not_a_line",
+      "passed": true,
+      "verification_status": "FAIL"
+    },
+    {
+      "name": "circle_center_not_a_goal_point",
+      "passed": true,
+      "verification_status": "FAIL"
+    },
+    {
+      "name": "compass_mode_forbids_lines",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "illegal_tool"
+    },
+    {
+      "name": "straightedge_mode_forbids_circles",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "illegal_tool"
+    },
+    {
+      "name": "grid_mode_forbids_circles",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "illegal_tool"
+    },
+    {
+      "name": "grid_outside_intersections_not_witnesses",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "unknown_witness"
+    },
+    {
+      "name": "future_intersection_not_witness",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "unknown_witness"
+    },
+    {
+      "name": "budget_enforced",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "budget_exceeded"
+    },
+    {
+      "name": "declared_E_matches_paid_steps",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "cost_mismatch"
+    },
+    {
+      "name": "circle_export_is_radius_squared",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "element_mismatch"
+    },
+    {
+      "name": "exported_line_checked",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "element_mismatch"
+    },
+    {
+      "name": "same_witness_twice",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "degenerate_witness"
+    },
+    {
+      "name": "illegal_step_type",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "illegal_tool"
+    },
+    {
+      "name": "no_approximate_phantom_tangent",
+      "passed": true,
+      "verification_status": "FAIL"
+    },
+    {
+      "name": "no_paid_duplicate",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "repeated_element"
+    },
+    {
+      "name": "empty_solutions_rejected",
+      "passed": true,
+      "error_code": "empty_certificate",
+      "message": "Certificate must contain at least one solution"
+    },
+    {
+      "name": "nonfinite_rejected",
+      "passed": true,
+      "verification_status": "FAIL",
+      "error_code": "invalid_number"
+    },
+    {
+      "name": "tolerance_only_explicitly_labeled",
+      "passed": true,
+      "verification_status": "PASS_TOLERANCE_ONLY"
+    },
+    {
+      "name": "original_eps_required",
+      "passed": true,
+      "verification_status": "FAIL"
+    },
+    {
+      "name": "exported_coordinates_not_used_as_geometry",
+      "passed": true,
+      "verification_status": "PASS_ORIGINAL_EPS"
+    },
+    {
+      "name": "insufficient_precision_not_claimed",
+      "passed": true,
+      "verification_status": "FAIL"
+    }
+  ]
+}

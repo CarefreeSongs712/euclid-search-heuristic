@@ -1,0 +1,155 @@
+============================================================
+brute_search v11-r3.2 heuristic
+Geometry EPS: 1.000e-11
+Search time limit: 90 seconds
+Detected system: Windows
+Hardware logical processors: 20
+Process-available / recommended maximum threads: 20
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given segment S1: enter x1 y1 x2 y2 for its two endpoints.
+S1 = 
+Given segment S2: enter x1 y1 x2 y2 for its two endpoints.
+S2 = 
+Given segment S3: enter x1 y1 x2 y2 for its two endpoints.
+S3 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target line GL1: enter a b c for a*x + b*y = c.
+GL1 (a b c) = 
+Target line GL2: enter a b c for a*x + b*y = c.
+GL2 (a b c) = 
+Target line GL3: enter a b c for a*x + b*y = c.
+GL3 (a b c) = 
+Target point GP1: enter x y.
+GP1 = 
+Target point GP2: enter x y.
+GP2 = 
+Target point GP3: enter x y.
+GP3 = 
+============================================================
+Search configuration
+  E limit: 8
+  Requested distinct solutions: 1
+  Tools: compass + straightedge
+  Goals: 3 line(s), 0 circle(s), 3 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Coverage thread slots: auto (shared-prefix DFS, not beam success)
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 1; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-11
+  Time limit: 90 seconds
+  Worker threads: 8 / 20 process-available (20 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（8E） ==========
+Solution found!
+作图步骤（8E）：
+已知对象：
+  P1=(0.8,4.3)。
+  P2=(-2.7,0.1)。
+  P3=(4.2,-0.2)。
+  已知线段S1：端点(0.8,4.3)和(-2.7,0.1)；所在直线方程：(-1.2)x+(1)y=3.34。
+  已知线段S2：端点(-2.7,0.1)和(4.2,-0.2)；所在直线方程：(0.04347826086956522)x+(1)y=-0.017391304347826084。
+  已知线段S3：端点(4.2,-0.2)和(0.8,4.3)；所在直线方程：(1.3235294117647058)x+(1)y=5.358823529411763。
+
+第1步：以P1=(0.8,4.3)为圆心，P2=(-2.7,0.1)为圆周点作圆C1；方程：(x-(0.8))^2+(y-(4.3))^2=29.89。
+第2步：以P2=(-2.7,0.1)为圆心，P1=(0.8,4.3)为圆周点作圆C2；方程：(x-(-2.7))^2+(y-(0.1))^2=29.89。
+  取C1,C2交点P4=(-4.587306695894643,5.231088913245535)。
+  取C1,C2交点P5=(2.6873066958946428,-0.8310889132455356)。
+第3步：过P4=(-4.587306695894643,5.231088913245535)，P5=(2.6873066958946428,-0.8310889132455356)作直线L1；方程：(0.8333333333333331)x+(1)y=1.4083333333333328。
+  取S1,L1交点P6=(-0.9500000000000003,2.1999999999999993)。
+第4步：以P6=(-0.9500000000000003,2.1999999999999993)为圆心，P1=(0.8,4.3)为圆周点作圆C3；方程：(x-(-0.9500000000000003))^2+(y-(2.1999999999999993))^2=7.472500000000004。
+  取S2,C3交点P7=(0.6111320754717001,-0.04396226415094384)。
+  取S3,C3交点P8=(1.5481923923294576,3.309745363093364)。
+第5步：以P1=(0.8,4.3)为圆心，P7=(0.6111320754717001,-0.04396226415094384)为圆周点作圆C4；方程：(x-(0.8))^2+(y-(4.3))^2=18.905679245283025。
+  取C3,C4交点P9=(-3.4386916176925464,3.330890813485927)。
+第6步：过P7=(0.6111320754717001,-0.04396226415094384)，P8=(1.5481923923294576,3.309745363093364)作直线L2；方程：(-3.57896665445218)x+(1)y=-2.231183583730312。
+第7步：过P8=(1.5481923923294576,3.309745363093364)，P9=(-3.4386916176925464,3.330890813485927)作直线L3；方程：(0.004240212996746578)x+(1)y=3.3163100285967837。
+  取S1,L3交点P10=(-0.01967213114754221,3.316393442622949)。
+第8步：过P7=(0.6111320754717001,-0.04396226415094384)，P10=(-0.01967213114754221,3.316393442622949)作直线L4；方程：(5.327097808658443)x+(1)y=3.2115980758952363。
+
+目标对应：
+  目标直线GL1=L2；方程：(-3.57896665445218)x+(1)y=-2.231183583730312。
+  目标直线GL2=L3；方程：(0.004240212996746578)x+(1)y=3.3163100285967837。
+  目标直线GL3=L4；方程：(5.327097808658443)x+(1)y=3.2115980758952363。
+  目标点GP1=P7=(0.6111320754717001,-0.04396226415094384)。
+  目标点GP2=P8=(1.5481923923294576,3.309745363093364)。
+  目标点GP3=P10=(-0.01967213114754221,3.316393442622949)。
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.016601
+Solution output time:0.000093600
+Worker threads:8
+Nodes:90011
+Raw candidates:158584
+Unique candidates:101021
+Heuristic restarts:5
+Heuristic layers:25
+Expanded beam states:824
+Evaluated successors:49833
+Candidate paths discarded:27573
+Beam paths discarded:49011
+Tail helper calls:0
+Beam successful state visits:0
+Helper successful state visits:0
+Family-diversity discards:443
+Rendezvous proposals:0
+Rendezvous replays:0
+Rendezvous successful state visits:0
+Chain join calls:3
+Chain join proposals:4754
+Chain join replays:4753
+Chain join successful state visits:0
+Point join calls:3
+Point join proposals:3079
+Point join replays:5768
+Point join successful state visits:0
+Coverage tasks:4
+Coverage successful state visits:0
+Equal-radius probe calls:1
+Equal-radius probe prefixes:100
+Equal-radius probe completions:6
+Equal-radius probe successful state visits:0
+Prerequisite probe calls:1
+Prerequisite operations:4
+Goal finish calls:7
+Prerequisite successful state visits:1
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

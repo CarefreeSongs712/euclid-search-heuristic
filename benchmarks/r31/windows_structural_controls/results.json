@@ -1,0 +1,346 @@
+{
+  "kind": "r3.1_comparison",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "binaries": {
+    "r3-old": {
+      "path": ".\\bs_v11\\build\\revision_r3\\bs_v11_r3.exe",
+      "sha256": "ff1286775eaab10a8b028f20522778d5afeb228c17fb4165a0b2495bc2f6e9a2"
+    },
+    "r3.1": {
+      "path": ".\\bs_v11\\build\\bs_v11.exe",
+      "sha256": "9dee1cadc07125c1c237aab25065b3c1a68ace1853f99bdd30fdb618ccc328ec"
+    }
+  },
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.226177,
+      "nodes": 264581,
+      "raw_candidates": 3114275,
+      "unique_candidates": 2210132,
+      "solutions": 1,
+      "name": "t1_r3_regression",
+      "label": "r3-old",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r3\\bs_v11_r3.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-10",
+        "--time-limit=20",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r31\\windows_structural_controls\\t1_r3_regression.r3-old.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.24291950000042561,
+      "external_timeout": false,
+      "time_limit": 20,
+      "threads": 8,
+      "input_sha256": "20f9f96565aa50ed1e6c5326a37dc298b9d6be4070fbf6cd4ae70939d093eadc",
+      "peak_rss_bytes": 2260992,
+      "stdout": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t1_r3_regression.r3-old.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t1_r3_regression.r3-old.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.009029299995745532,
+          "rss_bytes": 2260992,
+          "peak_rss_bytes": 2260992
+        }
+      ],
+      "nodes_per_second": 1169796.2215433046,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t1_conditional_E5.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t1_r3_regression.r3-old.r1.certificate.json",
+      "returned_E": [
+        5
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": null,
+      "equal_radius": null,
+      "rendezvous": 0,
+      "chain_join": 1,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.339683,
+      "nodes": 220826,
+      "raw_candidates": 12414475,
+      "unique_candidates": 1965681,
+      "solutions": 1,
+      "name": "t1_r3_regression",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-10",
+        "--time-limit=20",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r31\\windows_structural_controls\\t1_r3_regression.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.3571706999937305,
+      "external_timeout": false,
+      "time_limit": 20,
+      "threads": 8,
+      "input_sha256": "20f9f96565aa50ed1e6c5326a37dc298b9d6be4070fbf6cd4ae70939d093eadc",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t1_r3_regression.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t1_r3_regression.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00943120000010822,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 650094.3526758772,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t1_conditional_E5.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t1_r3_regression.r3.1.r1.certificate.json",
+      "returned_E": [
+        5
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "rendezvous": 0,
+      "chain_join": 1,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.000998,
+      "nodes": 2343,
+      "raw_candidates": 4485,
+      "unique_candidates": 3156,
+      "solutions": 1,
+      "name": "t5_r3_regression",
+      "label": "r3-old",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r3\\bs_v11_r3.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=20",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r31\\windows_structural_controls\\t5_r3_regression.r3-old.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.015875800003414042,
+      "external_timeout": false,
+      "time_limit": 20,
+      "threads": 8,
+      "input_sha256": "56c009e998692847087a3f24cd1188e82abe27075f92e7409a50179c25009284",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t5_r3_regression.r3-old.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t5_r3_regression.r3-old.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00768360000802204,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 2347695.3907815632,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t5_aux_J_E6.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t5_r3_regression.r3-old.r1.certificate.json",
+      "returned_E": [
+        6
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": null,
+      "equal_radius": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 1
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.000748,
+      "nodes": 576,
+      "raw_candidates": 1753,
+      "unique_candidates": 938,
+      "solutions": 1,
+      "name": "t5_r3_regression",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=20",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r31\\windows_structural_controls\\t5_r3_regression.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.0143034000066109,
+      "external_timeout": false,
+      "time_limit": 20,
+      "threads": 8,
+      "input_sha256": "56c009e998692847087a3f24cd1188e82abe27075f92e7409a50179c25009284",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t5_r3_regression.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t5_r3_regression.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.007539900005212985,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 770053.4759358289,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t5_aux_J_E6.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t5_r3_regression.r3.1.r1.certificate.json",
+      "returned_E": [
+        6
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 1
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.048378,
+      "nodes": 19402,
+      "raw_candidates": 817750,
+      "unique_candidates": 590618,
+      "solutions": 1,
+      "name": "t2_r2_regression",
+      "label": "r3-old",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r3\\bs_v11_r3.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-10",
+        "--time-limit=20",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r31\\windows_structural_controls\\t2_r2_regression.r3-old.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.06340699999418575,
+      "external_timeout": false,
+      "time_limit": 20,
+      "threads": 8,
+      "input_sha256": "acbc4812a71168e293010f6606700a17fc68ab83e8829afc95b8c6eadca47022",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t2_r2_regression.r3-old.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t2_r2_regression.r3-old.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.008105500004603527,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 401050.0640787135,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t2_givenO_OX_E4.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t2_r2_regression.r3-old.r1.certificate.json",
+      "returned_E": [
+        4
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": null,
+      "equal_radius": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.040458,
+      "nodes": 9163,
+      "raw_candidates": 1449937,
+      "unique_candidates": 265531,
+      "solutions": 1,
+      "name": "t2_r2_regression",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-10",
+        "--time-limit=20",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r31\\windows_structural_controls\\t2_r2_regression.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.0541625999903772,
+      "external_timeout": false,
+      "time_limit": 20,
+      "threads": 8,
+      "input_sha256": "acbc4812a71168e293010f6606700a17fc68ab83e8829afc95b8c6eadca47022",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t2_r2_regression.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t2_r2_regression.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00708949999534525,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 226481.78357803152,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t2_givenO_OX_E4.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r31\\windows_structural_controls\\t2_r2_regression.r3.1.r1.certificate.json",
+      "returned_E": [
+        4
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    }
+  ]
+}

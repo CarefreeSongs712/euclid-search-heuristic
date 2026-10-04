@@ -1,0 +1,110 @@
+[
+  {
+    "case": "opt6_bs_audit_line_firstcandidate_miss_E1.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_line_firstcandidate_miss_E1.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_circle_line_onehit_E2.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_circle_line_onehit_E2.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_triangle_paid_supportline_E1.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_triangle_paid_supportline_E1.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_triangle_extension_point_E1.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_triangle_extension_point_E1.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_triangle_line_intersects_segment_E1.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_triangle_line_intersects_segment_E1.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_exact_tangent_control_E1.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_exact_tangent_control_E1.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt7_guard_extra_t7_strict12_prefix9_tail3.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt7_guard_extra_t7_strict12_prefix9_tail3.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt7_guard_extra_t7_strict12_prefix9_tail3_D_BD.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt7_guard_extra_t7_strict12_prefix9_tail3_D_BD.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 0
+  },
+  {
+    "case": "opt6_bs_audit_baseline_BV2_inspect.in",
+    "eps": "1e-11",
+    "pass_": true,
+    "returncode": 2
+  },
+  {
+    "case": "opt6_bs_audit_baseline_BV2_inspect.in",
+    "eps": "1e-13",
+    "pass_": true,
+    "returncode": 2
+  }
+]

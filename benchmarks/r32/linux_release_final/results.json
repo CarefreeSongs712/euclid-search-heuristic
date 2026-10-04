@@ -1,0 +1,793 @@
+{
+  "kind": "r3.2_comparison",
+  "platform": "Linux-7.1.8-x64v3-xanmod1-x86_64-with-glibc2.41",
+  "binaries": {
+    "r3.1": {
+      "path": "./bs_v11/build/revision_r31/bs_v11_r31",
+      "sha256": "4556f4cd5048b534d0cd590dbce7566954aba9149a2ee6e31774986b448640fd"
+    },
+    "r3.2": {
+      "path": "./bs_v11/build/r32/bs_v11",
+      "sha256": "a23ef511b88a51fcadff9231fa1aed360c8a0389cc1f4c1f2aaf2f9f6a6e15aa"
+    }
+  },
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.890494,
+      "nodes": 1055082,
+      "raw_candidates": 30846217,
+      "unique_candidates": 17704480,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        "./bs_v11/build/revision_r31/bs_v11_r31",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.9141981368884444,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 7450624,
+      "stdout": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r1.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00014012306928634644,
+          "rss_bytes": 258048,
+          "peak_rss_bytes": 258048
+        },
+        {
+          "elapsed": 0.5003994810394943,
+          "rss_bytes": 7450624,
+          "peak_rss_bytes": 7450624
+        }
+      ],
+      "nodes_per_second": 1184827.7472953214,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 1,
+      "certificate": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.004872,
+      "nodes": 44306,
+      "raw_candidates": 183699,
+      "unique_candidates": 87072,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        "./bs_v11/build/r32/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.0073712058365345,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 98304,
+      "stdout": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r1.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00013468321412801743,
+          "rss_bytes": 98304,
+          "peak_rss_bytes": 98304
+        }
+      ],
+      "nodes_per_second": 9094006.5681445,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 1,
+      "certificate": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.004791,
+      "nodes": 45801,
+      "raw_candidates": 189225,
+      "unique_candidates": 97989,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.2",
+      "repetition": 2,
+      "command": [
+        "./bs_v11/build/r32/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=2",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r2.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.00731879286468029,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 159744,
+      "stdout": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r2.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r2.stderr.log",
+      "resources": [
+        {
+          "elapsed": 8.894084021449089e-05,
+          "rss_bytes": 159744,
+          "peak_rss_bytes": 159744
+        }
+      ],
+      "nodes_per_second": 9559799.624295553,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 2,
+      "certificate": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r2.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 1.121159,
+      "nodes": 1359578,
+      "raw_candidates": 39328158,
+      "unique_candidates": 22787397,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.1",
+      "repetition": 2,
+      "command": [
+        "./bs_v11/build/revision_r31/bs_v11_r31",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=2",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r2.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.1638195719569921,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 7512064,
+      "stdout": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r2.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r2.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00010065082460641861,
+          "rss_bytes": 12288,
+          "peak_rss_bytes": 12288
+        },
+        {
+          "elapsed": 0.5002018297091126,
+          "rss_bytes": 7499776,
+          "peak_rss_bytes": 7499776
+        },
+        {
+          "elapsed": 1.000338789075613,
+          "rss_bytes": 7512064,
+          "peak_rss_bytes": 7512064
+        }
+      ],
+      "nodes_per_second": 1212654.0481769312,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 2,
+      "certificate": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r2.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 4.248397,
+      "nodes": 4910484,
+      "raw_candidates": 149312460,
+      "unique_candidates": 86476344,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.1",
+      "repetition": 3,
+      "command": [
+        "./bs_v11/build/revision_r31/bs_v11_r31",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=3",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r3.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 4.2649207431823015,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 7507968,
+      "stdout": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r3.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r3.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00012235203757882118,
+          "rss_bytes": 69632,
+          "peak_rss_bytes": 69632
+        },
+        {
+          "elapsed": 0.500224182382226,
+          "rss_bytes": 7446528,
+          "peak_rss_bytes": 7446528
+        },
+        {
+          "elapsed": 1.0003865603357553,
+          "rss_bytes": 7471104,
+          "peak_rss_bytes": 7471104
+        },
+        {
+          "elapsed": 1.5005630431696773,
+          "rss_bytes": 7483392,
+          "peak_rss_bytes": 7483392
+        },
+        {
+          "elapsed": 2.0007039229385555,
+          "rss_bytes": 7495680,
+          "peak_rss_bytes": 7495680
+        },
+        {
+          "elapsed": 2.50081372493878,
+          "rss_bytes": 7499776,
+          "peak_rss_bytes": 7499776
+        },
+        {
+          "elapsed": 3.0009377473033965,
+          "rss_bytes": 7499776,
+          "peak_rss_bytes": 7499776
+        },
+        {
+          "elapsed": 3.501048322301358,
+          "rss_bytes": 7499776,
+          "peak_rss_bytes": 7499776
+        },
+        {
+          "elapsed": 4.001174245029688,
+          "rss_bytes": 7507968,
+          "peak_rss_bytes": 7507968
+        }
+      ],
+      "nodes_per_second": 1155843.9571443065,
+      "progress_lines": 2,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 3,
+      "certificate": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.1.r3.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.004766,
+      "nodes": 43104,
+      "raw_candidates": 177732,
+      "unique_candidates": 85533,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.2",
+      "repetition": 3,
+      "command": [
+        "./bs_v11/build/r32/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=3",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r3.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.007382395211607218,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 8192,
+      "stdout": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r3.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r3.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00016326317563652992,
+          "rss_bytes": 8192,
+          "peak_rss_bytes": 8192
+        }
+      ],
+      "nodes_per_second": 9044062.106588334,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 3,
+      "certificate": "benchmarks/r32/linux_release_final/eu10_2_external_tangent.r3.2.r3.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 1.134121,
+      "nodes": 7647894,
+      "raw_candidates": 20622570,
+      "unique_candidates": 18007059,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        "./bs_v11/build/revision_r31/bs_v11_r31",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.1643977570347488,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 9940992,
+      "stdout": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r1.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00015765288844704628,
+          "rss_bytes": 1482752,
+          "peak_rss_bytes": 1482752
+        },
+        {
+          "elapsed": 0.500607165042311,
+          "rss_bytes": 9920512,
+          "peak_rss_bytes": 9920512
+        },
+        {
+          "elapsed": 1.000812776852399,
+          "rss_bytes": 9940992,
+          "peak_rss_bytes": 9940992
+        }
+      ],
+      "nodes_per_second": 6743455.063436794,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 1,
+      "certificate": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.010248,
+      "nodes": 112417,
+      "raw_candidates": 200915,
+      "unique_candidates": 132813,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        "./bs_v11/build/r32/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.015461329836398363,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 8192,
+      "stdout": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r1.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.0001563429832458496,
+          "rss_bytes": 8192,
+          "peak_rss_bytes": 8192
+        }
+      ],
+      "nodes_per_second": 10969652.615144419,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 1,
+      "certificate": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.010091,
+      "nodes": 109538,
+      "raw_candidates": 202878,
+      "unique_candidates": 135518,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.2",
+      "repetition": 2,
+      "command": [
+        "./bs_v11/build/r32/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=2",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r2.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.015429418999701738,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 208896,
+      "stdout": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r2.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r2.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00013932213187217712,
+          "rss_bytes": 208896,
+          "peak_rss_bytes": 208896
+        }
+      ],
+      "nodes_per_second": 10855019.324150234,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 2,
+      "certificate": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r2.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 3.756645,
+      "nodes": 20972068,
+      "raw_candidates": 69260176,
+      "unique_candidates": 60616920,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.1",
+      "repetition": 2,
+      "command": [
+        "./bs_v11/build/revision_r31/bs_v11_r31",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=2",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r2.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 3.7651421623304486,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 9908224,
+      "stdout": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r2.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r2.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.0001642419956624508,
+          "rss_bytes": 237568,
+          "peak_rss_bytes": 237568
+        },
+        {
+          "elapsed": 0.500304140150547,
+          "rss_bytes": 9818112,
+          "peak_rss_bytes": 9818112
+        },
+        {
+          "elapsed": 1.0005078110843897,
+          "rss_bytes": 9879552,
+          "peak_rss_bytes": 9879552
+        },
+        {
+          "elapsed": 1.5006831618957222,
+          "rss_bytes": 9891840,
+          "peak_rss_bytes": 9891840
+        },
+        {
+          "elapsed": 2.0008214241825044,
+          "rss_bytes": 9891840,
+          "peak_rss_bytes": 9891840
+        },
+        {
+          "elapsed": 2.5009844349697232,
+          "rss_bytes": 9908224,
+          "peak_rss_bytes": 9908224
+        },
+        {
+          "elapsed": 3.00117931002751,
+          "rss_bytes": 9908224,
+          "peak_rss_bytes": 9908224
+        },
+        {
+          "elapsed": 3.501366054173559,
+          "rss_bytes": 9908224,
+          "peak_rss_bytes": 9908224
+        }
+      ],
+      "nodes_per_second": 5582658.994927655,
+      "progress_lines": 1,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 2,
+      "certificate": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r2.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.733241,
+      "nodes": 5987819,
+      "raw_candidates": 12726926,
+      "unique_candidates": 11027439,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.1",
+      "repetition": 3,
+      "command": [
+        "./bs_v11/build/revision_r31/bs_v11_r31",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=3",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r3.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.7640009229071438,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 9547776,
+      "stdout": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r3.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r3.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.0001636832021176815,
+          "rss_bytes": 16384,
+          "peak_rss_bytes": 16384
+        },
+        {
+          "elapsed": 0.5002890881150961,
+          "rss_bytes": 9547776,
+          "peak_rss_bytes": 9547776
+        }
+      ],
+      "nodes_per_second": 8166235.9306149,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 3,
+      "certificate": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.1.r3.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.010593,
+      "nodes": 119844,
+      "raw_candidates": 211169,
+      "unique_candidates": 142430,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.2",
+      "repetition": 3,
+      "command": [
+        "./bs_v11/build/r32/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=3",
+        "--certificate=./bs_v11/benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r3.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.0154511290602386,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 12288,
+      "stdout": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r3.stdout.log",
+      "stderr": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r3.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00017426302656531334,
+          "rss_bytes": 12288,
+          "peak_rss_bytes": 12288
+        }
+      ],
+      "nodes_per_second": 11313508.920985557,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 3,
+      "certificate": "benchmarks/r32/linux_release_final/eu9_7_minimum_perimeter.r3.2.r3.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+[progress] E<=5 phase=searching elapsed=2.0s nodes=9324 rate=4661.8/s candidates(raw/unique)=35260735/9323 threads=1 active=1 depth~=3 prefixes=n/a root=28.7% exhaustion ETA~5.0s (rough/workload-biased estimate, root fraction) budget-left=88.0s (timeout budget, not exhaustion ETA)

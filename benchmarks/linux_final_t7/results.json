@@ -1,0 +1,310 @@
+{
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.175632,
+      "solutions": 1,
+      "nodes": 531570,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v10",
+      "seed": 1,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.17729881219565868,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        "./bs_optimized/build/bs_optimized",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.057848,
+      "solutions": 1,
+      "nodes": 139135,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v11",
+      "seed": 1,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.05884759500622749,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        "./bs_v11/build/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=1"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.056921,
+      "solutions": 1,
+      "nodes": 135074,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v11",
+      "seed": 2,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.05774011882022023,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        "./bs_v11/build/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=2"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.175739,
+      "solutions": 1,
+      "nodes": 526555,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v10",
+      "seed": 2,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.17676801793277264,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        "./bs_optimized/build/bs_optimized",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.177174,
+      "solutions": 1,
+      "nodes": 526555,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v10",
+      "seed": 3,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.1781856738962233,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        "./bs_optimized/build/bs_optimized",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.059981,
+      "solutions": 1,
+      "nodes": 142270,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v11",
+      "seed": 3,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.060885931365191936,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        "./bs_v11/build/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=3"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.010988,
+      "solutions": 1,
+      "nodes": 544,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v10",
+      "seed": 1,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.011930148117244244,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        "./bs_optimized/build/bs_optimized",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.003611,
+      "solutions": 1,
+      "nodes": 1959,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v11",
+      "seed": 1,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.004529167897999287,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        "./bs_v11/build/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=1"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.003597,
+      "solutions": 1,
+      "nodes": 2156,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v11",
+      "seed": 2,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.004424867685884237,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        "./bs_v11/build/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=2"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.011048,
+      "solutions": 1,
+      "nodes": 550,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v10",
+      "seed": 2,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.01183523889631033,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        "./bs_optimized/build/bs_optimized",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.010673,
+      "solutions": 1,
+      "nodes": 546,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v10",
+      "seed": 3,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.011340941302478313,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        "./bs_optimized/build/bs_optimized",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.0033,
+      "solutions": 1,
+      "nodes": 1841,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v11",
+      "seed": 3,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.004363617859780788,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        "./bs_v11/build/bs_v11",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=3"
+      ]
+    }
+  ]
+}

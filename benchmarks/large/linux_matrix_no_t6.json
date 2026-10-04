@@ -1,0 +1,17 @@
+[
+  {
+    "name": "t2_givenO_OX_E4",
+    "input": "benchmarks/cases/t2_givenO_OX_E4.in",
+    "eps": "1e-10",
+    "time_limit": 120,
+    "threads": 32
+  },
+  {
+    "name": "t1_conditional_E5_seed2",
+    "input": "benchmarks/cases/t1_conditional_E5.in",
+    "eps": "1e-10",
+    "time_limit": 120,
+    "seed": 2,
+    "threads": 32
+  }
+]

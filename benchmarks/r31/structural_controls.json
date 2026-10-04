@@ -1,0 +1,23 @@
+[
+  {
+    "name": "t1_r3_regression",
+    "input": "benchmarks/cases/t1_conditional_E5.in",
+    "eps": "1e-10",
+    "threads": 8,
+    "time_limit": 20
+  },
+  {
+    "name": "t5_r3_regression",
+    "input": "benchmarks/cases/t5_aux_J_E6.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 20
+  },
+  {
+    "name": "t2_r2_regression",
+    "input": "benchmarks/cases/t2_givenO_OX_E4.in",
+    "eps": "1e-10",
+    "threads": 8,
+    "time_limit": 20
+  }
+]

@@ -1,0 +1,98 @@
+============================================================
+brute_search v11 heuristic
+Geometry EPS: 1.000e-10
+Search time limit: 15 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 网格左下角=(0,0)，右上角=(m,n)。请输入非负整数 m n：自动添加 x=0..m、y=0..n 的网格线及其网格内交点，不计入E。
+
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given point P4: enter x y.
+  Example: '0 0' means P4=(0,0).
+P4 = 
+Given point P5: enter x y.
+  Example: '0 0' means P5=(0,0).
+P5 = 
+Given line L1: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L1 (a b c) = 
+Given line L2: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L2 (a b c) = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target line GL1: enter a b c for a*x + b*y = c.
+GL1 (a b c) = 
+============================================================
+Search configuration
+  E limit: 4
+  Requested distinct solutions: 1
+  Tools: grid straightedge only (mode 3)
+  Grid rectangle: [0,6] x [0,6] (closed)
+  Automatic grid lines: 14 (free)
+  Initial in-grid points: 79
+  Goals: 1 line(s), 0 circle(s), 0 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 1; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-10
+  Time limit: 15 seconds
+  Worker threads: 8 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+SEARCH STOPPED: time limit reached (15 seconds).
+已找到并输出 0 / 1 个不同解
+Result status: TIMEOUT_PARTIAL
+Requested solutions:1
+Distinct solutions:0
+Successful state visits:0
+Search Time:15.000204
+Worker threads:8
+Nodes:30594225
+Raw candidates:1777712653
+Unique candidates:1307059823
+Heuristic restarts:1654
+Heuristic layers:6610
+Expanded beam states:318543
+Evaluated successors:30579365
+Candidate paths discarded:1276480456
+Beam paths discarded:20144363
+Tail helper calls:13206
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

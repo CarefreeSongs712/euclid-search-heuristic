@@ -1,0 +1,252 @@
+============================================================
+brute_search v11-r3 heuristic
+Geometry EPS: 1.000e-10
+Search time limit: 90 seconds
+Detected system: Windows
+Hardware logical processors: 20
+Process-available / recommended maximum threads: 20
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 网格左下角=(0,0)，右上角=(m,n)。请输入非负整数 m n：自动添加 x=0..m、y=0..n 的网格线及其网格内交点，不计入E。
+
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given line L1: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L1 (a b c) = 
+Given line L2: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L2 (a b c) = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target line GL1: enter a b c for a*x + b*y = c.
+GL1 (a b c) = 
+Target point GP1: enter x y.
+GP1 = 
+Target point GP2: enter x y.
+GP2 = 
+============================================================
+Search configuration
+  E limit: 5
+  Requested distinct solutions: 1
+  Tools: grid straightedge only (mode 3)
+  Grid rectangle: [0,6] x [0,5] (closed)
+  Automatic grid lines: 13 (free)
+  Initial in-grid points: 64
+  Goals: 1 line(s), 0 circle(s), 2 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 1; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-10
+  Time limit: 90 seconds
+  Worker threads: 1 / 20 process-available (20 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（5E） ==========
+Solution found!
+Points (116):
+(4,1)
+(5,4)
+(2.3134,4)
+(0,0)
+(1,0)
+(2,0)
+(3,0)
+(4,0)
+(5,0)
+(6,0)
+(0,1)
+(1,1)
+(2,1)
+(3,1)
+(5,1)
+(6,1)
+(0,2)
+(1,2)
+(2,2)
+(3,2)
+(4,2)
+(5,2)
+(6,2)
+(0,3)
+(1,3)
+(2,3)
+(3,3)
+(4,3)
+(5,3)
+(6,3)
+(0,4)
+(1,4)
+(2,4)
+(3,4)
+(4,4)
+(6,4)
+(0,5)
+(1,5)
+(2,5)
+(3,5)
+(4,5)
+(5,5)
+(6,5)
+(3.66666666667,0)
+(4.33333333333,2)
+(4.66666666667,3)
+(5.33333333333,5)
+(2,4.55745286375)
+(3,2.77872643187)
+(4.5622,0)
+(3.4378,2)
+(2.8756,3)
+(1.7512,5)
+(2,3.51969136876)
+(2,2.04250863124)
+(3,4.47193328865)
+(3,1.09026671135)
+(4,4.5622)
+(5,1.5622)
+(3.3134,1)
+(2.01961268101,2)
+(5.29378731899,2)
+(1.85607375061,3)
+(5.45732624939,3)
+(1,3.66666666667)
+(2,3.33333333333)
+(4,2.66666666667)
+(5,2.33333333333)
+(4.5,2.5)
+(2.8469111494,3.05102961687)
+(1.93589934623,3.35470021792)
+(5.37750065377,2.20749978208)
+(1.98089228557,1)
+(1.96178457114,2)
+(1.94267685671,3)
+(1.92356914228,4)
+(1.90446142785,5)
+(1.90985365247,4.71779855484)
+(1.95906781063,2.14218134351)
+(0,4.94375163441)
+(1,4.45312636201)
+(2,3.96250108961)
+(3,3.47187581721)
+(4,2.9812505448)
+(5,2.4906252724)
+(3.96178457114,3)
+(4.56759187544,2.70277562631)
+(2.46188280304,3.73588971355)
+(2.20133085256,3.86372308523)
+(5.40357204886,2.292622626)
+(1,4.54750152545)
+(3,3.37750065377)
+(4,2.79250021792)
+(5,2.20749978208)
+(6,1.62249934623)
+(5.35470021792,2)
+(3.64529978208,3)
+(1.93589934623,4)
+(0.226498910391,5)
+(2.49839894257,3.67093749098)
+(2.1915475034,3.85044571664)
+(5.30685143917,2.02799155642)
+(1.92342975694,4.00729471517)
+(0,4.94086526402)
+(1,4.43256862996)
+(2,3.92427199591)
+(3,3.41597536185)
+(4,2.9076787278)
+(5,2.39938209374)
+(6,1.89108545969)
+(5.78572641836,2)
+(3.81837126981,3)
+(1.85101612126,4)
+(4.54376209505,2.63128628515)
+(2.17912980731,3.83322091779)
+(1.92428071637,3.96275985291)
+Elements (21):
+1x+0y=0 [1]
+1x+0y=1 [1]
+1x+0y=2 [1]
+1x+0y=3 [1]
+1x+0y=4 [1]
+1x+0y=5 [1]
+1x+0y=6 [1]
+0x+1y=0 [1]
+0x+1y=1 [1]
+0x+1y=2 [1]
+0x+1y=3 [1]
+0x+1y=4 [1]
+0x+1y=5 [1]
+-3x+1y=-11 [1]
+1.77872643187x+1y=8.1149057275 [1]
+(x-3.6567)^2+(y-2.7811)^2=1.813883155^2
+0.333333333333x+1y=4 [1]
+52.3348830449x+1y=104.66976609 [1]
+0.490625272402x+1y=4.94375163441 [1]
+0.585000435844x+1y=5.1325019613 [1]
+0.508296634055x+1y=4.94086526402 [1]
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.211692
+Solution output time:0.000144400
+Worker threads:1
+Nodes:143156
+Raw candidates:6589
+Unique candidates:4432
+Heuristic restarts:1
+Heuristic layers:2
+Expanded beam states:1
+Evaluated successors:96
+Candidate paths discarded:1250
+Beam paths discarded:95
+Tail helper calls:0
+Beam successful state visits:0
+Helper successful state visits:0
+Family-diversity discards:0
+Rendezvous proposals:5929
+Rendezvous replays:5929
+Rendezvous successful state visits:0
+Chain join calls:1
+Chain join proposals:142853
+Chain join replays:142853
+Chain join successful state visits:1
+Point join calls:0
+Point join proposals:0
+Point join replays:0
+Point join successful state visits:0
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

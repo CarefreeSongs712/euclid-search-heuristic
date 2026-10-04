@@ -1,0 +1,30 @@
+[
+  {
+    "name": "eu10_2_external_tangent",
+    "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 90
+  },
+  {
+    "name": "eu9_7_minimum_perimeter",
+    "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 90
+  },
+  {
+    "name": "eu13_5_equal_distance",
+    "input": "benchmarks/euclidea8/cases/eu13_5_equal_distance.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60
+  },
+  {
+    "name": "eu14_5_apollonius",
+    "input": "benchmarks/euclidea8/cases/eu14_5_apollonius.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60
+  }
+]

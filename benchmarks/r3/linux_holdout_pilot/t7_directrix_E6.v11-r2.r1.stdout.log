@@ -1,0 +1,166 @@
+============================================================
+brute_search v11-r2 heuristic
+Geometry EPS: 1.000e-11
+Search time limit: 90 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given point P4: enter x y.
+  Example: '0 0' means P4=(0,0).
+P4 = 
+Given point P5: enter x y.
+  Example: '0 0' means P5=(0,0).
+P5 = 
+Given point P6: enter x y.
+  Example: '0 0' means P6=(0,0).
+P6 = 
+Given point P7: enter x y.
+  Example: '0 0' means P7=(0,0).
+P7 = 
+Given line L1: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L1 (a b c) = 
+Given line L2: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L2 (a b c) = 
+Given line L3: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L3 (a b c) = 
+Given line L4: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L4 (a b c) = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target point GP1: enter x y.
+GP1 = 
+============================================================
+Search configuration
+  E limit: 6
+  Requested distinct solutions: 1
+  Tools: compass + straightedge
+  Goals: 0 line(s), 0 circle(s), 1 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 1; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-11
+  Time limit: 90 seconds
+  Worker threads: 8 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（6E） ==========
+Solution found!
+Points (42):
+(0,0)
+(0,1.83)
+(0,4.91)
+(2.73,-0.546)
+(2.73,6.1531540448)
+(0,6.1531540448)
+(-30.765770224,6.1531540448)
+(0,-1.83)
+(-1.79446263651,0.358892527303)
+(1.79446263651,-0.358892527303)
+(0,-4.91)
+(-4.81465111764,0.962930223528)
+(4.81465111764,-0.962930223528)
+(2.73,4.08107828888)
+(2.73,-4.08107828888)
+(0,-6.1531540448)
+(-6.03366395088,1.20673279018)
+(6.03366395088,-1.20673279018)
+(2.73,5.51438162436)
+(2.73,-5.51438162436)
+(2.73,4.79968875092)
+(0.396150433674,4.89399272924)
+(-3.51272251782,5.05193875773)
+(3.90887295149,4.75205397151)
+(0,15.0138775155)
+(-13.8253190012,2.76506380024)
+(5.12703002164,-1.02540600433)
+(-14.0182814364,6.1531540448)
+(6.99283640075,6.1531540448)
+(2.73,13.5729632774)
+(2.73,-3.46908576198)
+(4.60275474098,-1.70960486499)
+(-2.78626313173,-5.48616828577)
+(6.11301346075,0.701691618673)
+(-14.0672268257,5.478415151)
+(7.04178179011,4.62546236446)
+(3.96548727353,-0.793097454706)
+(-0.864391952417,6.1531540448)
+(2.73,0.983759672544)
+(-0.825695898898,6.09750202801)
+(5.42845063988,-2.897106893)
+(-7.02544503563,15.0138775155)
+Elements (10):
+1x+0y=0 [1]
+0.2x+1y=0 [1]
+0x+1y=6.1531540448 [1]
+1x+0y=2.73 [1]
+(x-0)^2+(y-0)^2=1.83^2
+(x-0)^2+(y-0)^2=4.91^2
+(x-0)^2+(y-0)^2=6.1531540448^2
+0.0404070509449x+1y=4.91 [1]
+(x--3.51272251782)^2+(y-5.05193875773)^2=10.5631171204^2
+1.43818327013x+1y=4.91 [1]
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:58.097340
+Solution output time:0.000020951
+Worker threads:8
+Nodes:85409050
+Raw candidates:874943886
+Unique candidates:603336885
+Heuristic restarts:993
+Heuristic layers:5949
+Expanded beam states:303982
+Evaluated successors:28813694
+Candidate paths discarded:518181664
+Beam paths discarded:22449457
+Tail helper calls:7909
+Beam successful state visits:0
+Helper successful state visits:1
+Family-diversity discards:0
+Rendezvous proposals:0
+Rendezvous replays:0
+Rendezvous successful state visits:0
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "t7_directrix_E6",
+    "input": "benchmarks/cases/t7_directrix_E6.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 90
+  },
+  {
+    "name": "t7_aux_BV_E5",
+    "input": "benchmarks/cases/t7_aux_BV_E5.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 90
+  },
+  {
+    "name": "t8_early_centers_E7",
+    "input": "benchmarks/cases/t8_early_centers_E7.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 90
+  }
+]

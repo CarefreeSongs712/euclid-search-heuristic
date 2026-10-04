@@ -1,0 +1,948 @@
+{
+  "kind": "r3.2_comparison",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "binaries": {
+    "r3.1": {
+      "path": ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+      "sha256": "9dee1cadc07125c1c237aab25065b3c1a68ace1853f99bdd30fdb618ccc328ec"
+    },
+    "r3.2": {
+      "path": ".\\bs_v11\\build\\bs_v11.exe",
+      "sha256": "6e15dd356b671717facc34add15a7da80e38f7dc5219da16807cc4f98e656852"
+    }
+  },
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 1.631997,
+      "nodes": 1062561,
+      "raw_candidates": 32151653,
+      "unique_candidates": 17466978,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.6526907999941614,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 9621504,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.010725799991632812,
+          "rss_bytes": 1978368,
+          "peak_rss_bytes": 1978368
+        },
+        {
+          "elapsed": 0.5260619999899063,
+          "rss_bytes": 9601024,
+          "peak_rss_bytes": 9601024
+        },
+        {
+          "elapsed": 1.0275036999955773,
+          "rss_bytes": 9486336,
+          "peak_rss_bytes": 9621504
+        },
+        {
+          "elapsed": 1.5294603999936953,
+          "rss_bytes": 9580544,
+          "peak_rss_bytes": 9621504
+        }
+      ],
+      "nodes_per_second": 651080.2409563253,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.037616,
+      "nodes": 39672,
+      "raw_candidates": 119200,
+      "unique_candidates": 80214,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.08213999999861699,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.03498669998953119,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 1054657.592513824,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.0376,
+      "nodes": 43020,
+      "raw_candidates": 121058,
+      "unique_candidates": 80905,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.2",
+      "repetition": 2,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=2",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r2.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.05269169999519363,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r2.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r2.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.008021799993002787,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 1144148.9361702127,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 2,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r2.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 2.473587,
+      "nodes": 1188158,
+      "raw_candidates": 38154951,
+      "unique_candidates": 19973475,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.1",
+      "repetition": 2,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=2",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r2.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 2.4919392000010703,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 9789440,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r2.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r2.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.009790399999474175,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        },
+        {
+          "elapsed": 0.5099693000083789,
+          "rss_bytes": 9646080,
+          "peak_rss_bytes": 9646080
+        },
+        {
+          "elapsed": 1.0132599000062328,
+          "rss_bytes": 9576448,
+          "peak_rss_bytes": 9646080
+        },
+        {
+          "elapsed": 1.5173495000053663,
+          "rss_bytes": 9609216,
+          "peak_rss_bytes": 9646080
+        },
+        {
+          "elapsed": 2.031934300001012,
+          "rss_bytes": 9789440,
+          "peak_rss_bytes": 9789440
+        }
+      ],
+      "nodes_per_second": 480338.0677534285,
+      "progress_lines": 1,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 2,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r2.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 9.653851,
+      "nodes": 4721386,
+      "raw_candidates": 151247070,
+      "unique_candidates": 82984388,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.1",
+      "repetition": 3,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=3",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r3.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 9.67902850000246,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 9842688,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r3.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r3.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.014568500002496876,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        },
+        {
+          "elapsed": 0.5149488000024576,
+          "rss_bytes": 9596928,
+          "peak_rss_bytes": 9596928
+        },
+        {
+          "elapsed": 1.0211916999978712,
+          "rss_bytes": 9601024,
+          "peak_rss_bytes": 9601024
+        },
+        {
+          "elapsed": 1.523774899993441,
+          "rss_bytes": 9502720,
+          "peak_rss_bytes": 9621504
+        },
+        {
+          "elapsed": 2.0260905000031926,
+          "rss_bytes": 9662464,
+          "peak_rss_bytes": 9662464
+        },
+        {
+          "elapsed": 2.5314115999935893,
+          "rss_bytes": 9744384,
+          "peak_rss_bytes": 9744384
+        },
+        {
+          "elapsed": 3.036620800005039,
+          "rss_bytes": 9842688,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 3.5389609999983804,
+          "rss_bytes": 9801728,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 4.052326100005303,
+          "rss_bytes": 9715712,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 4.554176100005861,
+          "rss_bytes": 9662464,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 5.064469899996766,
+          "rss_bytes": 9625600,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 5.579152899998007,
+          "rss_bytes": 9781248,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 6.0938527999969665,
+          "rss_bytes": 9678848,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 6.604596100005438,
+          "rss_bytes": 9797632,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 7.117284899999504,
+          "rss_bytes": 9797632,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 7.617942600001697,
+          "rss_bytes": 9801728,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 8.12181640000199,
+          "rss_bytes": 9826304,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 8.62399490000098,
+          "rss_bytes": 9601024,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 9.128360600007,
+          "rss_bytes": 9707520,
+          "peak_rss_bytes": 9842688
+        },
+        {
+          "elapsed": 9.632230799994431,
+          "rss_bytes": 9723904,
+          "peak_rss_bytes": 9842688
+        }
+      ],
+      "nodes_per_second": 489067.6270019084,
+      "progress_lines": 4,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 3,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.1.r3.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.006007,
+      "nodes": 39798,
+      "raw_candidates": 146396,
+      "unique_candidates": 80033,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "r3.2",
+      "repetition": 3,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=3",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r3.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.024073499997030012,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r3.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r3.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.010808999999426305,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 6625270.517729316,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu10_2_external_tangent.in",
+      "seed": 3,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu10_2_external_tangent.r3.2.r3.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 2.564255,
+      "nodes": 8302501,
+      "raw_candidates": 21756555,
+      "unique_candidates": 18749696,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 2.582407299996703,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 11284480,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.009763199996086769,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        },
+        {
+          "elapsed": 0.528684400007478,
+          "rss_bytes": 10813440,
+          "peak_rss_bytes": 11284480
+        },
+        {
+          "elapsed": 1.0336823999969056,
+          "rss_bytes": 10280960,
+          "peak_rss_bytes": 11284480
+        },
+        {
+          "elapsed": 1.53453289999743,
+          "rss_bytes": 10043392,
+          "peak_rss_bytes": 11284480
+        },
+        {
+          "elapsed": 2.0378579999960493,
+          "rss_bytes": 9981952,
+          "peak_rss_bytes": 11284480
+        },
+        {
+          "elapsed": 2.5392419999989215,
+          "rss_bytes": 9809920,
+          "peak_rss_bytes": 11284480
+        }
+      ],
+      "nodes_per_second": 3237782.9038063684,
+      "progress_lines": 1,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.016601,
+      "nodes": 90011,
+      "raw_candidates": 158584,
+      "unique_candidates": 101021,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.036551800003508106,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 1966080,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.011629100001300685,
+          "rss_bytes": 1966080,
+          "peak_rss_bytes": 1966080
+        }
+      ],
+      "nodes_per_second": 5422022.769712668,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r1.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.016181,
+      "nodes": 99524,
+      "raw_candidates": 181608,
+      "unique_candidates": 122750,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.2",
+      "repetition": 2,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=2",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r2.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.03761109999322798,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r2.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r2.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.011289599991869181,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 6150670.539521661,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 2,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r2.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 9.720514,
+      "nodes": 22942194,
+      "raw_candidates": 72225251,
+      "unique_candidates": 62399122,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.1",
+      "repetition": 2,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=2",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r2.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 9.740212600008817,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 11276288,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r2.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r2.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.010990299997502007,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        },
+        {
+          "elapsed": 0.5109488000016427,
+          "rss_bytes": 10293248,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 1.0133987000008347,
+          "rss_bytes": 10821632,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 1.5278618000011193,
+          "rss_bytes": 10219520,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 2.041815000004135,
+          "rss_bytes": 9818112,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 2.5432300999964355,
+          "rss_bytes": 9617408,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 3.0600465000024997,
+          "rss_bytes": 9572352,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 3.571517500007758,
+          "rss_bytes": 9908224,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 4.076782200005255,
+          "rss_bytes": 9535488,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 4.592905600002268,
+          "rss_bytes": 9555968,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 5.099172900008853,
+          "rss_bytes": 10153984,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 5.598859300007462,
+          "rss_bytes": 9932800,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 6.111054399996647,
+          "rss_bytes": 9822208,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 6.613497300000745,
+          "rss_bytes": 9834496,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 7.116550200007623,
+          "rss_bytes": 9740288,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 7.622314899999765,
+          "rss_bytes": 9723904,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 8.126995900005568,
+          "rss_bytes": 10313728,
+          "peak_rss_bytes": 11243520
+        },
+        {
+          "elapsed": 8.641827600004035,
+          "rss_bytes": 10412032,
+          "peak_rss_bytes": 11276288
+        },
+        {
+          "elapsed": 9.15595939999912,
+          "rss_bytes": 9830400,
+          "peak_rss_bytes": 11276288
+        },
+        {
+          "elapsed": 9.660816000003251,
+          "rss_bytes": 9863168,
+          "peak_rss_bytes": 11276288
+        }
+      ],
+      "nodes_per_second": 2360183.2166488315,
+      "progress_lines": 4,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 2,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r2.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 1.464663,
+      "nodes": 6717075,
+      "raw_candidates": 14701806,
+      "unique_candidates": 12600194,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.1",
+      "repetition": 3,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=3",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r3.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.4803819999942789,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 11001856,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r3.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r3.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.00862799999595154,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        },
+        {
+          "elapsed": 0.5191325999912806,
+          "rss_bytes": 10645504,
+          "peak_rss_bytes": 11001856
+        },
+        {
+          "elapsed": 1.0313633999903686,
+          "rss_bytes": 9646080,
+          "peak_rss_bytes": 11001856
+        }
+      ],
+      "nodes_per_second": 4586089.086704587,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 3,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.1.r3.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.022057,
+      "nodes": 132120,
+      "raw_candidates": 258135,
+      "unique_candidates": 184144,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "r3.2",
+      "repetition": 3,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=90",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=3",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r3.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.042559399997117,
+      "external_timeout": false,
+      "time_limit": 90,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r3.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r3.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.012958999999682419,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 5989935.167973886,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/r32/cases/eu9_7_minimum_perimeter.in",
+      "seed": 3,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_release_final\\eu9_7_minimum_perimeter.r3.2.r3.certificate.json",
+      "returned_E": [
+        8
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 1,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+============================================================
+brute_search v11 heuristic
+Geometry EPS: 1.000e-11
+Search time limit: 15 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given point P4: enter x y.
+  Example: '0 0' means P4=(0,0).
+P4 = 
+Given point P5: enter x y.
+  Example: '0 0' means P5=(0,0).
+P5 = 
+Given point P6: enter x y.
+  Example: '0 0' means P6=(0,0).
+P6 = 
+Given point P7: enter x y.
+  Example: '0 0' means P7=(0,0).
+P7 = 
+Given point P8: enter x y.
+  Example: '0 0' means P8=(0,0).
+P8 = 
+Given point P9: enter x y.
+  Example: '0 0' means P9=(0,0).
+P9 = 
+Given point P10: enter x y.
+  Example: '0 0' means P10=(0,0).
+P10 = 
+Given point P11: enter x y.
+  Example: '0 0' means P11=(0,0).
+P11 = 
+Given point P12: enter x y.
+  Example: '0 0' means P12=(0,0).
+P12 = 
+Given point P13: enter x y.
+  Example: '0 0' means P13=(0,0).
+P13 = 
+Given point P14: enter x y.
+  Example: '0 0' means P14=(0,0).
+P14 = 
+Given point P15: enter x y.
+  Example: '0 0' means P15=(0,0).
+P15 = 
+Given point P16: enter x y.
+  Example: '0 0' means P16=(0,0).
+P16 = 
+Given point P17: enter x y.
+  Example: '0 0' means P17=(0,0).
+P17 = 
+Given point P18: enter x y.
+  Example: '0 0' means P18=(0,0).
+P18 = 
+Given point P19: enter x y.
+  Example: '0 0' means P19=(0,0).
+P19 = 
+Given point P20: enter x y.
+  Example: '0 0' means P20=(0,0).
+P20 = 
+Given point P21: enter x y.
+  Example: '0 0' means P21=(0,0).
+P21 = 
+Given point P22: enter x y.
+  Example: '0 0' means P22=(0,0).
+P22 = 
+Given point P23: enter x y.
+  Example: '0 0' means P23=(0,0).
+P23 = 
+Given point P24: enter x y.
+  Example: '0 0' means P24=(0,0).
+P24 = 
+Given point P25: enter x y.
+  Example: '0 0' means P25=(0,0).
+P25 = 
+Given point P26: enter x y.
+  Example: '0 0' means P26=(0,0).
+P26 = 
+Given point P27: enter x y.
+  Example: '0 0' means P27=(0,0).
+P27 = 
+Given point P28: enter x y.
+  Example: '0 0' means P28=(0,0).
+P28 = 
+Given point P29: enter x y.
+  Example: '0 0' means P29=(0,0).
+P29 = 
+Given point P30: enter x y.
+  Example: '0 0' means P30=(0,0).
+P30 = 
+Given point P31: enter x y.
+  Example: '0 0' means P31=(0,0).
+P31 = 
+Given point P32: enter x y.
+  Example: '0 0' means P32=(0,0).
+P32 = 
+Given point P33: enter x y.
+  Example: '0 0' means P33=(0,0).
+P33 = 
+Given point P34: enter x y.
+  Example: '0 0' means P34=(0,0).
+P34 = 
+Given point P35: enter x y.
+  Example: '0 0' means P35=(0,0).
+P35 = 
+Given point P36: enter x y.
+  Example: '0 0' means P36=(0,0).
+P36 = 
+Given point P37: enter x y.
+  Example: '0 0' means P37=(0,0).
+P37 = 
+Given point P38: enter x y.
+  Example: '0 0' means P38=(0,0).
+P38 = 
+Given point P39: enter x y.
+  Example: '0 0' means P39=(0,0).
+P39 = 
+Given point P40: enter x y.
+  Example: '0 0' means P40=(0,0).
+P40 = 
+Given point P41: enter x y.
+  Example: '0 0' means P41=(0,0).
+P41 = 
+Given point P42: enter x y.
+  Example: '0 0' means P42=(0,0).
+P42 = 
+Given point P43: enter x y.
+  Example: '0 0' means P43=(0,0).
+P43 = 
+Given point P44: enter x y.
+  Example: '0 0' means P44=(0,0).
+P44 = 
+Given point P45: enter x y.
+  Example: '0 0' means P45=(0,0).
+P45 = 
+Given point P46: enter x y.
+  Example: '0 0' means P46=(0,0).
+P46 = 
+Given line L1: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L1 (a b c) = 
+Given line L2: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L2 (a b c) = 
+Given line L3: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L3 (a b c) = 
+Given line L4: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L4 (a b c) = 
+Given line L5: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L5 (a b c) = 
+Given line L6: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L6 (a b c) = 
+Given line L7: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L7 (a b c) = 
+Given line L8: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L8 (a b c) = 
+Given line L9: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L9 (a b c) = 
+Given line L10: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L10 (a b c) = 
+Given line L11: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L11 (a b c) = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+Given circle C2: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C2 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target point GP1: enter x y.
+GP1 = 
+Target point GP2: enter x y.
+GP2 = 
+============================================================
+Search configuration
+  E limit: 4
+  Requested distinct solutions: 1
+  Tools: straightedge only
+  Goals: 0 line(s), 0 circle(s), 2 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 3; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-11
+  Time limit: 15 seconds
+  Worker threads: 8 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（4E） ==========
+Solution found!
+Points (82):
+(1.37,0)
+(0.417461673951,1.30484702198)
+(3.19,0)
+(-0.972045795551,-3.03829343075)
+(0,0)
+(6.57628105838,-7.13189186079)
+(1.59118061557,-0.302987144622)
+(2.0027079392,-0.866723204384)
+(2.33715654473,1.25467460199)
+(0.842847326487,-0.683865579392)
+(1.8544982151,0.62853072598)
+(2.211921987,0.460315433891)
+(6.55734905807,-1.58478436497)
+(1.09827276592,0.372229087776)
+(5.95457056493,2.0181365124)
+(0.716669374131,0.242895203857)
+(2.34908494824,0.796157179276)
+(0.998182908073,0)
+(0.215934236934,0.674938955093)
+(1.22148339785,-0.192667887849)
+(-1.6320484252,2.26941336333)
+(7.40388502665,-5.526960996)
+(1.4280970558,-0.370938061452)
+(2.18324587455,0)
+(6.25706392343,19.5575108718)
+(2.48437592833,1.44565963178)
+(2.27312902999,0.431509401881)
+(0.54797429771,-7.85058175369)
+(2.15747157115,-0.12373680242)
+(2.03732582078,0)
+(0.504918868122,1.57820926452)
+(-0.651542371719,2.76923612564)
+(2.51545375287,-0.492418760403)
+(1.66532493497,0.383119668948)
+(1.06731278856,0.999005878633)
+(1.53287716119,0.519526191567)
+(1.8936019818,0.148019619604)
+(0.533705247795,1.54856248498)
+(1.70895615209,0)
+(0.829848662176,2.593832256)
+(1.60543891484,0.305430623801)
+(1.42788491664,0.829308867373)
+(1.69101973926,0.0529219085078)
+(1.04898026074,1.94727809149)
+(4.59267201808,-8.50848766063)
+(1.78732798192,-0.231238366766)
+(-6.01484418681,10.1162249134)
+(2.20470600629,1.0828489265)
+(2.43811390945,0.826331076001)
+(11.1967941461,-8.79955475335)
+(2.37078362676,0.900327796574)
+(20.3644024178,-18.8748569868)
+(1.37,2.0002)
+(2.36565936019,0.905959421835)
+(7.54045996636,-4.78120331028)
+(1.37,4.28216655962)
+(1.37,-1.3286)
+(1.37,0.856551398298)
+(1.37,0.464323496017)
+(1.37,-0.320810822402)
+(1.37,-3.90421585896)
+(1.37,0.68727160953)
+(1.37,1.0001)
+(1.37,-0.397042509511)
+(1.37,-8.34268351789)
+(1.61016425307,-1.15328009526)
+(1.17224673203,0.949620540166)
+(1.27968172569,0.43371262238)
+(1.45144001673,-0.391078809839)
+(1.7765693452,-1.95236521331)
+(1.18780413637,0.874913149166)
+(0.970781733467,1.91706498606)
+(1.44564529815,-0.363252297316)
+(3.19,-8.7397260274)
+(3.19,9.97088417898)
+(3.19,-2.49315068493)
+(3.19,2.36105291129)
+(3.19,1.08116200897)
+(3.19,-1.89114126027)
+(3.19,4.83320671602)
+(3.19,-1.18712660855)
+(3.19,-4.3698630137)
+Elements (17):
+0x+1y=0 [1]
+-3.12566902162x+1y=0 [1]
+1.3698630137x+1y=1.87671232877 [1]
+-0.73x+1y=-2.3287 [1]
+-1.29728181939x+1y=-1.77727609257 [1]
+0.470632636427x+1y=1.5013181102 [1]
+-0.338922259866x+1y=0 [1]
+0.862818921905x+1y=0.861251100607 [1]
+-4.8007816346x+1y=-10.4812866984 [1]
+1.02988913081x+1y=2.09821971874 [1]
+2.95052912841x+1y=5.04232490592 [1]
+(x-1.37)^2+(y-1.0001)^2=1.0001^2
+(x-3.19)^2+(y--4.3698630137)^2=4.3698630137^2
+1.09901098901x+1y=3.50584505495 [1]
+1x+0y=1.37 [1]
+4.8020472678x+1y=6.57880475689 [1]
+1x+0y=3.19 [1]
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.008313
+Solution output time:0.000030620
+Worker threads:8
+Nodes:34205
+Raw candidates:557122
+Unique candidates:394711
+Heuristic restarts:8
+Heuristic layers:17
+Expanded beam states:363
+Evaluated successors:34176
+Candidate paths discarded:360512
+Beam paths discarded:33820
+Tail helper calls:1
+Beam successful state visits:0
+Helper successful state visits:1
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

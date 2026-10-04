@@ -1,0 +1,1 @@
+[progress] E<=8 phase=draining-prefixes elapsed=2.0s nodes=18144464 rate=9026580.1/s candidates(raw/unique)=29342700/18144438 threads=8 active=8 depth~=5 prefixes=21/83 exhaustion ETA~5.9s (rough/workload-biased estimate, completed prefixes) budget-left=88.0s (timeout budget, not exhaustion ETA)

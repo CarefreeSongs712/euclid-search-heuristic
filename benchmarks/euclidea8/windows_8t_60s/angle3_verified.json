@@ -1,0 +1,485 @@
+{
+  "verifier": "independent-mpmath-v11",
+  "passed": true,
+  "status": "PASS_ORIGINAL_EPS",
+  "exact_proof": false,
+  "precision": 100,
+  "working_precision": 120,
+  "numeric_model": "Input decimal tokens; recomputed high-precision geometry, not C++ binary64",
+  "limitations": "Numerical instance verification only, not symbolic, interval-certified, or a generic proof",
+  "goal_metric": "Strict absolute L-infinity: point coordinates; circle (cx,cy,r^2); line coefficients in target b=1/a=1 scale without EPS snapping",
+  "witness_policy": "Nearest currently known high-precision point within componentwise scaled match tolerance; exported coordinates never become geometry",
+  "range_policy": "Closed rays/segments with working-roundoff slack; strictly closed grid; no EPS-created tangencies",
+  "acceptance": "original_eps",
+  "original_eps": "0.0000000000099999999999999994",
+  "tolerance": "0.00000001",
+  "match_tolerance": "0.00000001",
+  "original_eps_verdict": "PASS",
+  "tolerance_verdict": "PASS",
+  "input_layout": "compact",
+  "mode": 2,
+  "budget": 7,
+  "solution_count": 1,
+  "max_match_error": "0.0000000000000009517954131656343618822796908201942371378645513772947395371810975502927927958106088625152459119246131",
+  "max_relative_match_error": "0.00000000000000078",
+  "solutions": [
+    {
+      "legal": true,
+      "passed": true,
+      "status": "PASS_ORIGINAL_EPS",
+      "E": 7,
+      "step_count": 7,
+      "budget": 7,
+      "goals": [
+        {
+          "type": "line",
+          "goal_index": 0,
+          "target": [
+            "-0.05240777928304120403880582447398437495342492780994738447344491535303616089373808045262779321874367881",
+            "1.0",
+            "0.0"
+          ],
+          "nearest_index": 7,
+          "nearest_value": [
+            "-0.05240777928304120403880582447398437495342492780994738447344491535303616089373808045262779321840470574",
+            "1.0",
+            "0.0"
+          ],
+          "residual": "3.389730620284458688812281722477361472201875338341131955166598767964399589832451088979571287399933156e-94",
+          "component_residuals": [
+            "3.389730620284458688812281722477361472201875338341131955166598767964399589832451088979571287399933156e-94",
+            "0.0",
+            "0.0"
+          ],
+          "resolution_indicator": "1.0e-100",
+          "original_eps_verdict": "PASS",
+          "tolerance_verdict": "PASS"
+        }
+      ],
+      "original_eps_verdict": "PASS",
+      "tolerance_verdict": "PASS",
+      "initial_point_count": 2,
+      "initial_element_count": 1,
+      "final_point_count": 26,
+      "final_element_count": 8,
+      "max_match_error": "0.0000000000000009517954131656343618822796908201942371378645513772947395371810975502927927958106088625152459119246131",
+      "max_relative_match_error": "0.00000000000000078",
+      "max_element_error": "0.000000000000005910772478993806171293678144921165422827187308263768437223086585301756756774863653175091475471547679",
+      "max_relative_element_error": "0.0000000000000009",
+      "multiple_candidate_witness_matches": 0,
+      "roundoff_tangencies": 0,
+      "filtered_grid_intersections": 0,
+      "filtered_bounded_intersections": 1,
+      "steps": [
+        {
+          "step": 1,
+          "type": "circle",
+          "first": {
+            "point_index": 1,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 1
+            },
+            "printed": [
+              "1.0",
+              "0.0"
+            ],
+            "matched": [
+              "1.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 0,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 0
+            },
+            "printed": [
+              "0.0",
+              "0.0"
+            ],
+            "matched": [
+              "0.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "1.0",
+            "0.0",
+            "1.0"
+          ],
+          "exported_element": [
+            "1.0",
+            "0.0",
+            "1.0"
+          ],
+          "element_absolute_error": "0.0",
+          "element_relative_error": "0.0",
+          "new_point_count": 1,
+          "known_point_count": 3
+        },
+        {
+          "step": 2,
+          "type": "circle",
+          "first": {
+            "point_index": 2,
+            "birth_step": 1,
+            "origin": {
+              "intersection": [
+                0,
+                1
+              ]
+            },
+            "printed": [
+              "2.0",
+              "0.0"
+            ],
+            "matched": [
+              "2.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 1,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 1
+            },
+            "printed": [
+              "1.0",
+              "0.0"
+            ],
+            "matched": [
+              "1.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "2.0",
+            "0.0",
+            "1.0"
+          ],
+          "exported_element": [
+            "2.0",
+            "0.0",
+            "1.0"
+          ],
+          "element_absolute_error": "0.0",
+          "element_relative_error": "0.0",
+          "new_point_count": 3,
+          "known_point_count": 6
+        },
+        {
+          "step": 3,
+          "type": "circle",
+          "first": {
+            "point_index": 3,
+            "birth_step": 2,
+            "origin": {
+              "intersection": [
+                0,
+                2
+              ]
+            },
+            "printed": [
+              "3.0",
+              "0.0"
+            ],
+            "matched": [
+              "3.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 4,
+            "birth_step": 2,
+            "origin": {
+              "intersection": [
+                1,
+                2
+              ]
+            },
+            "printed": [
+              "1.5",
+              "0.8660254037844386"
+            ],
+            "matched": [
+              "1.5",
+              "0.8660254037844386467637231707529361834714026269051903140279034897259665084544000185405730933786242878"
+            ],
+            "absolute_error": "0.00000000000000004676372317075293618347140262690519031402790348972596650845440001854057309337862428783781307070770335",
+            "relative_error": "0.00000000000000004676372317075293618347140262690519031402790348972596650845440001854057309337862428783781307070770335",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "3.0",
+            "0.0",
+            "3.0"
+          ],
+          "exported_element": [
+            "3.0",
+            "0.0",
+            "3.0"
+          ],
+          "element_absolute_error": "0.0",
+          "element_relative_error": "0.0",
+          "new_point_count": 2,
+          "known_point_count": 8
+        },
+        {
+          "step": 4,
+          "type": "line",
+          "first": {
+            "point_index": 4,
+            "birth_step": 2,
+            "origin": {
+              "intersection": [
+                1,
+                2
+              ]
+            },
+            "printed": [
+              "1.5",
+              "0.8660254037844386"
+            ],
+            "matched": [
+              "1.5",
+              "0.8660254037844386467637231707529361834714026269051903140279034897259665084544000185405730933786242878"
+            ],
+            "absolute_error": "0.00000000000000004676372317075293618347140262690519031402790348972596650845440001854057309337862428783781307070770335",
+            "relative_error": "0.00000000000000004676372317075293618347140262690519031402790348972596650845440001854057309337862428783781307070770335",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 6,
+            "birth_step": 3,
+            "origin": {
+              "intersection": [
+                0,
+                3
+              ]
+            },
+            "printed": [
+              "4.7320508075688767",
+              "0.0"
+            ],
+            "matched": [
+              "4.732050807568877293527446341505872366942805253810380628055806979451933016908800037081146186757248576",
+              "0.0"
+            ],
+            "absolute_error": "0.0000000000000005935274463415058723669428052538103806280558069794519330169088000370811461867572485756756261414154067",
+            "relative_error": "0.0000000000000001254271077124031476605689392378108106029164933359306778234468025540252650172640351517609157539208536",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "0.2679491924311227064725536584941276330571947461896193719441930205480669830911999629188538132427514243",
+            "1.0",
+            "1.267949192431122706472553658494127633057194746189619371944193020548066983091199962918853813242751424"
+          ],
+          "exported_element": [
+            "0.26794919243112275",
+            "1.0",
+            "1.2679491924311226"
+          ],
+          "element_absolute_error": "0.0000000000000001064725536584941276330571947461896193719441930205480669830911999629188538132427514243243738585845933",
+          "element_relative_error": "0.00000000000000008397225558726629287182820715968553945152129930102315141304881678633630413653345756888567806751778077",
+          "new_point_count": 2,
+          "known_point_count": 10
+        },
+        {
+          "step": 5,
+          "type": "line",
+          "first": {
+            "point_index": 2,
+            "birth_step": 1,
+            "origin": {
+              "intersection": [
+                0,
+                1
+              ]
+            },
+            "printed": [
+              "2.0",
+              "0.0"
+            ],
+            "matched": [
+              "2.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 8,
+            "birth_step": 4,
+            "origin": {
+              "intersection": [
+                1,
+                4
+              ]
+            },
+            "printed": [
+              "0.99999999999999922",
+              "1.0"
+            ],
+            "matched": [
+              "1.0",
+              "1.0"
+            ],
+            "absolute_error": "0.00000000000000078",
+            "relative_error": "0.00000000000000078",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "1.0",
+            "1.0",
+            "2.0"
+          ],
+          "exported_element": [
+            "0.99999999999999911",
+            "1.0",
+            "1.9999999999999982"
+          ],
+          "element_absolute_error": "0.0000000000000018",
+          "element_relative_error": "0.0000000000000009",
+          "new_point_count": 4,
+          "known_point_count": 14
+        },
+        {
+          "step": 6,
+          "type": "circle",
+          "first": {
+            "point_index": 0,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 0
+            },
+            "printed": [
+              "0.0",
+              "0.0"
+            ],
+            "matched": [
+              "0.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 13,
+            "birth_step": 5,
+            "origin": {
+              "intersection": [
+                3,
+                5
+              ]
+            },
+            "printed": [
+              "3.6180339887498958",
+              "-1.6180339887498945"
+            ],
+            "matched": [
+              "3.618033988749894848204586834365638117720309179805762862135448622705260462818902449707207204189391137",
+              "-1.618033988749894848204586834365638117720309179805762862135448622705260462818902449707207204189391137"
+            ],
+            "absolute_error": "0.0000000000000009517954131656343618822796908201942371378645513772947395371810975502927927958106088625152459119246131",
+            "relative_error": "0.0000000000000002630697821317314383268804268874954465775252533281852015792724480242895432320846352449623678596563152",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "0.0",
+            "0.0",
+            "15.70820393249936908922752100619382870632185507883457717281269173623156277691341469824324322513634682"
+          ],
+          "exported_element": [
+            "0.0",
+            "0.0",
+            "15.708203932499375"
+          ],
+          "element_absolute_error": "0.000000000000005910772478993806171293678144921165422827187308263768437223086585301756756774863653175091475471547679",
+          "element_relative_error": "0.0000000000000003762856978680265392495944832939414360623463354480044342703367553235816584498586112758071449938247138",
+          "new_point_count": 5,
+          "known_point_count": 19
+        },
+        {
+          "step": 7,
+          "type": "line",
+          "first": {
+            "point_index": 0,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 0
+            },
+            "printed": [
+              "0.0",
+              "0.0"
+            ],
+            "matched": [
+              "0.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 16,
+            "birth_step": 6,
+            "origin": {
+              "intersection": [
+                4,
+                6
+              ]
+            },
+            "printed": [
+              "3.9579260149906803",
+              "0.2074261130122379"
+            ],
+            "matched": [
+              "3.957926014990679837874257249323311927809718972538019385143868583271245695957393348398597668814406996",
+              "0.2074261130122383807825445560208833752710683841365210586130376974349172716691569892572801796923731304"
+            ],
+            "absolute_error": "0.0000000000000004807825445560208833752710683841365210586130376974349172716691569892572801796923731304324004739696313",
+            "relative_error": "0.0000000000000004807825445560208833752710683841365210586130376974349172716691569892572801796923731304324004739696313",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "-0.05240777928304120403880582447398437495342492780994738447344491535303616089373808045262779321840470574",
+            "1.0",
+            "0.0"
+          ],
+          "exported_element": [
+            "-0.052407779283041078",
+            "1.0",
+            "0.0"
+          ],
+          "element_absolute_error": "0.0000000000000001260388058244739843749534249278099473844734449153530361608937380804526277932184047057439055765741239",
+          "element_relative_error": "0.0000000000000001260388058244739843749534249278099473844734449153530361608937380804526277932184047057439055765741239",
+          "new_point_count": 7,
+          "known_point_count": 26
+        }
+      ],
+      "solution_index": 0
+    }
+  ],
+  "input": ".\\bs_v11\\benchmarks\\euclidea8\\cases\\eu15_10_angle3.in",
+  "certificate": ".\\bs_v11\\benchmarks\\euclidea8\\windows_8t_60s\\eu15_10_angle3.v11-r3.r1.certificate.json"
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "name": "eu10_2_external_tangent_E9_control",
+    "input": "benchmarks/r32/cases/eu10_2_external_tangent_E9_control.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 60
+  }
+]

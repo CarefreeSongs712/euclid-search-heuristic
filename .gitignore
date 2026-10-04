@@ -1,0 +1,8 @@
+/build/
+/.cache/
+__pycache__/
+*.pyc
+*.gcda
+*.gcno
+*.profraw
+*.profdata

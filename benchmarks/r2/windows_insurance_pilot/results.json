@@ -1,0 +1,166 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 7.552878,
+      "nodes": 2013799,
+      "raw_candidates": 144225642,
+      "unique_candidates": 61824299,
+      "solutions": 1,
+      "name": "t1_E5_seed2",
+      "label": "optimized",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11_r2pre.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-10",
+        "--time-limit=45",
+        "--no-pause",
+        "--raw-output",
+        "--seed=2"
+      ],
+      "returncode": 0,
+      "wall_seconds": 7.589206700002251,
+      "external_timeout": false,
+      "time_limit": 45,
+      "threads": 8,
+      "input_sha256": "20f9f96565aa50ed1e6c5326a37dc298b9d6be4070fbf6cd4ae70939d093eadc",
+      "peak_rss_bytes": 19169280,
+      "stdout": "bs_v11\\benchmarks\\r2\\windows_insurance_pilot\\t1_E5_seed2.optimized.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r2\\windows_insurance_pilot\\t1_E5_seed2.optimized.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.027885499999683816,
+          "rss_bytes": 2400256,
+          "peak_rss_bytes": 2400256
+        },
+        {
+          "elapsed": 0.5331784000009065,
+          "rss_bytes": 10076160,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 1.0355526999992435,
+          "rss_bytes": 10694656,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 1.5398156000010204,
+          "rss_bytes": 10702848,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 2.044137500000943,
+          "rss_bytes": 10776576,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 2.5471185999995214,
+          "rss_bytes": 10555392,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 3.049667999999656,
+          "rss_bytes": 10592256,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 3.5523126000043703,
+          "rss_bytes": 10702848,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 4.053861000000325,
+          "rss_bytes": 10911744,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 4.557443300000159,
+          "rss_bytes": 10956800,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 5.057932900002925,
+          "rss_bytes": 10948608,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 5.573852100002114,
+          "rss_bytes": 11071488,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 6.07669259999966,
+          "rss_bytes": 11071488,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 6.581322700003511,
+          "rss_bytes": 11157504,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 7.084650900003908,
+          "rss_bytes": 11157504,
+          "peak_rss_bytes": 19169280
+        },
+        {
+          "elapsed": 7.588660000001255,
+          "rss_bytes": 4833280,
+          "peak_rss_bytes": 19169280
+        }
+      ],
+      "nodes_per_second": 266626.708388511,
+      "progress_lines": 3,
+      "eta_samples": []
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.311911,
+      "nodes": 857819,
+      "raw_candidates": 6261872,
+      "unique_candidates": 4384996,
+      "solutions": 1,
+      "name": "t5_J_E6",
+      "label": "optimized",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11_r2pre.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=45",
+        "--no-pause",
+        "--raw-output"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.32589549999829615,
+      "external_timeout": false,
+      "time_limit": 45,
+      "threads": 8,
+      "input_sha256": "56c009e998692847087a3f24cd1188e82abe27075f92e7409a50179c25009284",
+      "peak_rss_bytes": 1966080,
+      "stdout": "bs_v11\\benchmarks\\r2\\windows_insurance_pilot\\t5_J_E6.optimized.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r2\\windows_insurance_pilot\\t5_J_E6.optimized.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.008091299998341128,
+          "rss_bytes": 1966080,
+          "peak_rss_bytes": 1966080
+        }
+      ],
+      "nodes_per_second": 2750204.3852252727,
+      "progress_lines": 0,
+      "eta_samples": []
+    }
+  ],
+  "executables": {
+    "optimized": {
+      "path": ".\\bs_v11\\build\\bs_v11_r2pre.exe",
+      "sha256": "94e643b0bb9536cf212009ea53746a03e7e7b427fded59635fadd80b0c1a0550"
+    }
+  }
+}

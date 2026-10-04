@@ -1,0 +1,130 @@
+============================================================
+brute_search v11-r2 heuristic
+Geometry EPS: 1.000e-11
+Search time limit: 90 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+Given circle C2: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C2 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target point GP1: enter x y.
+GP1 = 
+============================================================
+Search configuration
+  E limit: 6
+  Requested distinct solutions: 1
+  Tools: compass + straightedge
+  Goals: 0 line(s), 0 circle(s), 1 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 1; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-11
+  Time limit: 90 seconds
+  Worker threads: 1 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（6E） ==========
+Solution found!
+Points (29):
+(0,0)
+(1.21,0)
+(-3.7,0)
+(3.7,0)
+(-0.22,0)
+(2.64,0)
+(2.42,0)
+(2.59851239669,2.63395773015)
+(2.59851239669,-2.63395773015)
+(5.06,0)
+(0.365,1.1536355577)
+(0.365,-1.1536355577)
+(-1.21,0)
+(0.605,1.04789073858)
+(0.605,-1.04789073858)
+(0.0725,1.20782604294)
+(0.0725,-1.20782604294)
+(-0.137024793388,3.69746185998)
+(-0.137024793388,-3.69746185998)
+(-5.06,0)
+(1.68666666667,2.53610374832)
+(1.68666666667,-2.53610374832)
+(0.861299361695,-1.3868337553)
+(1.9808744268,1.20443041231)
+(1.46049125856,0)
+(0.949920896794,-1.18171860444)
+(1.8922528917,0.999315261449)
+(0.624347576992,-1.9352602863)
+(2.2178262115,1.75285694331)
+Elements (8):
+(x-0)^2+(y-0)^2=3.7^2
+(x-1.21)^2+(y-0)^2=1.43^2
+0x+1y=0 [1]
+(x-1.21)^2+(y-0)^2=1.21^2
+(x-2.42)^2+(y-0)^2=2.64^2
+(x-0)^2+(y-0)^2=1.21^2
+(x--1.21)^2+(y-0)^2=3.85^2
+-2.31450685923x+1y=-3.3803170358 [1]
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:28.370643
+Solution output time:0.000013200
+Worker threads:1
+Nodes:21376361
+Raw candidates:166921122
+Unique candidates:145149590
+Heuristic restarts:896
+Heuristic layers:5376
+Expanded beam states:212313
+Evaluated successors:18567107
+Candidate paths discarded:123781441
+Beam paths discarded:12854559
+Tail helper calls:7168
+Beam successful state visits:1
+Helper successful state visits:0
+Family-diversity discards:0
+Rendezvous proposals:0
+Rendezvous replays:0
+Rendezvous successful state visits:0
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

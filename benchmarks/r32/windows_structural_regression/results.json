@@ -1,0 +1,699 @@
+{
+  "kind": "r3.2_comparison",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "binaries": {
+    "r3.1": {
+      "path": ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+      "sha256": "9dee1cadc07125c1c237aab25065b3c1a68ace1853f99bdd30fdb618ccc328ec"
+    },
+    "r3.2": {
+      "path": ".\\bs_v11\\build\\bs_v11.exe",
+      "sha256": "6e15dd356b671717facc34add15a7da80e38f7dc5219da16807cc4f98e656852"
+    }
+  },
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.003268,
+      "nodes": 10720,
+      "raw_candidates": 50492,
+      "unique_candidates": 7578,
+      "solutions": 1,
+      "name": "equal3",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=30",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_structural_regression\\equal3.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.07343899999978021,
+      "external_timeout": false,
+      "time_limit": 30,
+      "threads": 8,
+      "input_sha256": "e7ac623ee6e01931c1e30fa3a3e56c7cfa460d8c373c2d9566bf277671e8fae6",
+      "peak_rss_bytes": 1978368,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\equal3.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\equal3.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.04621980000229087,
+          "rss_bytes": 1978368,
+          "peak_rss_bytes": 1978368
+        }
+      ],
+      "nodes_per_second": 3280293.7576499386,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/euclidea8/cases/eu15_4_three_equal.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\equal3.r3.1.r1.certificate.json",
+      "returned_E": [
+        7
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 1,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.004299,
+      "nodes": 17005,
+      "raw_candidates": 85451,
+      "unique_candidates": 16855,
+      "solutions": 1,
+      "name": "equal3",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=30",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_structural_regression\\equal3.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.08964400000695605,
+      "external_timeout": false,
+      "time_limit": 30,
+      "threads": 8,
+      "input_sha256": "e7ac623ee6e01931c1e30fa3a3e56c7cfa460d8c373c2d9566bf277671e8fae6",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\equal3.r3.2.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\equal3.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.06489989999681711,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 3955571.063037916,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/euclidea8/cases/eu15_4_three_equal.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\equal3.r3.2.r1.certificate.json",
+      "returned_E": [
+        7
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 1,
+      "prerequisite": 0,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 13.791978,
+      "nodes": 19484010,
+      "raw_candidates": 116232471,
+      "unique_candidates": 100147677,
+      "solutions": 1,
+      "name": "hypotenuse",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=30",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_structural_regression\\hypotenuse.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 13.829183800000465,
+      "external_timeout": false,
+      "time_limit": 30,
+      "threads": 8,
+      "input_sha256": "bb094793eee393634e9360f078f35d7e480067aae39e6dc0c7ceb53e8e2a76f2",
+      "peak_rss_bytes": 16769024,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\hypotenuse.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\hypotenuse.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.01864239999849815,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        },
+        {
+          "elapsed": 0.5327473999932408,
+          "rss_bytes": 10584064,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 1.036735999994562,
+          "rss_bytes": 13090816,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 1.5382810000010068,
+          "rss_bytes": 10665984,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 2.041237800003728,
+          "rss_bytes": 10534912,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 2.5566208999953233,
+          "rss_bytes": 11030528,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 3.061065100002452,
+          "rss_bytes": 13860864,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 3.5652641000051517,
+          "rss_bytes": 11161600,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 4.07330180000281,
+          "rss_bytes": 11169792,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 4.578047599992715,
+          "rss_bytes": 10911744,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 5.082721099999617,
+          "rss_bytes": 10936320,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 5.584913600003347,
+          "rss_bytes": 10838016,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 6.085106300000916,
+          "rss_bytes": 10809344,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 6.592120100001921,
+          "rss_bytes": 10874880,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 7.098214099998586,
+          "rss_bytes": 11231232,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 7.603463899999042,
+          "rss_bytes": 11059200,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 8.104245499998797,
+          "rss_bytes": 10973184,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 8.608745599995018,
+          "rss_bytes": 10977280,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 9.108792099999846,
+          "rss_bytes": 11264000,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 9.622071100005996,
+          "rss_bytes": 11317248,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 10.126032700005453,
+          "rss_bytes": 11059200,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 10.6313375000027,
+          "rss_bytes": 11087872,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 11.134210799995344,
+          "rss_bytes": 12443648,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 11.63529770000605,
+          "rss_bytes": 11190272,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 12.136682099997415,
+          "rss_bytes": 14372864,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 12.640730999992229,
+          "rss_bytes": 11190272,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 13.146042799999123,
+          "rss_bytes": 11276288,
+          "peak_rss_bytes": 16769024
+        },
+        {
+          "elapsed": 13.648316299993894,
+          "rss_bytes": 11300864,
+          "peak_rss_bytes": 16769024
+        }
+      ],
+      "nodes_per_second": 1412705.9947456412,
+      "progress_lines": 6,
+      "eta_samples": [],
+      "input": "benchmarks/euclidea8/cases/eu14_3_hypotenuse_touch.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\hypotenuse.r3.1.r1.certificate.json",
+      "returned_E": [
+        9
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 10.417663,
+      "nodes": 17146012,
+      "raw_candidates": 97709745,
+      "unique_candidates": 84471454,
+      "solutions": 1,
+      "name": "hypotenuse",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=30",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_structural_regression\\hypotenuse.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 10.46790570000303,
+      "external_timeout": false,
+      "time_limit": 30,
+      "threads": 8,
+      "input_sha256": "bb094793eee393634e9360f078f35d7e480067aae39e6dc0c7ceb53e8e2a76f2",
+      "peak_rss_bytes": 18006016,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\hypotenuse.r3.2.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\hypotenuse.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.030893400005879812,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        },
+        {
+          "elapsed": 0.5322784000018146,
+          "rss_bytes": 11239424,
+          "peak_rss_bytes": 16961536
+        },
+        {
+          "elapsed": 1.0340509000088787,
+          "rss_bytes": 10870784,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 1.5394331999996211,
+          "rss_bytes": 14295040,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 2.040379900005064,
+          "rss_bytes": 14139392,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 2.54316739999922,
+          "rss_bytes": 11079680,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 3.047840500003076,
+          "rss_bytes": 11378688,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 3.551497399996151,
+          "rss_bytes": 11399168,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 4.056556499999715,
+          "rss_bytes": 11501568,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 4.55867080000462,
+          "rss_bytes": 11386880,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 5.060626799997408,
+          "rss_bytes": 12423168,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 5.565343499998562,
+          "rss_bytes": 11337728,
+          "peak_rss_bytes": 17014784
+        },
+        {
+          "elapsed": 6.067743899999186,
+          "rss_bytes": 11599872,
+          "peak_rss_bytes": 18006016
+        },
+        {
+          "elapsed": 6.568749600002775,
+          "rss_bytes": 11489280,
+          "peak_rss_bytes": 18006016
+        },
+        {
+          "elapsed": 7.083671100001084,
+          "rss_bytes": 11296768,
+          "peak_rss_bytes": 18006016
+        },
+        {
+          "elapsed": 7.586389100004453,
+          "rss_bytes": 11296768,
+          "peak_rss_bytes": 18006016
+        },
+        {
+          "elapsed": 8.089686499995878,
+          "rss_bytes": 11579392,
+          "peak_rss_bytes": 18006016
+        },
+        {
+          "elapsed": 8.594221799998195,
+          "rss_bytes": 13078528,
+          "peak_rss_bytes": 18006016
+        },
+        {
+          "elapsed": 9.098495400001411,
+          "rss_bytes": 11771904,
+          "peak_rss_bytes": 18006016
+        },
+        {
+          "elapsed": 9.602121400006581,
+          "rss_bytes": 11767808,
+          "peak_rss_bytes": 18006016
+        },
+        {
+          "elapsed": 10.107508300003246,
+          "rss_bytes": 12763136,
+          "peak_rss_bytes": 18006016
+        }
+      ],
+      "nodes_per_second": 1645859.7288086591,
+      "progress_lines": 5,
+      "eta_samples": [],
+      "input": "benchmarks/euclidea8/cases/eu14_3_hypotenuse_touch.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\hypotenuse.r3.2.r1.certificate.json",
+      "returned_E": [
+        9
+      ],
+      "beam": 0,
+      "helper": 1,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 0,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.4675,
+      "nodes": 215317,
+      "raw_candidates": 12249353,
+      "unique_candidates": 1773087,
+      "solutions": 1,
+      "name": "t1",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-10",
+        "--time-limit=30",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_structural_regression\\t1.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.5036144000041531,
+      "external_timeout": false,
+      "time_limit": 30,
+      "threads": 8,
+      "input_sha256": "20f9f96565aa50ed1e6c5326a37dc298b9d6be4070fbf6cd4ae70939d093eadc",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t1.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t1.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.018476700002793223,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 460571.12299465237,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t1_conditional_E5.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t1.r3.1.r1.certificate.json",
+      "returned_E": [
+        5
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 1,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.462928,
+      "nodes": 234126,
+      "raw_candidates": 13128350,
+      "unique_candidates": 2175448,
+      "solutions": 1,
+      "name": "t1",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-10",
+        "--time-limit=30",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_structural_regression\\t1.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.5066026999993483,
+      "external_timeout": false,
+      "time_limit": 30,
+      "threads": 8,
+      "input_sha256": "20f9f96565aa50ed1e6c5326a37dc298b9d6be4070fbf6cd4ae70939d093eadc",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t1.r3.2.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t1.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.02401179999287706,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 505750.35426675424,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t1_conditional_E5.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t1.r3.2.r1.certificate.json",
+      "returned_E": [
+        5
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 0,
+      "rendezvous": 0,
+      "chain_join": 1,
+      "point_join": 0
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.001412,
+      "nodes": 551,
+      "raw_candidates": 1375,
+      "unique_candidates": 925,
+      "solutions": 1,
+      "name": "t5",
+      "label": "r3.1",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=30",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_structural_regression\\t5.r3.1.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.03716069999791216,
+      "external_timeout": false,
+      "time_limit": 30,
+      "threads": 8,
+      "input_sha256": "56c009e998692847087a3f24cd1188e82abe27075f92e7409a50179c25009284",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t5.r3.1.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t5.r3.1.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.02156910000485368,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 390226.62889518414,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t5_aux_J_E6.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t5.r3.1.r1.certificate.json",
+      "returned_E": [
+        6
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": null,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 1
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.000931,
+      "nodes": 393,
+      "raw_candidates": 1196,
+      "unique_candidates": 814,
+      "solutions": 1,
+      "name": "t5",
+      "label": "r3.2",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=30",
+        "--no-pause",
+        "--raw-output",
+        "--readable-output",
+        "--seed=1",
+        "--certificate=.\\bs_v11\\benchmarks\\r32\\windows_structural_regression\\t5.r3.2.r1.certificate.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.034577600003103726,
+      "external_timeout": false,
+      "time_limit": 30,
+      "threads": 8,
+      "input_sha256": "56c009e998692847087a3f24cd1188e82abe27075f92e7409a50179c25009284",
+      "peak_rss_bytes": 1970176,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t5.r3.2.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t5.r3.2.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.01960739999776706,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        }
+      ],
+      "nodes_per_second": 422126.7454350161,
+      "progress_lines": 0,
+      "eta_samples": [],
+      "input": "benchmarks/cases/t5_aux_J_E6.in",
+      "seed": 1,
+      "certificate": "bs_v11\\benchmarks\\r32\\windows_structural_regression\\t5.r3.2.r1.certificate.json",
+      "returned_E": [
+        6
+      ],
+      "beam": 0,
+      "helper": 0,
+      "coverage": 0,
+      "equal_radius": 0,
+      "prerequisite": 0,
+      "rendezvous": 0,
+      "chain_join": 0,
+      "point_join": 1
+    }
+  ]
+}

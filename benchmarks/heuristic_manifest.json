@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "purpose": "Known-solvable time-to-first-solution validation, NOT fixed-work node-count benchmarking.",
+  "certificate_format": "Each [tool,x1,y1,x2,y2] names two points already known at that step; certificate replay resolves them to stored points before constructing. Goals never supply free points.",
+  "defaults": {"eps": "1e-11", "time_budget_seconds": 10, "beam_width": 64, "branch_limit": 96, "restarts": 0, "tail_seconds": 0.02, "tail_candidates": 4},
+  "cases": [
+    {
+      "name": "bisector_E3", "input": "tests/cases/heuristic_bisector_E3.in", "category": "solvable", "required": true, "known_solution_e": 3,
+      "certificate": [["circle",0,0,2,0],["circle",2,0,0,0],["line",1,1.7320508075688772,1,-1.7320508075688772]]
+    },
+    {
+      "name": "midpoint_E4", "input": "tests/cases/heuristic_midpoint_E4.in", "category": "solvable", "required": true, "known_solution_e": 4,
+      "certificate": [["circle",0,0,2,0],["circle",2,0,0,0],["line",1,1.7320508075688772,1,-1.7320508075688772],["line",0,0,2,0]]
+    },
+    {
+      "name": "midpoint_circle_E5", "input": "tests/cases/heuristic_midpoint_circle_E5.in", "category": "solvable", "required": true, "known_solution_e": 5,
+      "certificate": [["circle",0,0,2,0],["circle",2,0,0,0],["line",1,1.7320508075688772,1,-1.7320508075688772],["line",0,0,2,0],["circle",1,0,0,0]]
+    },
+    {
+      "name": "goal_bundle_E6", "input": "tests/cases/heuristic_goal_bundle_E6.in", "category": "solvable", "required": true, "known_solution_e": 6,
+      "certificate": [["circle",0,0,2,0],["circle",2,0,0,0],["line",1,1.7320508075688772,1,-1.7320508075688772],["line",0,0,2,0],["circle",1,0,0,0],["circle",1,1.7320508075688772,0,0]]
+    },
+    {
+      "name": "rotated_midpoint_E4", "input": "tests/cases/heuristic_rotated_midpoint_E4.in", "category": "solvable", "required": true, "known_solution_e": 4,
+      "certificate": [["circle",-2,1,2,3],["circle",2,3,-2,1],["line",-1.7320508075688772,5.464101615137754,1.7320508075688772,-1.4641016151377544],["line",-2,1,2,3]]
+    },
+    {
+      "name": "compass_E3", "input": "tests/cases/heuristic_compass_E3.in", "category": "solvable", "required": true, "known_solution_e": 3,
+      "certificate": [["circle",0,0,2,0],["circle",2,0,0,0],["circle",1,1.7320508075688772,0,0]]
+    },
+    {
+      "name": "grid_midpoint_E2", "input": "tests/cases/heuristic_grid_midpoint_E2.in", "category": "solvable", "required": true, "known_solution_e": 2,
+      "certificate": [["line",0,0,1,1],["line",1,0,0,1]]
+    },
+    {
+      "name": "ray_paidline_E1", "input": "tests/cases/heuristic_ray_paidline_E1.in", "category": "solvable", "required": true, "known_solution_e": 1,
+      "certificate": [["line",0,0,2,0]]
+    },
+    {
+      "name": "v9_first_two", "input": "tests/cases/opt6_bs_audit_line_firstcandidate_miss_E1.in", "category": "solvable", "required": true, "known_solution_e": 1,
+      "provenance": "Preserved first-pair regression; independent collector replay is mandatory when checker supplied."
+    },
+    {
+      "name": "T7_tail3_D_BD", "input": "tests/cases/opt7_guard_extra_t7_strict12_prefix9_tail3_D_BD.in", "category": "solvable", "required": true, "known_solution_e": 3,
+      "provenance": "Preserved known-solvable T7 prefix9 tail3 regression; no free addition of target D."
+    },
+    {
+      "name": "T7_tail3_point", "input": "tests/cases/opt7_guard_extra_t7_strict12_prefix9_tail3.in", "category": "solvable", "required": true, "known_solution_e": 3,
+      "provenance": "Preserved known-solvable T7 point-only tail regression."
+    },
+    {
+      "name": "E0_already_met", "input": "tests/cases/heuristic_E0_met.in", "category": "solvable", "required": true, "known_solution_e": 0, "certificate": []
+    },
+    {
+      "name": "E0_missing_stopped", "input": "tests/cases/heuristic_E0_missing.in", "category": "status", "required": true,
+      "expected_heuristic": "HEURISTIC_STOPPED", "expected_exhaustive": "EXHAUSTED", "restarts": 1,
+      "note": "Status control only; never included in speed/success comparisons for solvable problems."
+    },
+    {
+      "name": "max_steps_stopped", "input": "tests/cases/heuristic_midpoint_E1_stopped.in", "category": "status", "required": true,
+      "expected_heuristic": "HEURISTIC_STOPPED", "expected_exhaustive": "EXHAUSTED", "restarts": 1
+    },
+    {
+      "name": "resource_capped", "input": "tests/cases/heuristic_goal_bundle_E6.in", "category": "status", "required": true,
+      "expected_heuristic": ["HEURISTIC_STOPPED", "QUOTA_REACHED"], "expected_exhaustive": ["QUOTA_REACHED", "TIMEOUT_PARTIAL"],
+      "beam_width": 1, "branch_limit": 1, "restarts": 1, "tail_seconds": 0, "tail_candidates": 0,
+      "note": "Known solution exists. A finite capped failure is not EXHAUSTED; a legitimate lucky hit is allowed."
+    },
+    {
+      "name": "timeout_partial", "input": "tests/cases/opt7_guard_extra_t7_strict12_prefix9_tail3.in", "category": "status", "required": true,
+      "expected_heuristic": "TIMEOUT_PARTIAL", "expected_exhaustive": "TIMEOUT_PARTIAL", "time_budget_seconds": 0.000000001, "restarts": 0
+    },
+    {
+      "name": "quota_partial_stopped", "input": "tests/cases/heuristic_ray_paidline_E1.in", "category": "status", "required": true,
+      "expected_heuristic": "HEURISTIC_STOPPED", "expected_exhaustive": "EXHAUSTED", "quota": 3, "restarts": 1, "minimum_solutions": 1
+    }
+  ]
+}

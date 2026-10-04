@@ -1,0 +1,251 @@
+============================================================
+brute_search v11-r2 heuristic
+Geometry EPS: 1.000e-10
+Search time limit: 60 seconds
+Detected system: Windows
+Hardware logical processors: 20
+Process-available / recommended maximum threads: 20
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 网格左下角=(0,0)，右上角=(m,n)。请输入非负整数 m n：自动添加 x=0..m、y=0..n 的网格线及其网格内交点，不计入E。
+
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given point P4: enter x y.
+  Example: '0 0' means P4=(0,0).
+P4 = 
+Given point P5: enter x y.
+  Example: '0 0' means P5=(0,0).
+P5 = 
+Given line L1: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L1 (a b c) = 
+Given line L2: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L2 (a b c) = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target line GL1: enter a b c for a*x + b*y = c.
+GL1 (a b c) = 
+============================================================
+Search configuration
+  E limit: 4
+  Requested distinct solutions: 1
+  Tools: grid straightedge only (mode 3)
+  Grid rectangle: [0,6] x [0,6] (closed)
+  Automatic grid lines: 14 (free)
+  Initial in-grid points: 79
+  Goals: 1 line(s), 0 circle(s), 0 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 2; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-10
+  Time limit: 60 seconds
+  Worker threads: 1 / 20 process-available (20 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（4E） ==========
+Solution found!
+Points (121):
+(3,0.865)
+(4.19199979446,4)
+(1.80800020554,4)
+(4.59957425624,1.84658382788)
+(3,2.659113)
+(0,0)
+(1,0)
+(2,0)
+(3,0)
+(4,0)
+(5,0)
+(6,0)
+(0,1)
+(1,1)
+(2,1)
+(3,1)
+(4,1)
+(5,1)
+(6,1)
+(0,2)
+(1,2)
+(2,2)
+(3,2)
+(4,2)
+(5,2)
+(6,2)
+(0,3)
+(1,3)
+(2,3)
+(3,3)
+(4,3)
+(5,3)
+(6,3)
+(0,4)
+(1,4)
+(2,4)
+(3,4)
+(4,4)
+(5,4)
+(6,4)
+(0,5)
+(1,5)
+(2,5)
+(3,5)
+(4,5)
+(5,5)
+(6,5)
+(0,6)
+(1,6)
+(2,6)
+(3,6)
+(4,6)
+(5,6)
+(6,6)
+(4,3.49503401054)
+(2.67110691477,0)
+(3.05133013469,1)
+(3.43155335461,2)
+(3.81177657454,3)
+(4.57222301439,5)
+(4.95244623431,6)
+(2,3.49503401054)
+(3.32889308523,0)
+(2.94866986531,1)
+(2.56844664539,2)
+(2.18822342546,3)
+(1.42777698561,5)
+(1.04755376569,6)
+(2,4.14869061019)
+(2,1.16953538981)
+(3,4.453226)
+(4,4.14869061019)
+(4,1.16953538981)
+(2.31722221038,1)
+(3.68277778962,1)
+(1.33134440042,2)
+(4.66865559958,2)
+(1.23856947057,3)
+(4.76143052943,3)
+(0,5.59389565977)
+(1,5.21367243985)
+(2,4.83344921992)
+(4,4.07300278008)
+(5,3.69277956015)
+(6,3.31255634023)
+(1.56196578392,5)
+(1.40509876877,5.0596444816)
+(1,4.90892379062)
+(2,3.78401839531)
+(4,1.53420760469)
+(5,0.40930220938)
+(5.36385478378,0)
+(4.47489113922,1)
+(3.58592749466,2)
+(2.6969638501,3)
+(0.919036560977,5)
+(0.030072916417,6)
+(3.47780078613,2.1216323178)
+(4.19199979446,1.318226)
+(0.590766827377,5.36927239444)
+(4,1.06932769093)
+(5,2.36567443841)
+(6,3.66202118589)
+(3.17512217082,0)
+(3.94652071981,1)
+(4.7179192688,2)
+(5.4893178178,3)
+(3.27812357584,0.133525536394)
+(5.79155964114,3.39181020464)
+(0,1.8717067123)
+(1,2.13417547487)
+(2,2.39664423743)
+(4,2.92158176257)
+(5,3.18405052513)
+(6,3.4465192877)
+(0.488794500504,2)
+(4.29877169637,3)
+(3.75778819677,2.85800873029)
+(2.37973680901,2.4963132878)
+(1.2646650396,2.20364178031)
+(4.7353349604,3.11458421969)
+Elements (21):
+1x+0y=0 [1]
+1x+0y=1 [1]
+1x+0y=2 [1]
+1x+0y=3 [1]
+1x+0y=4 [1]
+1x+0y=5 [1]
+1x+0y=6 [1]
+0x+1y=0 [1]
+0x+1y=1 [1]
+0x+1y=2 [1]
+0x+1y=3 [1]
+0x+1y=4 [1]
+0x+1y=5 [1]
+0x+1y=6 [1]
+-2.63003401054x+1y=-7.02510203163 [1]
+2.63003401054x+1y=8.75510203163 [1]
+(x-3)^2+(y-2.659113)^2=1.794113^2
+0.380223219924x+1y=5.59389565977 [1]
+1.12490539531x+1y=6.03382918593 [1]
+-1.29634674748x+1y=-4.116059299 [1]
+-0.262468762565x+1y=1.8717067123 [1]
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.109778
+Solution output time:0.000141100
+Worker threads:1
+Nodes:9
+Raw candidates:3082
+Unique candidates:2117
+Heuristic restarts:0
+Heuristic layers:0
+Expanded beam states:0
+Evaluated successors:0
+Candidate paths discarded:0
+Beam paths discarded:0
+Tail helper calls:0
+Beam successful state visits:0
+Helper successful state visits:0
+Family-diversity discards:0
+Rendezvous proposals:56
+Rendezvous replays:56
+Rendezvous successful state visits:1
+Peak beam per worker:0
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

@@ -1,0 +1,299 @@
+{
+  "verifier": "independent-mpmath-v11",
+  "passed": true,
+  "status": "PASS_ORIGINAL_EPS",
+  "exact_proof": false,
+  "precision": 100,
+  "working_precision": 120,
+  "numeric_model": "Input decimal tokens; recomputed high-precision geometry, not C++ binary64",
+  "limitations": "Numerical instance verification only, not symbolic, interval-certified, or a generic proof",
+  "goal_metric": "Strict absolute L-infinity: point coordinates; circle (cx,cy,r^2); line coefficients in target b=1/a=1 scale without EPS snapping",
+  "witness_policy": "Nearest currently known high-precision point within componentwise scaled match tolerance; exported coordinates never become geometry",
+  "range_policy": "Closed rays/segments with working-roundoff slack; strictly closed grid; no EPS-created tangencies",
+  "acceptance": "original_eps",
+  "original_eps": "0.0000000000099999999999999994",
+  "tolerance": "0.00000001",
+  "match_tolerance": "0.00000001",
+  "original_eps_verdict": "PASS",
+  "tolerance_verdict": "PASS",
+  "input_layout": "compact",
+  "mode": 2,
+  "budget": 4,
+  "solution_count": 1,
+  "max_match_error": "0.0000000000000000935274463415058723669428052538103806280558069794519330169088000370811461867572485756756261414154067",
+  "max_relative_match_error": "0.0000000000000000539980963218866947912305365272100315984219446725271393607140316870417800007625054252960968406989368",
+  "solutions": [
+    {
+      "legal": true,
+      "passed": true,
+      "status": "PASS_ORIGINAL_EPS",
+      "E": 4,
+      "step_count": 4,
+      "budget": 4,
+      "goals": [
+        {
+          "type": "point",
+          "goal_index": 0,
+          "target": [
+            "1.0",
+            "0.0"
+          ],
+          "nearest_index": 6,
+          "nearest_value": [
+            "1.0",
+            "0.0"
+          ],
+          "residual": "0.0",
+          "component_residuals": [
+            "0.0",
+            "0.0"
+          ],
+          "resolution_indicator": "1.0e-100",
+          "original_eps_verdict": "PASS",
+          "tolerance_verdict": "PASS"
+        }
+      ],
+      "original_eps_verdict": "PASS",
+      "tolerance_verdict": "PASS",
+      "initial_point_count": 2,
+      "initial_element_count": 0,
+      "final_point_count": 7,
+      "final_element_count": 4,
+      "max_match_error": "0.0000000000000000935274463415058723669428052538103806280558069794519330169088000370811461867572485756756261414154067",
+      "max_relative_match_error": "0.0000000000000000539980963218866947912305365272100315984219446725271393607140316870417800007625054252960968406989368",
+      "max_element_error": "0.0",
+      "max_relative_element_error": "0.0",
+      "multiple_candidate_witness_matches": 0,
+      "roundoff_tangencies": 0,
+      "filtered_grid_intersections": 0,
+      "filtered_bounded_intersections": 0,
+      "steps": [
+        {
+          "step": 1,
+          "type": "line",
+          "first": {
+            "point_index": 0,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 0
+            },
+            "printed": [
+              "0.0",
+              "0.0"
+            ],
+            "matched": [
+              "0.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 1,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 1
+            },
+            "printed": [
+              "2.0",
+              "0.0"
+            ],
+            "matched": [
+              "2.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "0.0",
+            "1.0",
+            "0.0"
+          ],
+          "exported_element": [
+            "0.0",
+            "1.0",
+            "0.0"
+          ],
+          "element_absolute_error": "0.0",
+          "element_relative_error": "0.0",
+          "new_point_count": 0,
+          "known_point_count": 2
+        },
+        {
+          "step": 2,
+          "type": "circle",
+          "first": {
+            "point_index": 0,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 0
+            },
+            "printed": [
+              "0.0",
+              "0.0"
+            ],
+            "matched": [
+              "0.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 1,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 1
+            },
+            "printed": [
+              "2.0",
+              "0.0"
+            ],
+            "matched": [
+              "2.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "0.0",
+            "0.0",
+            "4.0"
+          ],
+          "exported_element": [
+            "0.0",
+            "0.0",
+            "4.0"
+          ],
+          "element_absolute_error": "0.0",
+          "element_relative_error": "0.0",
+          "new_point_count": 1,
+          "known_point_count": 3
+        },
+        {
+          "step": 3,
+          "type": "circle",
+          "first": {
+            "point_index": 1,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 1
+            },
+            "printed": [
+              "2.0",
+              "0.0"
+            ],
+            "matched": [
+              "2.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 0,
+            "birth_step": 0,
+            "origin": {
+              "given_point": 0
+            },
+            "printed": [
+              "0.0",
+              "0.0"
+            ],
+            "matched": [
+              "0.0",
+              "0.0"
+            ],
+            "absolute_error": "0.0",
+            "relative_error": "0.0",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "2.0",
+            "0.0",
+            "4.0"
+          ],
+          "exported_element": [
+            "2.0",
+            "0.0",
+            "4.0"
+          ],
+          "element_absolute_error": "0.0",
+          "element_relative_error": "0.0",
+          "new_point_count": 3,
+          "known_point_count": 6
+        },
+        {
+          "step": 4,
+          "type": "line",
+          "first": {
+            "point_index": 4,
+            "birth_step": 3,
+            "origin": {
+              "intersection": [
+                1,
+                2
+              ]
+            },
+            "printed": [
+              "1.0",
+              "1.7320508075688772"
+            ],
+            "matched": [
+              "1.0",
+              "1.732050807568877293527446341505872366942805253810380628055806979451933016908800037081146186757248576"
+            ],
+            "absolute_error": "0.0000000000000000935274463415058723669428052538103806280558069794519330169088000370811461867572485756756261414154067",
+            "relative_error": "0.0000000000000000539980963218866947912305365272100315984219446725271393607140316870417800007625054252960968406989368",
+            "candidates_within_tolerance": 1
+          },
+          "second": {
+            "point_index": 5,
+            "birth_step": 3,
+            "origin": {
+              "intersection": [
+                1,
+                2
+              ]
+            },
+            "printed": [
+              "1.0",
+              "-1.7320508075688772"
+            ],
+            "matched": [
+              "1.0",
+              "-1.732050807568877293527446341505872366942805253810380628055806979451933016908800037081146186757248576"
+            ],
+            "absolute_error": "0.0000000000000000935274463415058723669428052538103806280558069794519330169088000370811461867572485756756261414154067",
+            "relative_error": "0.0000000000000000539980963218866947912305365272100315984219446725271393607140316870417800007625054252960968406989368",
+            "candidates_within_tolerance": 1
+          },
+          "recomputed_element": [
+            "1.0",
+            "0.0",
+            "1.0"
+          ],
+          "exported_element": [
+            "1.0",
+            "0.0",
+            "1.0"
+          ],
+          "element_absolute_error": "0.0",
+          "element_relative_error": "0.0",
+          "new_point_count": 1,
+          "known_point_count": 7
+        }
+      ],
+      "solution_index": 0
+    }
+  ],
+  "input": ".\\bs_v11\\tests\\cases\\heuristic_midpoint_E4.in",
+  "certificate": ".\\bs_v11\\build\\midpoint_certificate.json"
+}

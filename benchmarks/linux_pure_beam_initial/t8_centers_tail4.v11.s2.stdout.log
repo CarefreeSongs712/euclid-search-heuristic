@@ -1,0 +1,288 @@
+============================================================
+brute_search v11 heuristic
+Geometry EPS: 1.000e-11
+Search time limit: 10 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given point P4: enter x y.
+  Example: '0 0' means P4=(0,0).
+P4 = 
+Given point P5: enter x y.
+  Example: '0 0' means P5=(0,0).
+P5 = 
+Given point P6: enter x y.
+  Example: '0 0' means P6=(0,0).
+P6 = 
+Given point P7: enter x y.
+  Example: '0 0' means P7=(0,0).
+P7 = 
+Given line L1: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L1 (a b c) = 
+Given line L2: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L2 (a b c) = 
+Given line L3: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L3 (a b c) = 
+Given line L4: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L4 (a b c) = 
+Given line L5: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L5 (a b c) = 
+Given line L6: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L6 (a b c) = 
+Given line L7: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L7 (a b c) = 
+Given line L8: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L8 (a b c) = 
+Given line L9: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L9 (a b c) = 
+Given line L10: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L10 (a b c) = 
+Given line L11: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L11 (a b c) = 
+Given line L12: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L12 (a b c) = 
+Given line L13: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L13 (a b c) = 
+Given line L14: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L14 (a b c) = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+Given circle C2: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C2 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target point GP1: enter x y.
+GP1 = 
+Target point GP2: enter x y.
+GP2 = 
+============================================================
+Search configuration
+  E limit: 4
+  Requested distinct solutions: 1
+  Tools: straightedge only
+  Goals: 0 line(s), 0 circle(s), 2 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 2; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-11
+  Time limit: 10 seconds
+  Worker threads: 8 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（4E） ==========
+Solution found!
+Points (122):
+(1.37,0)
+(3.19,0)
+(0.822,1.096)
+(-1.914,-2.552)
+(1.734,-0.728)
+(0,0)
+(2.90044404469,0.747177375984)
+(2.04935996018,0.527931369783)
+(1.21367398119,0.312652037618)
+(6.58024817518,1.69512408759)
+(0.213771132457,0.28502817661)
+(1.27846797899,0.183064042024)
+(1.56968416414,0.155174782848)
+(0.864519727128,0.222707134235)
+(0.810890560608,1.08118741414)
+(0.834850624025,1.07029875195)
+(2.04159174127,0.521894678354)
+(2.03592431756,0.524470241749)
+(4.19930715935,0)
+(1.26568527919,1.68758037225)
+(0.227639291526,2.28472141695)
+(3.72997325729,0.269986628646)
+(2.5735091482,0.935248278385)
+(8.35477536739,-2.39045346396)
+(4.40089683404,-0.115965448905)
+(7.99618879253,-2.18417477836)
+(2.10323552484,2.80431403312)
+(9.46126861015,-16.1825372203)
+(2.76876006698,1.08697798141)
+(8.12046177604,0)
+(8.78707247896,11.7160966386)
+(7.43078128021,-12.1215625604)
+(8.26483315681,2.5374165784)
+(8.43273877889,5.48846204742)
+(7.99395405328,-2.22345170709)
+(8.24125481324,2.12301256335)
+(8.09374165697,-0.46962266857)
+(7.48925233677,-11.0938974686)
+(19.6531103982,0)
+(-0.617655562618,-0.823540750157)
+(0.36142650783,-0.783763566388)
+(4.51848809058,-0.614874555438)
+(-3.6798041305,-0.947946711607)
+(4.54099469248,-0.613960179344)
+(5.21872647259,-0.586425958897)
+(3.44518269124,-0.658479751977)
+(1.54646142958,0)
+(-1.092,-1.456)
+(1.40815992651,-0.0763198530107)
+(-14.3065611239,-8.74828056195)
+(0.937717182154,-0.335927451627)
+(2.29615186419,0.413706738535)
+(1.78950894411,0.134122552325)
+(2.28870167636,0.409595451043)
+(8.33356217256,3.7453716666)
+(0.107484285355,-0.794080481338)
+(2.0337806093,0.515824639136)
+(2.03796916859,0.533203459134)
+(1.77855124242,0.135171952043)
+(0.811122512181,1.08108200364)
+(1.70095975933,0.0852578573223)
+(1.48589714475,-0.231794289493)
+(7.08610285525,-11.4322057105)
+(0.741122437181,-0.488701443457)
+(8.05387667434,-2.25118616346)
+(5.80922618614,-0.562435717087)
+(1.15108867428,1.53478489903)
+(1.51702823017,0.114255798837)
+(1.32397383137,0.863667517238)
+(1.45022202234,0.373588687992)
+(1.50488862716,0.161380136865)
+(1.32854025444,0.845941265043)
+(1.08494312986,1.79155317996)
+(-1.71224966206,12.6498867376)
+(6.93116124535,-20.9026946145)
+(1.19911753708,1.3483431871)
+(1.54088246292,0.0216568129037)
+(1.59842319209,-0.201708709964)
+(4.78157680791,-12.55829129)
+(1.73330191589,0)
+(2.87554238945,-3.0110847789)
+(1.96554706966,-0.612226465169)
+(1.65058761839,0.218044945838)
+(1.42307321729,0.817800571728)
+(1.57899851293,0.406762532701)
+(1.67838616988,0.144764583946)
+(1.42986610939,0.799893682158)
+(1.0449596689,1.81455386195)
+(-65.7553525572,177.908299466)
+(7.28741482345,-14.641316976)
+(2.00528425965,-0.716978529813)
+(1.21991308524,1.35335538303)
+(1.79211019541,-0.155025775617)
+(6.27251571464,-11.9659195187)
+(-0.330718512633,0)
+(-0.190529943983,-0.254039925311)
+(17.7745611239,-32.8091222478)
+(0.430639706021,-1.37968014699)
+(0.179714939994,-0.92497182495)
+(-1.53840478374,2.18848464653)
+(-0.289555955314,-0.0745919092245)
+(-0.527164840763,0.355986304775)
+(-1.50919402807,2.13555095686)
+(-2.43757576381,3.81789944702)
+(11.494104917,-21.4281184964)
+(7.33054866886,-13.8832128847)
+(3.19,-6.38)
+(0.231642638597,0)
+(1.10671509057,0.526569818866)
+(5.27632031871,3.03560580187)
+(1.5178184409,0.773948897287)
+(0.405041885333,0.104342000185)
+(0.637824119496,0.244417371776)
+(1.50453945591,0.765958344385)
+(2.17082709681,1.16689310309)
+(2.63057826739,1.44354572776)
+(8.40012987011,4.91534024666)
+(-1.17454531482,-0.8461655195)
+(0.783069484974,0.331817935716)
+(1.95693051503,1.03818206428)
+(1.37,0.685)
+(1.45422462163,0.735681682023)
+Elements (20):
+0x+1y=0 [1]
+-1.33333333333x+1y=0 [1]
+2x+1y=2.74 [1]
+-0.5x+1y=-1.595 [1]
+-0.777101096224x+1y=-1.06462850183 [1]
+0.462837837838x+1y=1.4764527027 [1]
+-0.257607926398x+1y=0 [1]
+0.0957682319791x+1y=0.305500660013 [1]
+0.454450474721x+1y=1.44969701436 [1]
+0.575254903728x+1y=2.41567203568 [1]
+2.5804248273x+1y=8.23155519909 [1]
+-17.5756203543x+1y=-142.722153277 [1]
+-0.0406270168453x+1y=-0.79844724721 [1]
+-0.551836757466x+1y=-0.853394260847 [1]
+(x-1.37)^2+(y-0.685)^2=0.685^2
+(x-3.19)^2+(y--6.38)^2=6.38^2
+3.88186813187x+1y=6.00315934066 [1]
+2.63612159488x+1y=4.56919461091 [1]
+1.81213010274x+1y=-0.599304972275 [1]
+-0.601744252926x+1y=-0.139389626509 [1]
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.034049
+Solution output time:0.000045611
+Worker threads:8
+Nodes:93474
+Raw candidates:3615613
+Unique candidates:2703258
+Heuristic restarts:8
+Heuristic layers:27
+Expanded beam states:979
+Evaluated successors:93466
+Candidate paths discarded:2609791
+Beam paths discarded:89899
+Tail helper calls:0
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

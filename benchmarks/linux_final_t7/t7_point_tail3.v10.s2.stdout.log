@@ -1,0 +1,286 @@
+============================================================
+brute_search v10 optimized
+Geometry EPS: 1.000e-11
+Search time limit: 10 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given point P4: enter x y.
+  Example: '0 0' means P4=(0,0).
+P4 = 
+Given point P5: enter x y.
+  Example: '0 0' means P5=(0,0).
+P5 = 
+Given point P6: enter x y.
+  Example: '0 0' means P6=(0,0).
+P6 = 
+Given point P7: enter x y.
+  Example: '0 0' means P7=(0,0).
+P7 = 
+Given point P8: enter x y.
+  Example: '0 0' means P8=(0,0).
+P8 = 
+Given point P9: enter x y.
+  Example: '0 0' means P9=(0,0).
+P9 = 
+Given point P10: enter x y.
+  Example: '0 0' means P10=(0,0).
+P10 = 
+Given point P11: enter x y.
+  Example: '0 0' means P11=(0,0).
+P11 = 
+Given point P12: enter x y.
+  Example: '0 0' means P12=(0,0).
+P12 = 
+Given point P13: enter x y.
+  Example: '0 0' means P13=(0,0).
+P13 = 
+Given point P14: enter x y.
+  Example: '0 0' means P14=(0,0).
+P14 = 
+Given point P15: enter x y.
+  Example: '0 0' means P15=(0,0).
+P15 = 
+Given point P16: enter x y.
+  Example: '0 0' means P16=(0,0).
+P16 = 
+Given point P17: enter x y.
+  Example: '0 0' means P17=(0,0).
+P17 = 
+Given point P18: enter x y.
+  Example: '0 0' means P18=(0,0).
+P18 = 
+Given point P19: enter x y.
+  Example: '0 0' means P19=(0,0).
+P19 = 
+Given point P20: enter x y.
+  Example: '0 0' means P20=(0,0).
+P20 = 
+Given point P21: enter x y.
+  Example: '0 0' means P21=(0,0).
+P21 = 
+Given point P22: enter x y.
+  Example: '0 0' means P22=(0,0).
+P22 = 
+Given point P23: enter x y.
+  Example: '0 0' means P23=(0,0).
+P23 = 
+Given point P24: enter x y.
+  Example: '0 0' means P24=(0,0).
+P24 = 
+Given point P25: enter x y.
+  Example: '0 0' means P25=(0,0).
+P25 = 
+Given point P26: enter x y.
+  Example: '0 0' means P26=(0,0).
+P26 = 
+Given point P27: enter x y.
+  Example: '0 0' means P27=(0,0).
+P27 = 
+Given point P28: enter x y.
+  Example: '0 0' means P28=(0,0).
+P28 = 
+Given point P29: enter x y.
+  Example: '0 0' means P29=(0,0).
+P29 = 
+Given point P30: enter x y.
+  Example: '0 0' means P30=(0,0).
+P30 = 
+Given point P31: enter x y.
+  Example: '0 0' means P31=(0,0).
+P31 = 
+Given point P32: enter x y.
+  Example: '0 0' means P32=(0,0).
+P32 = 
+Given point P33: enter x y.
+  Example: '0 0' means P33=(0,0).
+P33 = 
+Given point P34: enter x y.
+  Example: '0 0' means P34=(0,0).
+P34 = 
+Given point P35: enter x y.
+  Example: '0 0' means P35=(0,0).
+P35 = 
+Given point P36: enter x y.
+  Example: '0 0' means P36=(0,0).
+P36 = 
+Given point P37: enter x y.
+  Example: '0 0' means P37=(0,0).
+P37 = 
+Given line L1: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L1 (a b c) = 
+Given line L2: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L2 (a b c) = 
+Given line L3: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L3 (a b c) = 
+Given line L4: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L4 (a b c) = 
+Given line L5: enter a b c for a*x + b*y = c.
+  Examples: y=0 -> '0 1 0'; x=2 -> '1 0 2'.
+L5 (a b c) = 
+Given ray R1: enter x1 y1 x2 y2.
+  The ray starts at (x1,y1) and passes through (x2,y2).
+R1 = 
+Given segment S1: enter x1 y1 x2 y2 for its two endpoints.
+S1 = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+Given circle C2: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C2 = 
+Given circle C3: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C3 = 
+Given circle C4: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C4 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target point GP1: enter x y.
+GP1 = 
+============================================================
+Search configuration
+  E limit: 3
+  Requested distinct solutions: 1
+  Tools: compass + straightedge
+  Goals: 0 line(s), 0 circle(s), 1 point(s)
+  Geometry EPS: 1.000e-11
+  Time limit: 10 seconds
+  Worker threads: 8 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（3E） ==========
+Solution found!
+Points (67):
+(0,0)
+(0,1.83)
+(0,4.91)
+(2.73,-0.546)
+(2.10272397709,-0.420544795418)
+(-2.3233053625,3.85204159022)
+(2.3233053625,-0.19204159022)
+(9.29906099981,-1.85981219996)
+(7.7833053625,-4.94404159022)
+(2.73,6.1531540448)
+(4.34284331577,-0.868568663154)
+(-3.85682241486,5.18670698085)
+(3.85682241486,-1.52670698085)
+(-3.9050607864,-1.47046377796)
+(-5.0533053625,2.60888754542)
+(0,1.91027801636)
+(-2.95660379826,4.40322000903)
+(-0.0939287145729,1.91174894719)
+(-2.62001685262,3.44923182157)
+(2.62001685262,3.44923182157)
+(-2.63167944206,3.47034889875)
+(-2.73,3.6668459552)
+(-2.73,6.1531540448)
+(-4.96726032925,6.1531540448)
+(-2.80657013093,0.561314026187)
+(-3.83906099981,0.767812199962)
+(-7.49197646729,1.49839529346)
+(-5.04668946962,1.00933789392)
+(-30.765770224,6.1531540448)
+(-3.71118936641,5.05995821779)
+(0.248501697702,4.89995877924)
+(-1.09442387955,4.95422244146)
+(6.98572671396,4.62772738478)
+(-3.95550998833,5.06983049361)
+(4.20401168603,4.74012828563)
+(-2.99727611063,5.0311110885)
+(2.99727611063,4.7888889115)
+(-1.77956295955,4.09964436222)
+(-2.1888477591,4.99844488291)
+(-1.92201131262,4.23671404911)
+(-1.93958628735,4.25750172488)
+(-0.147025031196,5.50390841962)
+(-2.86092708114,4.31994972336)
+(8.32092708114,-5.41194972336)
+(-3.63252816969,3.2558637044)
+(4.03922280719,6.74933193063)
+(-0.441319507853,6.1531540448)
+(5.90131950785,6.1531540448)
+(-4.53794412901,0.907588825801)
+(9.99794412901,-1.9995888258)
+(8.08015059351,4.58350494333)
+(-4.67552935479,-0.239296051214)
+(1.40428888344,6.74635369221)
+(-2.92512530475,4.24518880076)
+(2.28578537437,6.85255429819)
+(-0.754813423997,5.99556003846)
+(5.42393321286,-2.89061000504)
+(-0.864391952417,6.1531540448)
+(3.96548727353,-0.793097454706)
+(2.88726773976,0.757579840292)
+(-0.344771111363,5.40584404439)
+(7.23880544647,-5.50072888884)
+(-1.29724527655,6.77567645399)
+(4.18451301631,-1.1080966137)
+(-1.71248613026,7.37286890288)
+(1.71248613026,2.44713109712)
+(7.6488477591,-6.09044488291)
+Elements (14):
+0.87032967033x+1y=1.83 [1]
+-0.455367781978x+1y=4.91 [1]
+0x+1y=6.1531540448 [1]
+0.2x+1y=0 [1]
+0.0404070509449x+1y=4.91 [1]
+0.2x+1y=0 [2]
+1x+0y=0 [3]
+(x-0)^2+(y-1.83)^2=3.08^2
+(x-2.73)^2+(y--0.546)^2=6.6991540448^2
+(x-0)^2+(y-1.83)^2=5.11297964939^2
+(x-0)^2+(y-4.91)^2=2.99972198364^2
+(x--1.09442387955)^2+(y-4.95422244146)^2=1.09531696438^2
+(x-2.73)^2+(y--0.546)^2=7.4118777875^2
+1.43818327013x+1y=4.91 [1]
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.175739
+Solution output time:0.000038690
+Worker threads:8
+Nodes:526555
+Raw candidates:3770371
+Unique candidates:526320
+============================================================

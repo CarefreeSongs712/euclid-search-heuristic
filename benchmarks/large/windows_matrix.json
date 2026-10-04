@@ -1,0 +1,23 @@
+[
+  {
+    "name": "t6_full_E8",
+    "input": "benchmarks/heavy/cases/prelim_t6_full_E8.in",
+    "eps": "1e-11",
+    "time_limit": 120,
+    "threads": 8
+  },
+  {
+    "name": "t2_givenO_OX_E4",
+    "input": "benchmarks/cases/t2_givenO_OX_E4.in",
+    "eps": "1e-10",
+    "time_limit": 120,
+    "threads": 8
+  },
+  {
+    "name": "t5_aux_J_E6",
+    "input": "benchmarks/cases/t5_aux_J_E6.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 120
+  }
+]

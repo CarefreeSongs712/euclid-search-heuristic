@@ -1,0 +1,138 @@
+============================================================
+brute_search v11-r3.2 heuristic
+Geometry EPS: 1.000e-11
+Search time limit: 90 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+Given circle C2: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C2 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target line GL1: enter a b c for a*x + b*y = c.
+GL1 (a b c) = 
+============================================================
+Search configuration
+  E limit: 8
+  Requested distinct solutions: 1
+  Tools: compass + straightedge
+  Goals: 1 line(s), 0 circle(s), 0 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Coverage thread slots: auto (shared-prefix DFS, not beam success)
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 1; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-11
+  Time limit: 90 seconds
+  Worker threads: 8 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（8E） ==========
+Solution found!
+作图步骤（8E）：
+已知对象：
+  P1=(0,0)。
+  P2=(4.7,0.4)。
+  已知圆C1；方程：(x-(0))^2+(y-(0))^2=1.6900000000000002。
+  已知圆C2；方程：(x-(4.7))^2+(y-(0.4))^2=4.41。
+
+第1步：过P1=(0,0)，P2=(4.7,0.4)作直线L1；方程：(-0.0851063829787234)x+(1)y=0。
+  取C1,L1交点P3=(-1.295317409367772,-0.11023977952066144)。
+  取C2,L1交点P4=(2.6075641848674453,0.22192035615893155)。
+第2步：以P3=(-1.295317409367772,-0.11023977952066144)为圆心，P1=(0,0)为圆周点作圆C3；方程：(x-(-1.295317409367772))^2+(y-(-0.11023977952066144))^2=1.6900000000000002。
+  取C1,C3交点P5=(-0.7431291542563743,1.0666578927164072)。
+第3步：以P4=(2.6075641848674453,0.22192035615893155)为圆心，P2=(4.7,0.4)为圆周点作圆C4；方程：(x-(2.6075641848674453))^2+(y-(0.22192035615893155))^2=4.410000000000001。
+  取C1,C4交点P6=(0.6983468354483511,1.0964997480251755)。
+  取C2,C4交点P7=(3.4995605969704733,2.123062749772657)。
+第4步：过P5=(-0.7431291542563743,1.0666578927164072)，P7=(3.4995605969704733,2.123062749772657)作直线L2；方程：(-0.24899413320306343)x+(1)y=1.2516926923383989。
+  取C1,L2交点P8=(0.15618998117632923,1.2905830813164019)。
+  取L1,L2交点P9=(-7.637500000000011,-0.6500000000000009)。
+第5步：以P6=(0.6983468354483511,1.0964997480251755)为圆心，P4=(2.6075641848674453,0.22192035615893155)为圆周点作圆C5；方程：(x-(0.6983468354483511))^2+(y-(1.0964997480251755))^2=4.410000000000001。
+  取L1,C5交点P10=(-1.035618016656982,-0.08813770354527506)。
+第6步：过P7=(3.4995605969704733,2.123062749772657)，P10=(-1.035618016656982,-0.08813770354527506)作直线L3；方程：(-0.4875663434012596)x+(1)y=0.41679478599663433。
+  取C2,L3交点P11=(4.081811389139683,2.406948639453086)。
+第7步：过P8=(0.15618998117632923,1.2905830813164019)，P11=(4.081811389139683,2.406948639453086)作直线L4；方程：(-0.28437932294542484)x+(1)y=1.2461658802186186。
+  取C2,L4交点P12=(4.16961814734539,2.431919065901657)。
+第8步：过P9=(-7.637500000000011,-0.6500000000000009)，P12=(4.16961814734539,2.431919065901657)作直线L5；方程：(-0.2610221247421469)x+(1)y=1.343556477718149。
+
+目标对应：
+  目标直线GL1=L5；方程：(-0.2610221247421469)x+(1)y=1.343556477718149。
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.750792
+Solution output time:0.000055561
+Worker threads:8
+Nodes:1418915
+Raw candidates:29739441
+Unique candidates:18267523
+Heuristic restarts:34
+Heuristic layers:266
+Expanded beam states:12150
+Evaluated successors:1080304
+Candidate paths discarded:16849035
+Beam paths discarded:895098
+Tail helper calls:245
+Beam successful state visits:0
+Helper successful state visits:1
+Family-diversity discards:1546
+Rendezvous proposals:0
+Rendezvous replays:0
+Rendezvous successful state visits:0
+Chain join calls:0
+Chain join proposals:0
+Chain join replays:0
+Chain join successful state visits:0
+Point join calls:0
+Point join proposals:0
+Point join replays:0
+Point join successful state visits:0
+Coverage tasks:1
+Coverage successful state visits:0
+Equal-radius probe calls:1
+Equal-radius probe prefixes:44
+Equal-radius probe completions:0
+Equal-radius probe successful state visits:0
+Prerequisite probe calls:1
+Prerequisite operations:62
+Goal finish calls:110
+Prerequisite successful state visits:0
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

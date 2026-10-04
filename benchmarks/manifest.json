@@ -1,0 +1,44 @@
+[
+  {
+    "name": "mixed_tail3",
+    "input": "benchmarks/cases/opt4_main_t7_lines_prefix7_D_tail3.in",
+    "expected": "EXHAUSTED"
+  },
+  {
+    "name": "mixed_tail2",
+    "input": "benchmarks/cases/opt5_main_t7_base_prefix9_D_tail2.in",
+    "expected": "EXHAUSTED"
+  },
+  {
+    "name": "grid_point",
+    "input": "benchmarks/cases/opt2_t4_carrier_x0_s0_d1.in",
+    "expected": "EXHAUSTED",
+    "eps": "4e-5",
+    "args": [
+      "--solutions=20"
+    ]
+  },
+  {
+    "name": "grid_circle",
+    "input": "benchmarks/cases/opt4_t12_t2_AP_LU_X4.in",
+    "expected": "EXHAUSTED"
+  },
+  {
+    "name": "straightedge_circle",
+    "input": "benchmarks/cases/opt6_t3_bs_circle_0_minus.in",
+    "expected": "EXHAUSTED",
+    "args": [
+      "--no-symmetry"
+    ]
+  },
+  {
+    "name": "mixed_strict",
+    "input": "benchmarks/cases/opt6_t7_alt_H_AB_prefix8_D3.in",
+    "expected": "EXHAUSTED"
+  },
+  {
+    "name": "t7_first_solution",
+    "input": "tests/cases/opt7_guard_extra_t7_strict12_prefix9_tail3.in",
+    "expected": "QUOTA_REACHED"
+  }
+]

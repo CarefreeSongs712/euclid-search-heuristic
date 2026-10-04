@@ -1,0 +1,18 @@
+[
+  {
+    "name": "t7_point_tail3",
+    "input": "tests/cases/opt7_guard_extra_t7_strict12_prefix9_tail3.in"
+  },
+  {
+    "name": "t7_point_line_tail3",
+    "input": "tests/cases/opt7_guard_extra_t7_strict12_prefix9_tail3_D_BD.in"
+  },
+  {
+    "name": "t6_full_E11",
+    "input": "benchmarks/heavy/cases/prelim_t6_full_E11.in"
+  },
+  {
+    "name": "t6_full_E8",
+    "input": "benchmarks/heavy/cases/prelim_t6_full_E8.in"
+  }
+]

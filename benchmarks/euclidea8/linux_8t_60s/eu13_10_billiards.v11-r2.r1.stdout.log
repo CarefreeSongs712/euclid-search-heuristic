@@ -1,0 +1,112 @@
+============================================================
+brute_search v11-r2 heuristic
+Geometry EPS: 1.000e-11
+Search time limit: 60 seconds
+Detected system: Linux
+Hardware logical processors: 32
+Process-available / recommended maximum threads: 32
+============================================================
+
+[Step 1/6] Maximum number of NEW construction elements (E).
+  E counts only elements constructed by the solver; given lines/circles do NOT count.
+  Example: enter 7 to search for a construction using at most 7 new lines/circles.
+Enter E limit: 
+[Step 3/6] Select allowed construction tools.
+  0 = compass only      (construct circles from two known points)
+  1 = straightedge only (construct lines through two known points)
+  2 = both compass and straightedge
+  3 = grid straightedge only
+Enter tool type [0/1/2/3]: 
+[Step 4/6] Enter counts of GIVEN objects in this exact order:
+  P L R S C
+  P = points, L = infinite lines, R = rays, S = segments, C = circles.
+  Example: '2 1 0 0 0' means 2 points and 1 line are initially given.
+Enter P L R S C: 
+Given point P1: enter x y.
+  Example: '0 0' means P1=(0,0).
+P1 = 
+Given point P2: enter x y.
+  Example: '0 0' means P2=(0,0).
+P2 = 
+Given point P3: enter x y.
+  Example: '0 0' means P3=(0,0).
+P3 = 
+Given circle C1: enter center_x center_y radius.
+  This represents (x-center_x)^2 + (y-center_y)^2 = radius^2.
+C1 = 
+[Step 5/6] Enter ALL construction goals simultaneously.
+  Input three integers in this order: number_of_target_lines number_of_target_circles number_of_target_points
+  Example: '2 1 3' means the final construction must contain 2 specified lines,
+           1 specified circle, and 3 specified points at the same time.
+Enter target counts L C P: 
+Target point GP1: enter x y.
+GP1 = 
+============================================================
+Search configuration
+  E limit: 6
+  Requested distinct solutions: 1
+  Tools: compass + straightedge
+  Goals: 0 line(s), 0 circle(s), 1 point(s)
+  Search engine: v11 heuristic portfolio beam
+  Beam width / branch limit per worker: 64 / 96
+  Seed: 1; restarts: 0 (0 = until time budget)
+  Heuristic search may discard paths; failure is NOT exhaustion or an impossibility proof.
+  Geometry EPS: 1.000e-11
+  Time limit: 60 seconds
+  Worker threads: 8 / 32 process-available (32 hardware)
+============================================================
+Searching...
+
+============================================================
+
+========== 第 1 / 1 个不同解（6E） ==========
+Solution found!
+作图步骤（6E）：
+已知对象：
+  P1=(0,0)。
+  P2=(-1.2,0)。
+  P3=(1.63,0)。
+  已知圆C1；方程：(x-(0))^2+(y-(0))^2=11.559999999999999。
+
+第1步：以P1=(0,0)为圆心，P2=(-1.2,0)为圆周点作圆C2；方程：(x-(0))^2+(y-(0))^2=1.44。
+第2步：以P3=(1.63,0)为圆心，P1=(0,0)为圆周点作圆C3；方程：(x-(1.63))^2+(y-(0))^2=2.6569。
+  取C2,C3交点P4=(0.44171779141104306,1.1157443223028072)。
+第3步：过P1=(0,0)，P2=(-1.2,0)作直线L1；方程：(0)x+(1)y=0。
+  取C2,L1交点P5=(1.2,0)。
+第4步：以P4=(0.44171779141104306,1.1157443223028072)为圆心，P5=(1.2,0)为圆周点作圆C4；方程：(x-(0.44171779141104306))^2+(y-(1.1157443223028072))^2=1.8198773006134967。
+  取C2,C4交点P6=(-0.8748089879182503,0.8214068630450115)。
+第5步：过P4=(0.44171779141104306,1.1157443223028072)，P6=(-0.8748089879182503,0.8214068630450115)作直线L2；方程：(-0.2235711904073431)x+(1)y=1.0169889498529379。
+  取L1,L2交点P7=(-4.548837209302327,0)。
+第6步：以P7=(-4.548837209302327,0)为圆心，P1=(0,0)为圆周点作圆C5；方程：(x-(-4.548837209302327))^2+(y-(0))^2=20.691919956733386。
+  取C1,C5交点P8=(-1.2706543967280157,3.153638756115824)。
+
+目标对应：
+  目标点GP1=P8=(-1.2706543967280157,3.153638756115824)。
+
+已返回所需的 1 个不同解。
+Result status: QUOTA_REACHED
+Requested solutions:1
+Distinct solutions:1
+Successful state visits:1
+Search Time:0.138528
+Solution output time:0.000029181
+Worker threads:8
+Nodes:804816
+Raw candidates:4221915
+Unique candidates:3487181
+Heuristic restarts:28
+Heuristic layers:164
+Expanded beam states:6912
+Evaluated successors:553488
+Candidate paths discarded:2682607
+Beam paths discarded:403657
+Tail helper calls:209
+Beam successful state visits:0
+Helper successful state visits:1
+Family-diversity discards:0
+Rendezvous proposals:0
+Rendezvous replays:0
+Rendezvous successful state visits:0
+Peak beam per worker:64
+Search completeness: HEURISTIC (no exhaustive guarantee)
+============================================================

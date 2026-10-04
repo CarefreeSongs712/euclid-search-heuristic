@@ -1,0 +1,1 @@
+[progress] E<=5 phase=searching elapsed=2.0s nodes=1480920 rate=740427.5/s candidates(raw/unique)=63382662/45850043 threads=8 active=8 depth~=4 engine=heuristic coverage=unknown exhaustion ETA=unavailable (heuristic search discards paths) budget-left=13.0s (timeout budget, not exhaustion ETA)

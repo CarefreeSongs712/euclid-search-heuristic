@@ -1,0 +1,115 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 1.371389,
+      "nodes": 1041717,
+      "raw_candidates": 30002544,
+      "unique_candidates": 17058682,
+      "solutions": 1,
+      "name": "eu10_2_external_tangent",
+      "label": "optimized",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=20.0",
+        "--no-pause",
+        "--raw-output"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.4091251000063494,
+      "external_timeout": false,
+      "time_limit": 20.0,
+      "threads": 8,
+      "input_sha256": "ffc4467d359a52af9f33ccafee5102bc22737939607b06a93d4842cb6e3e571e",
+      "peak_rss_bytes": 10129408,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_baseline_pilot\\eu10_2_external_tangent.optimized.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_baseline_pilot\\eu10_2_external_tangent.optimized.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.030326600011903793,
+          "rss_bytes": 2170880,
+          "peak_rss_bytes": 2170880
+        },
+        {
+          "elapsed": 0.5429838999989443,
+          "rss_bytes": 9990144,
+          "peak_rss_bytes": 10014720
+        },
+        {
+          "elapsed": 1.0473035000031814,
+          "rss_bytes": 9981952,
+          "peak_rss_bytes": 10129408
+        }
+      ],
+      "nodes_per_second": 759607.2303336252,
+      "progress_lines": 0,
+      "eta_samples": []
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 1.944083,
+      "nodes": 8292486,
+      "raw_candidates": 21982578,
+      "unique_candidates": 18979254,
+      "solutions": 1,
+      "name": "eu9_7_minimum_perimeter",
+      "label": "optimized",
+      "repetition": 1,
+      "command": [
+        ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--eps=1e-11",
+        "--time-limit=20.0",
+        "--no-pause",
+        "--raw-output"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.9562911000102758,
+      "external_timeout": false,
+      "time_limit": 20.0,
+      "threads": 8,
+      "input_sha256": "f04472e278635d3dcecde9de772a8f66a41d6df5ec9d6ddfd9f4e24167d8b875",
+      "peak_rss_bytes": 11194368,
+      "stdout": "bs_v11\\benchmarks\\r32\\windows_baseline_pilot\\eu9_7_minimum_perimeter.optimized.r1.stdout.log",
+      "stderr": "bs_v11\\benchmarks\\r32\\windows_baseline_pilot\\eu9_7_minimum_perimeter.optimized.r1.stderr.log",
+      "resources": [
+        {
+          "elapsed": 0.006277599997702055,
+          "rss_bytes": 1970176,
+          "peak_rss_bytes": 1970176
+        },
+        {
+          "elapsed": 0.5177705000096466,
+          "rss_bytes": 10895360,
+          "peak_rss_bytes": 11194368
+        },
+        {
+          "elapsed": 1.023867900003097,
+          "rss_bytes": 10215424,
+          "peak_rss_bytes": 11194368
+        },
+        {
+          "elapsed": 1.5279363000008743,
+          "rss_bytes": 9555968,
+          "peak_rss_bytes": 11194368
+        }
+      ],
+      "nodes_per_second": 4265499.981225082,
+      "progress_lines": 0,
+      "eta_samples": []
+    }
+  ],
+  "executables": {
+    "optimized": {
+      "path": ".\\bs_v11\\build\\revision_r31\\bs_v11_r31.exe",
+      "sha256": "9dee1cadc07125c1c237aab25065b3c1a68ace1853f99bdd30fdb618ccc328ec"
+    }
+  }
+}

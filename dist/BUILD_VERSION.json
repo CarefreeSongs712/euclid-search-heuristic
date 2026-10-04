@@ -1,0 +1,8 @@
+{
+  "version": "v11-r3.2",
+  "base_version": "v11-r3.1",
+  "targets": ["windows-x64", "linux-x64"],
+  "strict_fp": true,
+  "revision": "witnessed-prerequisite-planning-goal-locked-completion-exact-tangent",
+  "note": "Previous r3.1 sources and binaries are frozen in build/revision_r31. Shipped binaries are r3.2; prerequisite successes are separately attributed. EPS acceptance is not a symbolic proof; tangent certificates receive extra high-precision classification."
+}

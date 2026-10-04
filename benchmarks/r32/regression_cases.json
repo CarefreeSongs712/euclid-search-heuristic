@@ -1,0 +1,30 @@
+[
+  {
+    "name": "equal3",
+    "input": "benchmarks/euclidea8/cases/eu15_4_three_equal.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 30
+  },
+  {
+    "name": "hypotenuse",
+    "input": "benchmarks/euclidea8/cases/eu14_3_hypotenuse_touch.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 30
+  },
+  {
+    "name": "t1",
+    "input": "benchmarks/cases/t1_conditional_E5.in",
+    "eps": "1e-10",
+    "threads": 8,
+    "time_limit": 30
+  },
+  {
+    "name": "t5",
+    "input": "benchmarks/cases/t5_aux_J_E6.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 30
+  }
+]

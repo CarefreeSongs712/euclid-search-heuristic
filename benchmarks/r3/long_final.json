@@ -1,0 +1,16 @@
+[
+  {
+    "name": "t1_conditional_E5",
+    "input": "benchmarks/cases/t1_conditional_E5.in",
+    "eps": "1e-10",
+    "threads": 1,
+    "time_limit": 90
+  },
+  {
+    "name": "t5_aux_J_E6",
+    "input": "benchmarks/cases/t5_aux_J_E6.in",
+    "eps": "1e-11",
+    "threads": 1,
+    "time_limit": 90
+  }
+]

@@ -1,0 +1,310 @@
+{
+  "runs": [
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.328385,
+      "solutions": 1,
+      "nodes": 526555,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v10",
+      "seed": 1,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.3444983000008506,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        ".\\bs_optimized\\build\\bs_optimized.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.069096,
+      "solutions": 1,
+      "nodes": 88556,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v11",
+      "seed": 1,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.084019800000533,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=1"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.093577,
+      "solutions": 1,
+      "nodes": 112970,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v11",
+      "seed": 2,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.11037349999969592,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=2"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.317346,
+      "solutions": 1,
+      "nodes": 531570,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v10",
+      "seed": 2,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.3298813000001246,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        ".\\bs_optimized\\build\\bs_optimized.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.323387,
+      "solutions": 1,
+      "nodes": 525368,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v10",
+      "seed": 3,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.33673670000280254,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        ".\\bs_optimized\\build\\bs_optimized.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.067693,
+      "solutions": 1,
+      "nodes": 84508,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_tail3",
+      "version": "v11",
+      "seed": 3,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.08307910000439733,
+      "input_sha256": "9b4986383ddf746bead774fdcebf35ad115d9d44407f99cd285e53ae7b49057a",
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=3"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.01759,
+      "solutions": 1,
+      "nodes": 552,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v10",
+      "seed": 1,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.02984450000076322,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        ".\\bs_optimized\\build\\bs_optimized.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.004864,
+      "solutions": 1,
+      "nodes": 1865,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v11",
+      "seed": 1,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.01755570000386797,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=1"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.00447,
+      "solutions": 1,
+      "nodes": 1865,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v11",
+      "seed": 2,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.016885800003365148,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=2"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.017012,
+      "solutions": 1,
+      "nodes": 546,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v10",
+      "seed": 2,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.028908699998282827,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        ".\\bs_optimized\\build\\bs_optimized.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.017449,
+      "solutions": 1,
+      "nodes": 550,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v10",
+      "seed": 3,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.030426599994825665,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        ".\\bs_optimized\\build\\bs_optimized.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11"
+      ]
+    },
+    {
+      "status": "QUOTA_REACHED",
+      "seconds": 0.004731,
+      "solutions": 1,
+      "nodes": 1865,
+      "returned_E": [
+        3
+      ],
+      "name": "t7_point_line_tail3",
+      "version": "v11",
+      "seed": 3,
+      "threads": 8,
+      "returncode": 0,
+      "wall_seconds": 0.016722499996831175,
+      "input_sha256": "e3cb4db583a5771788a9f7c765fd24965c26b9dec0e603241ca59654aa007293",
+      "command": [
+        ".\\bs_v11\\build\\bs_v11.exe",
+        "--threads=8",
+        "--solutions=1",
+        "--time-limit=10.0",
+        "--no-pause",
+        "--raw-output",
+        "--eps=1e-11",
+        "--seed=3"
+      ]
+    }
+  ]
+}

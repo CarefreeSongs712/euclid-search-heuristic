@@ -1,0 +1,26 @@
+[
+  {
+    "name": "t1_conditional_E5",
+    "input": "benchmarks/cases/t1_conditional_E5.in",
+    "eps": "1e-10",
+    "heuristic_args": [
+      "--tail-candidates=0"
+    ]
+  },
+  {
+    "name": "t8_centers_tail4",
+    "input": "benchmarks/cases/t8_centers_tail4.in",
+    "eps": "1e-11",
+    "heuristic_args": [
+      "--tail-candidates=0"
+    ]
+  },
+  {
+    "name": "t8_axis_centers_tail4",
+    "input": "benchmarks/cases/t8_axis_centers_tail4.in",
+    "eps": "1e-11",
+    "heuristic_args": [
+      "--tail-candidates=0"
+    ]
+  }
+]

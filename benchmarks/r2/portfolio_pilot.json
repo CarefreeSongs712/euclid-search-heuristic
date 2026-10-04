@@ -1,0 +1,19 @@
+[
+  {
+    "name": "t1_E5_seed2",
+    "input": "benchmarks/cases/t1_conditional_E5.in",
+    "eps": "1e-10",
+    "threads": 8,
+    "time_limit": 45,
+    "args": [
+      "--seed=2"
+    ]
+  },
+  {
+    "name": "t5_J_E6",
+    "input": "benchmarks/cases/t5_aux_J_E6.in",
+    "eps": "1e-11",
+    "threads": 8,
+    "time_limit": 45
+  }
+]

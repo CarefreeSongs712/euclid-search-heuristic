@@ -1,0 +1,1307 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "t7_directrix_E6",
+      "repeat": 1,
+      "pass": true,
+      "result": {
+        "verifier": "independent-mpmath-v11",
+        "passed": true,
+        "status": "PASS_ORIGINAL_EPS",
+        "exact_proof": false,
+        "precision": 100,
+        "working_precision": 120,
+        "numeric_model": "Input decimal tokens; recomputed high-precision geometry, not C++ binary64",
+        "limitations": "Numerical instance verification only, not symbolic, interval-certified, or a generic proof",
+        "goal_metric": "Strict absolute L-infinity: point coordinates; circle (cx,cy,r^2); line coefficients in target b=1/a=1 scale without EPS snapping",
+        "witness_policy": "Nearest currently known high-precision point within componentwise scaled match tolerance; exported coordinates never become geometry",
+        "range_policy": "Closed rays/segments with working-roundoff slack; strictly closed grid; no EPS-created tangencies",
+        "acceptance": "original_eps",
+        "original_eps": "0.0000000000099999999999999994",
+        "tolerance": "0.00000001",
+        "match_tolerance": "0.00000001",
+        "original_eps_verdict": "PASS",
+        "tolerance_verdict": "PASS",
+        "input_layout": "compact",
+        "mode": 2,
+        "budget": 6,
+        "solution_count": 1,
+        "max_match_error": "0.000000000000001206971456828479272052696777953091299130511916678815173166154267041714288114200348639956693119656446",
+        "max_relative_match_error": "0.0000000000000003102319902547404507152289546270189302823048212647764533675510216386457335469331497416026447185130129",
+        "solutions": [
+          {
+            "legal": true,
+            "passed": true,
+            "status": "PASS_ORIGINAL_EPS",
+            "E": 6,
+            "step_count": 6,
+            "budget": 6,
+            "goals": [
+              {
+                "type": "point",
+                "goal_index": 0,
+                "target": [
+                  "3.9654872735302531",
+                  "-0.79309745470605064"
+                ],
+                "nearest_index": 39,
+                "nearest_value": [
+                  "3.965487273530253259921614947504988598810855892784808340426687042864069437791205032902287496400853512",
+                  "-0.7930974547060506916391957248035303189783206536068476561938963364208972918251114352211518771922210315"
+                ],
+                "residual": "0.0000000000000001599216149475049885988108558927848083404266870428640694377912050329022874964008535123922416913926909",
+                "component_residuals": [
+                  "0.0000000000000001599216149475049885988108558927848083404266870428640694377912050329022874964008535123922416913926909",
+                  "0.0000000000000000516391957248035303189783206536068476561938963364208972918251114352211518771922210315013233022870733"
+                ],
+                "resolution_indicator": "3.965487273530253259921614947504988598810855892784808340426687042864069437791205032902287496400853512e-100",
+                "original_eps_verdict": "PASS",
+                "tolerance_verdict": "PASS"
+              }
+            ],
+            "original_eps_verdict": "PASS",
+            "tolerance_verdict": "PASS",
+            "initial_point_count": 9,
+            "initial_element_count": 4,
+            "final_point_count": 45,
+            "final_element_count": 10,
+            "max_match_error": "0.000000000000001206971456828479272052696777953091299130511916678815173166154267041714288114200348639956693119656446",
+            "max_relative_match_error": "0.0000000000000003102319902547404507152289546270189302823048212647764533675510216386457335469331497416026447185130129",
+            "max_element_error": "0.00000000000001118512518868784067990062836729351803593835421170067696519731923595963970736785459734929828401168497",
+            "max_relative_element_error": "0.0000000000000003102319902547404507152289546270189302823048212647764533675510216386457335469331497416026447185130129",
+            "multiple_candidate_witness_matches": 1,
+            "roundoff_tangencies": 0,
+            "filtered_grid_intersections": 0,
+            "filtered_bounded_intersections": 0,
+            "steps": [
+              {
+                "step": 1,
+                "type": "circle",
+                "first": {
+                  "point_index": 0,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 0
+                  },
+                  "printed": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 1,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 1
+                  },
+                  "printed": [
+                    "0.0",
+                    "1.8300000000000001"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "1.8300000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.0",
+                  "0.0",
+                  "3.34890000000000036600000000000001"
+                ],
+                "exported_element": [
+                  "0.0",
+                  "0.0",
+                  "3.3489000000000004"
+                ],
+                "element_absolute_error": "0.00000000000000003399999999999999",
+                "element_relative_error": "0.0000000000000000101525874167637092594478883497615026488831138867684733634191660821794185052804106208703149953225691",
+                "new_point_count": 3,
+                "known_point_count": 12
+              },
+              {
+                "step": 2,
+                "type": "circle",
+                "first": {
+                  "point_index": 0,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 0
+                  },
+                  "printed": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 2,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 2
+                  },
+                  "printed": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.0",
+                  "0.0",
+                  "24.10810000000000098200000000000001"
+                ],
+                "exported_element": [
+                  "0.0",
+                  "0.0",
+                  "24.1081"
+                ],
+                "element_absolute_error": "0.00000000000000098200000000000001",
+                "element_relative_error": "0.00000000000000004073319755600814539511616427673689816551080840725366371911280344398441074672591143518864844542375927",
+                "new_point_count": 5,
+                "known_point_count": 17
+              },
+              {
+                "step": 3,
+                "type": "circle",
+                "first": {
+                  "point_index": 0,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 0
+                  },
+                  "printed": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 5,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 5
+                  },
+                  "printed": [
+                    "0.0",
+                    "6.1531540448010782"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "6.1531540448010782"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.0",
+                  "0.0",
+                  "37.86130469905186906842220788251524"
+                ],
+                "exported_element": [
+                  "0.0",
+                  "0.0",
+                  "37.861304699051871"
+                ],
+                "element_absolute_error": "0.00000000000000193157779211748476",
+                "element_relative_error": "0.00000000000000005101720100432396477269386536476038190713551654592691546013133404851467946428386485386468989009852781",
+                "new_point_count": 5,
+                "known_point_count": 22
+              },
+              {
+                "step": 4,
+                "type": "line",
+                "first": {
+                  "point_index": 2,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 2
+                  },
+                  "printed": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 6,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 6
+                  },
+                  "printed": [
+                    "-30.76577022400539",
+                    "6.1531540448010782"
+                  ],
+                  "matched": [
+                    "-30.76577022400539",
+                    "6.1531540448010782"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 2
+                },
+                "recomputed_element": [
+                  "0.04040705094491965890447088723724535939698017447927652041543625030341320014569138917102817673999566948",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "exported_element": [
+                  "0.040407050944919656",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "element_absolute_error": "0.000000000000000002904470887237245359396980174479276520415436250303413200145691389171028176739995669484896411132394226",
+                "element_relative_error": "0.000000000000000002904470887237245359396980174479276520415436250303413200145691389171028176739995669484896411132394226",
+                "new_point_count": 5,
+                "known_point_count": 27
+              },
+              {
+                "step": 5,
+                "type": "circle",
+                "first": {
+                  "point_index": 25,
+                  "birth_step": 4,
+                  "origin": {
+                    "intersection": [
+                      6,
+                      7
+                    ]
+                  },
+                  "printed": [
+                    "-3.5127225178157175",
+                    "5.0519387577327457"
+                  ],
+                  "matched": [
+                    "-3.512722517815716410241102085386989271265252664999492216129373423003350244352762543729593890183647454",
+                    "5.051938757732746207134913633716377665212719548188027598686545688565938397695684962033870987068066216"
+                  ],
+                  "absolute_error": "0.000000000000001089758897914613010728734747335000507783870626576996649755647237456270406109816352545630783343817542",
+                  "relative_error": "0.0000000000000003102319902547404507152289546270189302823048212647764533675510216386457335469331497416026447185130129",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 12,
+                  "birth_step": 2,
+                  "origin": {
+                    "intersection": [
+                      0,
+                      5
+                    ]
+                  },
+                  "printed": [
+                    "0.0",
+                    "-4.9100000000000001"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "-4.9100000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-3.512722517815716410241102085386989271265252664999492216129373423003350244352762543729593890183647454",
+                  "5.051938757732746207134913633716377665212719548188027598686545688565938397695684962033870987068066216",
+                  "111.5794432999874388148748113121593200993716327064819640616457882993230348026807640403602926321454027"
+                ],
+                "exported_element": [
+                  "-3.5127225178157175",
+                  "5.0519387577327457",
+                  "111.57944329998745"
+                ],
+                "element_absolute_error": "0.00000000000001118512518868784067990062836729351803593835421170067696519731923595963970736785459734929828401168497",
+                "element_relative_error": "0.0000000000000003102319902547404507152289546270189302823048212647764533675510216386457335469331497416026447185130129",
+                "new_point_count": 12,
+                "known_point_count": 39
+              },
+              {
+                "step": 6,
+                "type": "line",
+                "first": {
+                  "point_index": 2,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 2
+                  },
+                  "printed": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 34,
+                  "birth_step": 5,
+                  "origin": {
+                    "intersection": [
+                      5,
+                      8
+                    ]
+                  },
+                  "printed": [
+                    "4.6027547409790461",
+                    "-1.7096048649892479"
+                  ],
+                  "matched": [
+                    "4.60275474097904730697145682847927205269677795309129913051191667881517316615426704171428811420034864",
+                    "-1.709604864989247775785644724522271217595115810521468546245741040297291829775975813168290122570266199"
+                  ],
+                  "absolute_error": "0.000000000000001206971456828479272052696777953091299130511916678815173166154267041714288114200348639956693119656446",
+                  "relative_error": "0.0000000000000002622280622694542255526402718179403612748015728395832470219753229346744463462822690841154747237728813",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "1.438183270130356417433859629644540928589688113245152048407770509186485653008023946424648781755384489",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "exported_element": [
+                  "1.4381832701303567",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "element_absolute_error": "0.0000000000000002825661403703554590714103118867548479515922294908135143469919760535753512182446155114538217033532979",
+                "element_relative_error": "0.0000000000000001964743619530101400863954946149210986015178332012894536172162864439606316176624503800963301136789017",
+                "new_point_count": 6,
+                "known_point_count": 45
+              }
+            ],
+            "solution_index": 0
+          }
+        ],
+        "input": ".\\bs_v11\\benchmarks\\cases\\t7_directrix_E6.in",
+        "certificate": ".\\bs_v11\\benchmarks\\r3\\linux_holdout_pilot\\t7_directrix_E6.v11-r3.r1.certificate.json"
+      }
+    },
+    {
+      "name": "t7_aux_BV_E5",
+      "repeat": 1,
+      "pass": true,
+      "result": {
+        "verifier": "independent-mpmath-v11",
+        "passed": true,
+        "status": "PASS_ORIGINAL_EPS",
+        "exact_proof": false,
+        "precision": 100,
+        "working_precision": 120,
+        "numeric_model": "Input decimal tokens; recomputed high-precision geometry, not C++ binary64",
+        "limitations": "Numerical instance verification only, not symbolic, interval-certified, or a generic proof",
+        "goal_metric": "Strict absolute L-infinity: point coordinates; circle (cx,cy,r^2); line coefficients in target b=1/a=1 scale without EPS snapping",
+        "witness_policy": "Nearest currently known high-precision point within componentwise scaled match tolerance; exported coordinates never become geometry",
+        "range_policy": "Closed rays/segments with working-roundoff slack; strictly closed grid; no EPS-created tangencies",
+        "acceptance": "original_eps",
+        "original_eps": "0.0000000000099999999999999994",
+        "tolerance": "0.00000001",
+        "match_tolerance": "0.00000001",
+        "original_eps_verdict": "PASS",
+        "tolerance_verdict": "PASS",
+        "input_layout": "compact",
+        "mode": 2,
+        "budget": 5,
+        "solution_count": 1,
+        "max_match_error": "0.000000000000002123482928070554724106108736489015998662440610519476357686620367137108153750185328191033033038342789",
+        "max_relative_match_error": "0.000000000000001849165135468123406897515214918709542923497191149064105229793747218608256877303102578750081600685651",
+        "solutions": [
+          {
+            "legal": true,
+            "passed": true,
+            "status": "PASS_ORIGINAL_EPS",
+            "E": 5,
+            "step_count": 5,
+            "budget": 5,
+            "goals": [
+              {
+                "type": "line",
+                "goal_index": 0,
+                "target": [
+                  "0.040407050944919656",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "nearest_index": 9,
+                "nearest_value": [
+                  "0.04040705094492005418582249840625789291954556290247957832625318366857062368533333591342241153716087633",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "residual": "0.0000000000000003981858224984062578929195455629024795783262531836685706236853333359134224115371608763266610988330932",
+                "component_residuals": [
+                  "0.0000000000000003981858224984062578929195455629024795783262531836685706236853333359134224115371608763266610988330932",
+                  "0.0",
+                  "0.0"
+                ],
+                "resolution_indicator": "4.9100000000000001e-100",
+                "original_eps_verdict": "PASS",
+                "tolerance_verdict": "PASS"
+              }
+            ],
+            "original_eps_verdict": "PASS",
+            "tolerance_verdict": "PASS",
+            "initial_point_count": 18,
+            "initial_element_count": 5,
+            "final_point_count": 40,
+            "final_element_count": 10,
+            "max_match_error": "0.000000000000002123482928070554724106108736489015998662440610519476357686620367137108153750185328191033033038342789",
+            "max_relative_match_error": "0.000000000000001849165135468123406897515214918709542923497191149064105229793747218608256877303102578750081600685651",
+            "max_element_error": "0.0000000000000009",
+            "max_relative_element_error": "0.0000000000000002128141775015937421070804544370975204216737468163314293763146666640865775884628391236733389011669068",
+            "multiple_candidate_witness_matches": 5,
+            "roundoff_tangencies": 0,
+            "filtered_grid_intersections": 0,
+            "filtered_bounded_intersections": 0,
+            "steps": [
+              {
+                "step": 1,
+                "type": "line",
+                "first": {
+                  "point_index": 2,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 2
+                  },
+                  "printed": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 2
+                },
+                "second": {
+                  "point_index": 11,
+                  "birth_step": 0,
+                  "origin": {
+                    "intersection": [
+                      2,
+                      3
+                    ]
+                  },
+                  "printed": [
+                    "-2.3233053625000251",
+                    "3.8520415902198022"
+                  ],
+                  "matched": [
+                    "-2.323305362500025260873998678287739692893520907272444512799949783111492165424578698439221793063773398",
+                    "3.852041590219802387116567622571153030225131561172613930574708009672622426752283487523531358129353526"
+                  ],
+                  "absolute_error": "0.0000000000000001871165676225711530302251315611726139305747080096726224267522834875235313581293535259490478262524292",
+                  "relative_error": "0.00000000000000006924358772416253592637623174719278018530789727143697803839253653945402051974601271687701123452330287",
+                  "candidates_within_tolerance": 2
+                },
+                "recomputed_element": [
+                  "-0.4553677819784166274850875368049605462779240621263542030071224441472463705648414382605503338387702218",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "exported_element": [
+                  "-0.45536778197841676",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "element_absolute_error": "0.0000000000000001325149124631950394537220759378736457969928775558527536294351585617394496661612297782249230075893338",
+                "element_relative_error": "0.0000000000000001325149124631950394537220759378736457969928775558527536294351585617394496661612297782249230075893338",
+                "new_point_count": 4,
+                "known_point_count": 22
+              },
+              {
+                "step": 2,
+                "type": "line",
+                "first": {
+                  "point_index": 2,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 2
+                  },
+                  "printed": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 3
+                },
+                "second": {
+                  "point_index": 14,
+                  "birth_step": 0,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      4
+                    ]
+                  },
+                  "printed": [
+                    "-3.8390609998086025",
+                    "0.76781219996172045"
+                  ],
+                  "matched": [
+                    "-3.839060999808602363141241895860385711600805131524205422255152075541295902374676381212031462656827832",
+                    "0.7678121999617205110188583772581007737325799849086982004590817303503134030264560316553653162781293786"
+                  ],
+                  "absolute_error": "0.0000000000000001368587581041396142883991948684757945777448479244587040976253236187879685373431721677480095982725324",
+                  "relative_error": "0.00000000000000006101885837725810077373257998490869820045908173035031340302645603165536531627812937857071270691377184",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-1.078958578737037445151273938837836581837871467834004074044022262794697150259914244192059214602401475",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "exported_element": [
+                  "-1.0789585787370375",
+                  "1.0",
+                  "4.910000000000001"
+                ],
+                "element_absolute_error": "0.0000000000000009",
+                "element_relative_error": "0.0000000000000001832993890020366225459492867542520273015709258142510587431922985232059586166398119743465139226452191",
+                "new_point_count": 4,
+                "known_point_count": 26
+              },
+              {
+                "step": 3,
+                "type": "line",
+                "first": {
+                  "point_index": 21,
+                  "birth_step": 1,
+                  "origin": {
+                    "intersection": [
+                      4,
+                      5
+                    ]
+                  },
+                  "printed": [
+                    "2.73",
+                    "6.1531540448010782"
+                  ],
+                  "matched": [
+                    "2.730000000000002123482928070554724106108736489015998662440610519476357686620367137108153750185328191",
+                    "6.153154044801078459999999999999663451555550773266996270750397085598939413403173126193027430019280681"
+                  ],
+                  "absolute_error": "0.000000000000002123482928070554724106108736489015998662440610519476357686620367137108153750185328191033033038342789",
+                  "relative_error": "0.000000000000000777832574384817975235134114709956231818032429526900293513107824426461100632587087647420221701751751",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 25,
+                  "birth_step": 2,
+                  "origin": {
+                    "intersection": [
+                      4,
+                      6
+                    ]
+                  },
+                  "printed": [
+                    "0.92170716540210917",
+                    "5.9044838531940051"
+                  ],
+                  "matched": [
+                    "0.9217071654021110191651354681234068975152149187095429234971911490641052297937472186082568773031025788",
+                    "5.904483853194005297802139888401047581461244623130054622001580302565493595746482137278729708252106561"
+                  ],
+                  "absolute_error": "0.000000000000001849165135468123406897515214918709542923497191149064105229793747218608256877303102578750081600685651",
+                  "relative_error": "0.000000000000001849165135468123406897515214918709542923497191149064105229793747218608256877303102578750081600685651",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-0.1375165497807050649339141606058591499133720592598597480191088965068036537355646678347995204963146441",
+                  "1.0",
+                  "5.777733863899753340716368555053876552192263062121661151221647162642513562382371569032190561574487965"
+                ],
+                "exported_element": [
+                  "-0.13751654978070502",
+                  "1.0",
+                  "5.777733863899754"
+                ],
+                "element_absolute_error": "0.0000000000000006592836314449461234478077369378783388487783528373574864376176284309678094384255120353773350715541605",
+                "element_relative_error": "0.0000000000000001141076496382535626762894635781593093493574786369552961190283459282775862042287427418976821214931674",
+                "new_point_count": 3,
+                "known_point_count": 29
+              },
+              {
+                "step": 4,
+                "type": "line",
+                "first": {
+                  "point_index": 11,
+                  "birth_step": 0,
+                  "origin": {
+                    "intersection": [
+                      2,
+                      3
+                    ]
+                  },
+                  "printed": [
+                    "-2.3233053625000251",
+                    "3.8520415902198022"
+                  ],
+                  "matched": [
+                    "-2.323305362500025260873998678287739692893520907272444512799949783111492165424578698439221793063773398",
+                    "3.852041590219802387116567622571153030225131561172613930574708009672622426752283487523531358129353526"
+                  ],
+                  "absolute_error": "0.0000000000000001871165676225711530302251315611726139305747080096726224267522834875235313581293535259490478262524292",
+                  "relative_error": "0.00000000000000006924358772416253592637623174719278018530789727143697803839253653945402051974601271687701123452330287",
+                  "candidates_within_tolerance": 3
+                },
+                "second": {
+                  "point_index": 15,
+                  "birth_step": 0,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      4
+                    ]
+                  },
+                  "printed": [
+                    "9.2990609998086029",
+                    "-1.8598121999617205"
+                  ],
+                  "matched": [
+                    "9.299060999808602368025857280475770552429207498388109410932894451508507404729285813655065234586947711",
+                    "-1.859812199961720566595781454181177790744414304435327406478653874182795590274801677816087094210247679"
+                  ],
+                  "absolute_error": "0.0000000000000005319741427195242294475707925016118905890671055484914925952707141863449347654130522893761685628700543",
+                  "relative_error": "0.00000000000000005720729681528850495301151890636634511531226599558400852529670535814981757948650823342474102792461226",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.4914536000779568950234053183488076658059419835288201587410184962360992271796605013804948359302730714",
+                  "1.0",
+                  "2.710244805738742300317372717341294512409449588712277950310350350890209070495658579581090061490154439"
+                ],
+                "exported_element": [
+                  "0.4914536000779568",
+                  "1.0",
+                  "2.7102448057387423"
+                ],
+                "element_absolute_error": "0.00000000000000009502340531834880766580594198352882015874101849623609922717966050138049483593027307136342637630016861",
+                "element_relative_error": "0.00000000000000009502340531834880766580594198352882015874101849623609922717966050138049483593027307136342637630016861",
+                "new_point_count": 5,
+                "known_point_count": 34
+              },
+              {
+                "step": 5,
+                "type": "line",
+                "first": {
+                  "point_index": 2,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 2
+                  },
+                  "printed": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "matched": [
+                    "0.0",
+                    "4.9100000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 4
+                },
+                "second": {
+                  "point_index": 33,
+                  "birth_step": 4,
+                  "origin": {
+                    "intersection": [
+                      7,
+                      8
+                    ]
+                  },
+                  "printed": [
+                    "-4.8770026031447093",
+                    "5.1070652926437772"
+                  ],
+                  "matched": [
+                    "-4.877002603144707311802507031181177127185073126019396131935273144772721242954843615161798010131281974",
+                    "5.107065292643776009611263703067082133950835390492087763000969177839929950353526039207465586922352124"
+                  ],
+                  "absolute_error": "0.000000000000001988197492968818822872814926873980603868064726855227278757045156384838201989868718025638276094548455",
+                  "relative_error": "0.0000000000000004076679171109774951980330840164039737961176805404245027195891174498596765493835720911446402903917781",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.04040705094492005418582249840625789291954556290247957832625318366857062368533333591342241153716087633",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "exported_element": [
+                  "0.040407050944920267",
+                  "1.0",
+                  "4.9100000000000001"
+                ],
+                "element_absolute_error": "0.0000000000000002128141775015937421070804544370975204216737468163314293763146666640865775884628391236733389011669068",
+                "element_relative_error": "0.0000000000000002128141775015937421070804544370975204216737468163314293763146666640865775884628391236733389011669068",
+                "new_point_count": 6,
+                "known_point_count": 40
+              }
+            ],
+            "solution_index": 0
+          }
+        ],
+        "input": ".\\bs_v11\\benchmarks\\cases\\t7_aux_BV_E5.in",
+        "certificate": ".\\bs_v11\\benchmarks\\r3\\linux_holdout_pilot\\t7_aux_BV_E5.v11-r3.r1.certificate.json"
+      }
+    },
+    {
+      "name": "t8_early_centers_E7",
+      "repeat": 1,
+      "pass": true,
+      "result": {
+        "verifier": "independent-mpmath-v11",
+        "passed": true,
+        "status": "PASS_ORIGINAL_EPS",
+        "exact_proof": false,
+        "precision": 100,
+        "working_precision": 120,
+        "numeric_model": "Input decimal tokens; recomputed high-precision geometry, not C++ binary64",
+        "limitations": "Numerical instance verification only, not symbolic, interval-certified, or a generic proof",
+        "goal_metric": "Strict absolute L-infinity: point coordinates; circle (cx,cy,r^2); line coefficients in target b=1/a=1 scale without EPS snapping",
+        "witness_policy": "Nearest currently known high-precision point within componentwise scaled match tolerance; exported coordinates never become geometry",
+        "range_policy": "Closed rays/segments with working-roundoff slack; strictly closed grid; no EPS-created tangencies",
+        "acceptance": "original_eps",
+        "original_eps": "0.0000000000099999999999999994",
+        "tolerance": "0.00000001",
+        "match_tolerance": "0.00000001",
+        "original_eps_verdict": "PASS",
+        "tolerance_verdict": "PASS",
+        "input_layout": "compact",
+        "mode": 1,
+        "budget": 7,
+        "solution_count": 1,
+        "max_match_error": "0.0000000000000008505444631928989159856235556366457357860372679908750206749679075023519246287839698279650308330795177",
+        "max_relative_match_error": "0.0000000000000008505444631928989159856235556366457357860372679908750206749679075023519246287839698279650308330795177",
+        "solutions": [
+          {
+            "legal": true,
+            "passed": true,
+            "status": "PASS_ORIGINAL_EPS",
+            "E": 7,
+            "step_count": 7,
+            "budget": 7,
+            "goals": [
+              {
+                "type": "point",
+                "goal_index": 0,
+                "target": [
+                  "1.3700000000000001",
+                  "0.68500000000000005"
+                ],
+                "nearest_index": 116,
+                "nearest_value": [
+                  "1.370000000000000053462109606244606718286331238464362939362829192479428989841094091246801972018097046",
+                  "0.6850000000000001500162796647688144056264176248742886947235049510878097129345293289205258805797902122"
+                ],
+                "residual": "0.0000000000000001000162796647688144056264176248742886947235049510878097129345293289205258805797902121714762770018379",
+                "component_residuals": [
+                  "0.00000000000000004653789039375539328171366876153563706063717080752057101015890590875319802798190295351920474237500969",
+                  "0.0000000000000001000162796647688144056264176248742886947235049510878097129345293289205258805797902121714762770018379"
+                ],
+                "resolution_indicator": "1.3700000000000001e-100",
+                "original_eps_verdict": "PASS",
+                "tolerance_verdict": "PASS"
+              },
+              {
+                "type": "point",
+                "goal_index": 1,
+                "target": [
+                  "3.1899999999999999",
+                  "-6.3799999999999999"
+                ],
+                "nearest_index": 103,
+                "nearest_value": [
+                  "3.190000000000001613290904276773768005950364981962303589576205916733670947941070869508000963992013591",
+                  "-6.380000000000007445303336944427245592534116350433147677890327823037019254324787907247744532507101281"
+                ],
+                "residual": "0.000000000000007545303336944427245592534116350433147677890327823037019254324787907247744532507101281367798937326709",
+                "component_residuals": [
+                  "0.00000000000000171329090427677376800595036498196230358957620591673367094794107086950800096399201359136034841885247",
+                  "0.000000000000007545303336944427245592534116350433147677890327823037019254324787907247744532507101281367798937326709"
+                ],
+                "resolution_indicator": "6.380000000000007445303336944427245592534116350433147677890327823037019254324787907247744532507101281e-100",
+                "original_eps_verdict": "PASS",
+                "tolerance_verdict": "PASS"
+              }
+            ],
+            "original_eps_verdict": "PASS",
+            "tolerance_verdict": "PASS",
+            "initial_point_count": 43,
+            "initial_element_count": 9,
+            "final_point_count": 117,
+            "final_element_count": 16,
+            "max_match_error": "0.0000000000000008505444631928989159856235556366457357860372679908750206749679075023519246287839698279650308330795177",
+            "max_relative_match_error": "0.0000000000000008505444631928989159856235556366457357860372679908750206749679075023519246287839698279650308330795177",
+            "max_element_error": "0.00000000000004577036430177025133364277764116731889202087986626998861780887055821966797050303700613481699601947237",
+            "max_relative_element_error": "0.000000000000003174024789992344680888447187661091066041411167701799207503366980342686992667988428471554553273944045",
+            "multiple_candidate_witness_matches": 4,
+            "roundoff_tangencies": 1,
+            "filtered_grid_intersections": 0,
+            "filtered_bounded_intersections": 0,
+            "steps": [
+              {
+                "step": 1,
+                "type": "line",
+                "first": {
+                  "point_index": 3,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 3
+                  },
+                  "printed": [
+                    "-1.9140000000000001",
+                    "-2.552"
+                  ],
+                  "matched": [
+                    "-1.9140000000000001",
+                    "-2.552"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 8
+                },
+                "second": {
+                  "point_index": 20,
+                  "birth_step": 0,
+                  "origin": {
+                    "intersection": [
+                      2,
+                      6
+                    ]
+                  },
+                  "printed": [
+                    "1.2136739811912227",
+                    "0.31265203761755483"
+                  ],
+                  "matched": [
+                    "1.213673981191222643540922218910839723608199661421362975746069890753572259910136405497577260338177051",
+                    "0.3126520376175548335869883654183612506453588745689120291021647351118723803739270433257921837566344335"
+                  ],
+                  "absolute_error": "0.00000000000000005645907778108916027639180033857863702425393010924642774008986359450242273966182294923420601523177992",
+                  "relative_error": "0.00000000000000004651914653857413745906941348813857804012332471866127717078472475587874249162621616536139087693577925",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-0.9159049360146251697515396896608993073576541115137426685213977279463829349175138319779256954571611618",
+                  "1.0",
+                  "-0.7989579524680073335050594325265217505634810644727657966846335973363562104281057309559567271436103386"
+                ],
+                "exported_element": [
+                  "-0.91590493601462508",
+                  "1.0",
+                  "-0.79895795246800738"
+                ],
+                "element_absolute_error": "0.00000000000000008975153968966089930735765411151374266852139772794638293491751383197792569545716116175069343754642763",
+                "element_relative_error": "0.00000000000000008975153968966089930735765411151374266852139772794638293491751383197792569545716116175069343754642763",
+                "new_point_count": 9,
+                "known_point_count": 52
+              },
+              {
+                "step": 2,
+                "type": "line",
+                "first": {
+                  "point_index": 1,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 1
+                  },
+                  "printed": [
+                    "0.82200000000000006",
+                    "1.0960000000000001"
+                  ],
+                  "matched": [
+                    "0.82200000000000006",
+                    "1.0960000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 7
+                },
+                "second": {
+                  "point_index": 43,
+                  "birth_step": 1,
+                  "origin": {
+                    "intersection": [
+                      0,
+                      9
+                    ]
+                  },
+                  "printed": [
+                    "0.87231536926147724",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "0.8723153692614771246878980707743711381338469778481297389303000444866520567921516890664275589012056383",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0000000000000001153121019292256288618661530221518702610696999555133479432078483109335724410987943617108336220920794",
+                  "relative_error": "0.0000000000000001153121019292256288618661530221518702610696999555133479432078483109335724410987943617108336220920794",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "21.78260869565216777036430177025133364277764116731889202087986626998861780887055821966797050303700613",
+                  "1.0",
+                  "19.00130434782608331419597779427666247622132725461614780782172011306416509168357505588414028572991222"
+                ],
+                "exported_element": [
+                  "21.782608695652122",
+                  "1.0",
+                  "19.001304347826043"
+                ],
+                "element_absolute_error": "0.00000000000004577036430177025133364277764116731889202087986626998861780887055821966797050303700613481699601947237",
+                "element_relative_error": "0.000000000000002121654136991210079343134444140649049679637908989184019886456741623014648503495839764448854461168399",
+                "new_point_count": 10,
+                "known_point_count": 62
+              },
+              {
+                "step": 3,
+                "type": "line",
+                "first": {
+                  "point_index": 20,
+                  "birth_step": 0,
+                  "origin": {
+                    "intersection": [
+                      2,
+                      6
+                    ]
+                  },
+                  "printed": [
+                    "1.2136739811912227",
+                    "0.31265203761755483"
+                  ],
+                  "matched": [
+                    "1.213673981191222643540922218910839723608199661421362975746069890753572259910136405497577260338177051",
+                    "0.3126520376175548335869883654183612506453588745689120291021647351118723803739270433257921837566344335"
+                  ],
+                  "absolute_error": "0.00000000000000005645907778108916027639180033857863702425393010924642774008986359450242273966182294923420601523177992",
+                  "relative_error": "0.00000000000000004651914653857413745906941348813857804012332471866127717078472475587874249162621616536139087693577925",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 54,
+                  "birth_step": 2,
+                  "origin": {
+                    "intersection": [
+                      3,
+                      10
+                    ]
+                  },
+                  "printed": [
+                    "0.92432195121951233",
+                    "-1.1328390243902435"
+                  ],
+                  "matched": [
+                    "0.924321951219512278440405189038927111995753956026138322458825386353746175912763234613993998814399417",
+                    "-1.132839024390243681844863542035323241712476822235299927475978720708316420743094857843543346535299158"
+                  ],
+                  "absolute_error": "0.0000000000000001818448635420353232417124768222352999274759787207083164207430948578435433465352991581780281356874859",
+                  "relative_error": "0.0000000000000001605213623708931091478197663729555068650875277707818368676982431511011481499415699245305882425515657",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-4.995614035087718626280991963942388971015173756888166349665907194927056836617093848949765023131952001",
+                  "1.0",
+                  "-5.750394736842104837678921297328169261324312932503618591477144280438687938777892303628471247458711829"
+                ],
+                "exported_element": [
+                  "-4.9956140350877174",
+                  "1.0",
+                  "-5.7503947368421038"
+                ],
+                "element_absolute_error": "0.000000000000001226280991963942388971015173756888166349665907194927056836617093848949765023131952000793960696751492",
+                "element_relative_error": "0.0000000000000002454715242912896420487941272440185229481401993019088604454404804013342917612601265306614761810661896",
+                "new_point_count": 8,
+                "known_point_count": 70
+              },
+              {
+                "step": 4,
+                "type": "line",
+                "first": {
+                  "point_index": 10,
+                  "birth_step": 0,
+                  "origin": {
+                    "intersection": [
+                      2,
+                      3
+                    ]
+                  },
+                  "printed": [
+                    "1.734",
+                    "-0.72799999999999976"
+                  ],
+                  "matched": [
+                    "1.733999999999999972270278928220029329090250027298111592413990184925275502712298682018560061895281565",
+                    "-0.7279999999999998428617257396517439000762358865910715533965337752671515629750854695872802555906533088"
+                  ],
+                  "absolute_error": "0.00000000000000008286172573965174390007623588659107155339653377526715156297508546958728025559065330882620233339907485",
+                  "relative_error": "0.00000000000000008286172573965174390007623588659107155339653377526715156297508546958728025559065330882620233339907485",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 65,
+                  "birth_step": 3,
+                  "origin": {
+                    "intersection": [
+                      5,
+                      11
+                    ]
+                  },
+                  "printed": [
+                    "1.3239738313697815",
+                    "0.86366751723763502"
+                  ],
+                  "matched": [
+                    "1.323973831369781301142888892603341026363583548553368811173838786656368124333101164927096736932423502",
+                    "0.8636675172376350709107949157483594644831565647328342883913742853763379465728340351507112332328339799"
+                  ],
+                  "absolute_error": "0.0000000000000001988571111073966589736364164514466311888261612133436318756668988350729032630675764982551735709865293",
+                  "relative_error": "0.0000000000000001501971613001288447462771807971642121209566287182439848943597139231215112355229167602155243255853237",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "3.881868131868132714434026048015306769086293415044761894438502183498199521631579370090948535095356711",
+                  "1.0",
+                  "6.003159340659342176323754893471888421457393700158245472646314467395281393138249452947602929635221243"
+                ],
+                "exported_element": [
+                  "3.8818681318681341",
+                  "1.0",
+                  "6.0031593406593462"
+                ],
+                "element_absolute_error": "0.000000000000004023676245106528111578542606299841754527353685532604718606861750547052397070364778756914715168206815",
+                "element_relative_error": "0.0000000000000006702597776897580856392787058046519833195262909693834101788316821026773557265525546474273743267213086",
+                "new_point_count": 10,
+                "known_point_count": 80
+              },
+              {
+                "step": 5,
+                "type": "line",
+                "first": {
+                  "point_index": 3,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 3
+                  },
+                  "printed": [
+                    "-1.9140000000000001",
+                    "-2.552"
+                  ],
+                  "matched": [
+                    "-1.9140000000000001",
+                    "-2.552"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 12
+                },
+                "second": {
+                  "point_index": 70,
+                  "birth_step": 4,
+                  "origin": {
+                    "intersection": [
+                      0,
+                      12
+                    ]
+                  },
+                  "printed": [
+                    "1.5464614295824493",
+                    "0.0"
+                  ],
+                  "matched": [
+                    "1.546461429582448744365350321986590118969568967258210277647733468983223077163086996520442185970215679",
+                    "0.0"
+                  ],
+                  "absolute_error": "0.0000000000000005556346496780134098810304310327417897223522665310167769228369130034795578140297843213896487256971889",
+                  "relative_error": "0.0000000000000003592942177859792869347659918539670167895299478425380187564407296674993788853854035173367005565367319",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "-0.7374739039665970445021400666347401419120533760263372092710432170783401052079883922033097274073100218",
+                  "1.0",
+                  "-1.140474947807933183075513515801402918166323174811576390249885679878336111527588509488854660943569398"
+                ],
+                "exported_element": [
+                  "-0.73747390396659696",
+                  "1.0",
+                  "-1.1404749478079335"
+                ],
+                "element_absolute_error": "0.0000000000000003169244864841985970818336768251884236097501143201216638884724114905111453390564306019738382271289068",
+                "element_relative_error": "0.0000000000000002778881615009149711307373339408681038025780974709490331096483181656572556646993002577534972562016495",
+                "new_point_count": 12,
+                "known_point_count": 92
+              },
+              {
+                "step": 6,
+                "type": "line",
+                "first": {
+                  "point_index": 63,
+                  "birth_step": 3,
+                  "origin": {
+                    "intersection": [
+                      1,
+                      11
+                    ]
+                  },
+                  "printed": [
+                    "1.570167664670659",
+                    "2.0935568862275451"
+                  ],
+                  "matched": [
+                    "1.570167664670658854554416443288991583850290922753870149712370376683182028125487847238556312800467919",
+                    "2.093556886227545139405888591051988778467054563671826866283160502244242704167317129651408417067290558"
+                  ],
+                  "absolute_error": "0.0000000000000001454455835567110084161497090772461298502876296233168179718745121527614436871995320812303938873599928",
+                  "relative_error": "0.00000000000000009263060680033687045158929210826857710288978029295975923904799824056289585847811785511290330888372451",
+                  "candidates_within_tolerance": 1
+                },
+                "second": {
+                  "point_index": 86,
+                  "birth_step": 5,
+                  "origin": {
+                    "intersection": [
+                      7,
+                      13
+                    ]
+                  },
+                  "printed": [
+                    "1.9179999999999995",
+                    "0.27399999999999924"
+                  ],
+                  "matched": [
+                    "1.918000000000000192908347394674179894496397375481170477543474787867987140878623491213333522849018866",
+                    "0.274000000000000090544463192898915985623555636645735786037267990875020674967907502351924628783969828"
+                  ],
+                  "absolute_error": "0.0000000000000008505444631928989159856235556366457357860372679908750206749679075023519246287839698279650308330795177",
+                  "relative_error": "0.0000000000000008505444631928989159856235556366457357860372679908750206749679075023519246287839698279650308330795177",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "5.231132075471698196257112728672266342523547006164607496716722372403069729335645825866326510241379885",
+                  "1.0",
+                  "10.3073113207547182400946490890096289600122413236104035879904322746886428227537455647986720275018273"
+                ],
+                "exported_element": [
+                  "5.2311320754717148",
+                  "1.0",
+                  "10.307311320754744"
+                ],
+                "element_absolute_error": "0.0000000000000257599053509109903710399877586763895964120095677253113571772462544352013279724981727005907280646792",
+                "element_relative_error": "0.000000000000003174024789992344680888447187661091066041411167701799207503366980342686992667988428471554553273944045",
+                "new_point_count": 12,
+                "known_point_count": 104
+              },
+              {
+                "step": 7,
+                "type": "line",
+                "first": {
+                  "point_index": 1,
+                  "birth_step": 0,
+                  "origin": {
+                    "given_point": 1
+                  },
+                  "printed": [
+                    "0.82200000000000006",
+                    "1.0960000000000001"
+                  ],
+                  "matched": [
+                    "0.82200000000000006",
+                    "1.0960000000000001"
+                  ],
+                  "absolute_error": "0.0",
+                  "relative_error": "0.0",
+                  "candidates_within_tolerance": 11
+                },
+                "second": {
+                  "point_index": 86,
+                  "birth_step": 5,
+                  "origin": {
+                    "intersection": [
+                      7,
+                      13
+                    ]
+                  },
+                  "printed": [
+                    "1.9179999999999995",
+                    "0.27399999999999924"
+                  ],
+                  "matched": [
+                    "1.918000000000000192908347394674179894496397375481170477543474787867987140878623491213333522849018866",
+                    "0.274000000000000090544463192898915985623555636645735786037267990875020674967907502351924628783969828"
+                  ],
+                  "absolute_error": "0.0000000000000008505444631928989159856235556366457357860372679908750206749679075023519246287839698279650308330795177",
+                  "relative_error": "0.0000000000000008505444631928989159856235556366457357860372679908750206749679075023519246287839698279650308330795177",
+                  "candidates_within_tolerance": 1
+                },
+                "recomputed_element": [
+                  "0.7499999999999999176772593623133759442368225246885414817742688013614815850034126432173006971127114157",
+                  "1.0",
+                  "1.712500000000000077330707195821590086798229854096537752227800436031626769328933274413516273231407377"
+                ],
+                "exported_element": [
+                  "0.75000000000000111",
+                  "1.0",
+                  "1.712500000000001"
+                ],
+                "element_absolute_error": "0.000000000000001192322740637686624055763177475311458518225731198638518414996587356782699302887288584285943702659967",
+                "element_relative_error": "0.000000000000001192322740637686624055763177475311458518225731198638518414996587356782699302887288584285943702659967",
+                "new_point_count": 13,
+                "known_point_count": 117
+              }
+            ],
+            "solution_index": 0
+          }
+        ],
+        "input": ".\\bs_v11\\benchmarks\\cases\\t8_early_centers_E7.in",
+        "certificate": ".\\bs_v11\\benchmarks\\r3\\linux_holdout_pilot\\t8_early_centers_E7.v11-r3.r1.certificate.json"
+      }
+    }
+  ]
+}

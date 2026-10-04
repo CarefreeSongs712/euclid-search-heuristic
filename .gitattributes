@@ -1,0 +1,11 @@
+* text=auto
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.in text eol=lf
+*.exe binary
+/benchmarks/baseline_v9.cpp -text
+/dist/linux-x64/* binary
